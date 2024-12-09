@@ -1,10 +1,10 @@
-# Deep Funding
+# Deep Funding - Dependency Graph
 
-**Scripts for building the dependency graph and weighting the edges.**
+Data and docs for Deep Funding's dependency graph
 
 ## Overview
 
-This project involves analyzing a depth-2 directed graph of dependencies and using it to allocate funding. The graph consists of nodes representing repositories (on GitHub and various package managers) that are one or two hops away from Ethereum.
+The **Deep Funding** project involves analyzing a depth-2 directed graph of dependencies and using it to allocate funding. The graph consists of nodes representing repositories (on GitHub and various package managers) that are one or two hops away from Ethereum.
 
 For example:
 ```json
@@ -41,16 +41,18 @@ The full list of seed nodes is:
 
 Next, we pull the Software Bill of Materials (SBOM) for each of the above repositories and identify all packages in Go, Rust, JavaScript, and Python. 
 
-This gives us a list of over 6,000 packages:
+This gives us a list of approximately 6,000 packages:
 
-- JavaScript: 4750 (hosted on npm)
+- JavaScript: 4749 (hosted on npm)
 - Rust: 1076 (hosted on crates.io)
 - Go: 416 (hosted on GitHub)
 - Python: 137 (hosted on PyPi)
 
 Finally, we try to map each package to an open source repository and build a dependency graph. In total, we are left with 3,990 GitHub repositories and over 10,000 edges in the graph.
 
-The notebook used to create the initial graph is `DataPrep.ipynb`. Let us know if you find any issues with the data or the graph construction. Feel free to fork it and create your own graph!
+The notebook used to create the initial graph is `DataPrep.ipynb`. You can also use the `oso.py` module to fetch fresh data from OSO's BigQuery.
+
+Let us know if you find any issues with the data or the graph construction. Feel free to fork it and create your own graph!
 
 ## Ideas for Weighting the Graph
 
@@ -64,19 +66,20 @@ This includes:
 |------------|-------|
 | Git Users | 286,740 |
 | GitHub Repos | 3,990 |
-| Code Commits | 533,503 |
-| Issue Comments | 861,824 |
-| Repository Forks | 199,195 |
-| Issues Opened | 218,345 |
-| Issues Closed | 126,357 |
-| Issues Reopened | 4,474 |
-| PRs Opened | 386,929 |
-| PRs Closed | 381,165 |
-| PRs Merged | 313,453 |
-| PRs Reopened | 3,319 |
-| PR Review Comments | 531,096 |
-| Releases Published | 28,597 |
-| Stars | 445,527 |
+| Code Commits | 540,432 |
+| Issue Comments | 878,610 |
+| Repository Forks | 201,579 |
+| Issues Opened | 220,186 |
+| Issues Closed | 128,122 |
+| Issues Reopened | 4,537 |
+| PRs Opened | 391,817 |
+| PRs Closed | 386,065 |
+| PRs Merged | 317,562 |
+| PRs Reopened | 3,363 |
+| PR Review Comments | 533,785 |
+| Releases Published | 30,204 |
+| Stars | 454,491 |
+| Forks | 201,579 |
 
 ## Additional Resources
 - Get more data (free): [OSO Documentation](https://docs.opensource.observer/docs/integrate/)
