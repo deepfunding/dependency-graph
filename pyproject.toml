@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dependency-graph"
+version = "0.1.0"
+description = "Data and docs for Deep Funding's dependency graph"
+authors = ["Friends of Ethereum"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.0.3"
+networkx = "^3.1"
+numpy = "^1.24.3"
+google-cloud-bigquery = "^3.18.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
