@@ -72,7 +72,6 @@ This includes:
 | GitHub Repos | 3,990 |
 | Code Commits | 540,432 |
 | Issue Comments | 878,610 |
-| Repository Forks | 201,579 |
 | Issues Opened | 220,186 |
 | Issues Closed | 128,122 |
 | Issues Reopened | 4,537 |
@@ -82,8 +81,8 @@ This includes:
 | PRs Reopened | 3,363 |
 | PR Review Comments | 533,785 |
 | Releases Published | 30,204 |
-| Stars | 454,491 |
-| Forks | 201,579 |
+| Repository Forks | 201,579 |
+| Repository Stars | 454,491 |
 
 ## Additional Resources
 - Get more data (free): [OSO Documentation](https://docs.opensource.observer/docs/integrate/)
