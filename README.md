@@ -1,12 +1,16 @@
 # Deep Funding - Dependency Graph
 
-Data and docs for Deep Funding's dependency graph
+Data and docs for Deep Funding's dependency graph.
 
 ## Overview
 
 The **Deep Funding** project involves analyzing a depth-2 directed graph of dependencies and using it to allocate funding. The graph consists of nodes representing repositories (on GitHub and various package managers) that are one or two hops away from Ethereum.
 
-For example:
+Here is a [visualization]( https://github.com/deepfunding/dependency-graph) of the graph.
+
+![image](https://github.com/user-attachments/assets/b3023ab5-f934-4e92-ad40-1e42d37239b6)
+
+Here is an example of a single edge in the graph:
 ```json
 {
    "relation": "GO",
