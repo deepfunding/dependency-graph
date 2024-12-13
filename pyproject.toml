@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Data and docs for Deep Funding's dependency graph"
 authors = ["Friends of Ethereum"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"

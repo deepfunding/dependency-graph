@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # replace with your project name
-GCP_PROJECT = 'opensource-observer' 
+GCP_PROJECT = 'my-oso-playground' 
 
 # replace with your path to credentials
 PATH_TO_CREDENTIALS = 'oso_gcp_credentials.json'
