@@ -6,7 +6,7 @@ Data and docs for Deep Funding's dependency graph.
 
 The **Deep Funding** project involves analyzing a depth-2 directed graph of dependencies and using it to allocate funding. The graph consists of nodes representing repositories (on GitHub and various package managers) that are one or two hops away from Ethereum.
 
-Here is a [visualization]( https://github.com/deepfunding/dependency-graph) of the graph.
+Here is a [visualization](https://cosmograph.app/run/?data=https://raw.githubusercontent.com/opensource-observer/insights/refs/heads/main/community/deep_funder/data/unweighted_graph.csv&source=seed_repo_name&target=package_repo_name&gravity=0.25&repulsion=1&repulsionTheta=1&linkSpring=1&linkDistance=10&friction=0.1&renderLabels=true&renderHoveredLabel=true&renderLinks=true&linkArrows=true&curvedLinks=true&nodeSizeScale=0.5&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-outgoing%20links&linkWidth=width-number%20of%20data%20records&linkColor=color-number%20of%20data%20records&) of the graph.
 
 ![image](https://github.com/user-attachments/assets/b3023ab5-f934-4e92-ad40-1e42d37239b6)
 
@@ -28,8 +28,8 @@ You can mine GitHub, dependency, and blockchain data for free from [OSO's BigQue
 
 ## Getting Started
 
-1. Explore the dependency data at `./data/unweighted_graph.json`. In this version, every edge has equal weight. You can also use `./data/unweighted_graph.csv` if you prefer (or you want to pass more information to your graph).
-2. Try running the `Example_WeightedGraph.ipynb` notebook to see how we might construct a weighted graph. This version uses a very naive approach based on repository stars to weight the edges. The result is exported to `./data/example_weighted_graph.json`.
+1. Explore the dependency data at [./graph/unweighted_graph.json](./graph/unweighted_graph.json). In this version, every edge has a weight of zero. You can also use [`./graph/unweighted_graph.csv`](./graph/unweighted_graph.csv) if you prefer a CSV format.
+2. Try running the example [oso_forks_and_funding_weighting.ipynb](./notebooks/weighting_examples/oso_forks_and_funding_weighting.ipynb) notebook in the `notebooks/weighting_examples` directory to see how we might construct a weighted graph. This version uses a simple approach based on data from Gitcoin, Optimism Retro Funding, and fork counts. The result is exported to [oso_forks_and_funding_weighted_graph.json](./graph/weighting_examples/oso_forks_and_funding_weighted_graph.json).
 3. Experiment! You can access more public datasets from [OSO's BigQuery](https://docs.opensource.observer/docs/integrate/) and use [Vertex AI](https://cloud.google.com/vertex-ai/docs/training/overview) to train your own model. Or you can take things in a completely different direction!
 4. We'll be posting more instructions on how solutions will be evaluated soon.
 
@@ -47,42 +47,49 @@ Next, we pull the Software Bill of Materials (SBOM) for each of the above reposi
 
 This gives us a list of approximately 6,000 packages:
 
-- JavaScript: 4749 (hosted on npm)
-- Rust: 1076 (hosted on crates.io)
-- Go: 416 (hosted on GitHub)
-- Python: 137 (hosted on PyPi)
+- JavaScript: 4661 (hosted on npm)
+- Rust: 1037 (hosted on crates.io)
+- Go: 386 (hosted on GitHub)
+- Python: 126 (hosted on PyPi)
 
 Finally, we try to map each package to an open source repository and build a dependency graph. In total, we are left with 3,990 GitHub repositories and over 10,000 edges in the graph.
 
-The notebook used to create the initial graph is `DataPrep.ipynb`. You can also use the `oso.py` module to fetch fresh data from OSO's BigQuery.
+The notebook used to create the initial graph is [generate_unweighted_graph.ipynb](./notebooks/generate_unweighted_graph.ipynb). You can experiment with adding layers or changing the seed nodes, and getting fresh data from OSO's BigQuery.
 
-Let us know if you find any issues with the data or the graph construction. Feel free to fork it and create your own graph!
+Let us know if you find any issues with the data or the graph construction.
 
 ## Ideas for Weighting the Graph
 
-In `Example_WeightedGraph.ipynb`, we show some examples of how you can join the graph on other OSO datasets and start weighting the graph. We include a simple (and probably very bad) method for weighting the graph based on the harmonic mean of the repository stars between two nodes.
+There are several data dumps included in [./datasets](./datasets) to get you going, including two from OSO and one from [Drips](https://drips.network).
 
-We've also included a parquet file with >1M rows of GitHub activity data from 2020 to 2024 for all relevant repositories. 
-
-This includes:
+The largest is a parquet file that contains a snapshot of GitHub activity data for all relevant repositories, indexed by Git user ID:
 
 | Data Type | Count |
 |------------|-------|
-| Git Users | 286,740 |
-| GitHub Repos | 3,990 |
-| Code Commits | 540,432 |
-| Issue Comments | 878,610 |
-| Issues Opened | 220,186 |
-| Issues Closed | 128,122 |
-| Issues Reopened | 4,537 |
-| PRs Opened | 391,817 |
-| PRs Closed | 386,065 |
-| PRs Merged | 317,562 |
-| PRs Reopened | 3,363 |
-| PR Review Comments | 533,785 |
-| Releases Published | 30,204 |
-| Repository Forks | 201,579 |
-| Repository Stars | 454,491 |
+| Relevant Repos | 648 |
+| Git Users | 112,280 |
+| Code Commits | 192,680 |
+| Issue Comments | 1,150,326 |
+| Issues Opened | 124,535 |
+| Issues Closed | 152,122 |
+| Issues Reopened | 7,446 |
+| PRs Opened | 217,284 |
+| PRs Closed | 236,648 |
+| PRs Merged | 177,137 |
+| PRs Reopened | 5,049 |
+| PR Review Comments | 553,608 |
+| Releases Published | 10,243 |
+| Repository Forks | 99,860 |
+| Repository Stars | 488,372 |
+
+In the directory [./notebooks/weighting_examples](./notebooks/weighting_examples), we also show some examples of how you can join the graph on other datasets and start weighting the graph. These examples export JSON data to [./graph/weighting_examples](./graph/weighting_examples).
+
+## Utilities
+
+We've included a few utilities for validating and serializing the graph:
+
+- `validate_graph.py`: Validate the graph edge weights add up to 1.0 or less for each seed node.
+- `serialize_graph.py`: Serialize the graph to a JSON file.
 
 ## Additional Resources
 - Get more data (free): [OSO Documentation](https://docs.opensource.observer/docs/integrate/)
