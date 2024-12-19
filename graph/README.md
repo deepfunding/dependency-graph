@@ -17,11 +17,11 @@ We have also done some pruning of the graph for some initial experiments using p
 ## Quick Prune of Dependencies for Pairwise Testing
 
 - **ethereum/**
-  - **[ethereum/solidity](https://github.com/ethereum/solidity)** | C++ | 3/3 dependencies
+  - **[ethereum/solidity](https://github.com/ethereum/solidity)** | C++ | 3/3 dependencies | 3 pairwise combinations (vs 3 previously)
     - [1] [readthedocs/sphinx_rtd_theme](https://github.com/readthedocs/sphinx_rtd_theme)  | n/a (not indexed yet)
     - [2] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
     - [3] [taminomara/sphinx-a4doc](https://github.com/taminomara/sphinx-a4doc)  | n/a (not indexed yet)
-  - **[vyperlang/vyper](https://github.com/vyperlang/vyper)** | Python | 9/9 dependencies
+  - **[vyperlang/vyper](https://github.com/vyperlang/vyper)** | Python | 9/9 dependencies | 36 pairwise combinations (vs 36 previously)
     - [1] [agronholm/cbor2](https://github.com/agronholm/cbor2)  | n/a (not indexed yet)
     - [2] [executablebooks/sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton)  | n/a (not indexed yet)
     - [3] [gristlabs/asttokens](https://github.com/gristlabs/asttokens)  | n/a (not indexed yet)
@@ -31,7 +31,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [7] [pypa/wheel](https://github.com/pypa/wheel)  | Python
     - [8] [python/importlib_metadata](https://github.com/python/importlib_metadata)  | n/a (not indexed yet)
     - [9] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
-  - **[ethereum/py-evm](https://github.com/ethereum/py-evm)** | Python | 11/11 dependencies
+  - **[ethereum/py-evm](https://github.com/ethereum/py-evm)** | Python | 11/11 dependencies | 55 pairwise combinations (vs 55 previously)
     - [1] [ethereum/eth-hash](https://github.com/ethereum/eth-hash)  | Python
     - [2] [hypothesisworks/hypothesis](https://github.com/hypothesisworks/hypothesis)  | n/a (not indexed yet)
     - [3] [ipython/ipython](https://github.com/ipython/ipython)  | n/a (not indexed yet)
@@ -43,7 +43,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [9] [pytest-dev/pytest-xdist](https://github.com/pytest-dev/pytest-xdist)  | Python
     - [10] [python/mypy](https://github.com/python/mypy)  | n/a (not indexed yet)
     - [11] [tox-dev/tox](https://github.com/tox-dev/tox)  | n/a (not indexed yet)
-  - **[ethereum/web3.py](https://github.com/ethereum/web3.py)** | Python | 13/13 dependencies
+  - **[ethereum/web3.py](https://github.com/ethereum/web3.py)** | Python | 13/13 dependencies | 78 pairwise combinations (vs 78 previously)
     - [1] [aaugustin/websockets](https://github.com/aaugustin/websockets)  | n/a (not indexed yet)
     - [2] [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp)  | n/a (not indexed yet)
     - [3] [ethereum/eth-abi](https://github.com/ethereum/eth-abi)  | Python
@@ -57,7 +57,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [11] [pydantic/pydantic](https://github.com/pydantic/pydantic)  | n/a (not indexed yet)
     - [12] [python/typeshed](https://github.com/python/typeshed)  | n/a (not indexed yet)
     - [13] [python/typing_extensions](https://github.com/python/typing_extensions)  | n/a (not indexed yet)
-  - **[paradigmxyz/reth](https://github.com/paradigmxyz/reth)** | Rust | 30/463 dependencies
+  - **[paradigmxyz/reth](https://github.com/paradigmxyz/reth)** | Rust | 30/463 dependencies | 435 pairwise combinations (vs 106953 previously)
     - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+7 other relevant repos in same namespace] | Rust
     - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+2 other relevant repos in same namespace] | Rust
     - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
@@ -88,7 +88,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+8 other relevant repos in same namespace] | Rust
     - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
     - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
-  - **[consensys/teku](https://github.com/consensys/teku)** | Java | 30/137 dependencies
+  - **[consensys/teku](https://github.com/consensys/teku)** | Java | 30/137 dependencies | 435 pairwise combinations (vs 9316 previously)
     - [1] [acornjs/acorn](https://github.com/acornjs/acorn)  [+1 other relevant repos in same namespace] | JavaScript
     - [2] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [3] [alexei/sprintf.js](https://github.com/alexei/sprintf.js)  | JavaScript
@@ -119,7 +119,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vercel/ms](https://github.com/vercel/ms)  | TypeScript
     - [29] [visionmedia/node-progress](https://github.com/visionmedia/node-progress)  | JavaScript
     - [30] [webreflection/flatted](https://github.com/webreflection/flatted)  | JavaScript
-  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 16/244 dependencies
+  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 16/244 dependencies | 120 pairwise combinations (vs 29646 previously)
     - [1] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
     - [2] [crate-crypto/go-kzg-4844](https://github.com/crate-crypto/go-kzg-4844)  | Go
     - [3] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
@@ -136,7 +136,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [14] [prysmaticlabs/go-bitfield](https://github.com/prysmaticlabs/go-bitfield)  | Go
     - [15] [quic-go/quic-go](https://github.com/quic-go/quic-go)  | Go
     - [16] [trailofbits/go-mutexasserts](https://github.com/trailofbits/go-mutexasserts)  | Go
-  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 19/112 dependencies
+  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 19/112 dependencies | 171 pairwise combinations (vs 6216 previously)
     - [1] [aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)  | Go
     - [2] [azure/azure-sdk-for-go](https://github.com/azure/azure-sdk-for-go)  | Go
     - [3] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
@@ -156,7 +156,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [17] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
     - [18] [prometheus/common](https://github.com/prometheus/common)  | Go
     - [19] [prometheus/procfs](https://github.com/prometheus/procfs)  | Go
-  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 14/253 dependencies
+  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 14/253 dependencies | 91 pairwise combinations (vs 31878 previously)
     - [1] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
     - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  | Go
     - [3] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
@@ -171,7 +171,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [12] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
     - [13] [prysmaticlabs/go-bitfield](https://github.com/prysmaticlabs/go-bitfield)  | Go
     - [14] [quic-go/quic-go](https://github.com/quic-go/quic-go)  | Go
-  - **[web3/web3.js](https://github.com/web3/web3.js)** | TypeScript | 30/1709 dependencies
+  - **[web3/web3.js](https://github.com/web3/web3.js)** | TypeScript | 30/1709 dependencies | 435 pairwise combinations (vs 1459486 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+3 other relevant repos in same namespace] | TypeScript
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
@@ -202,7 +202,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vercel/swr](https://github.com/vercel/swr)  [+4 other relevant repos in same namespace] | TypeScript
     - [29] [wevm/viem](https://github.com/wevm/viem)  [+2 other relevant repos in same namespace] | TypeScript
     - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
-  - **[ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)** | TypeScript | 30/796 dependencies
+  - **[ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)** | TypeScript | 30/796 dependencies | 435 pairwise combinations (vs 316410 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
@@ -233,7 +233,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
     - [29] [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio)  [+1 other relevant repos in same namespace] | TypeScript
     - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  | TypeScript
-  - **[grandinetech/grandine](https://github.com/grandinetech/grandine)** | Rust | 30/435 dependencies
+  - **[grandinetech/grandine](https://github.com/grandinetech/grandine)** | Rust | 30/435 dependencies | 435 pairwise combinations (vs 94395 previously)
     - [1] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
     - [2] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
     - [3] [burntsushi/quickcheck](https://github.com/burntsushi/quickcheck)  [+8 other relevant repos in same namespace] | Rust
@@ -264,7 +264,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+6 other relevant repos in same namespace] | Rust
     - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
     - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
-  - **[chainsafe/lodestar](https://github.com/chainsafe/lodestar)** | TypeScript | 30/1514 dependencies
+  - **[chainsafe/lodestar](https://github.com/chainsafe/lodestar)** | TypeScript | 30/1514 dependencies | 435 pairwise combinations (vs 1145341 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+3 other relevant repos in same namespace] | TypeScript
     - [3] [chainsafe/lodestar](https://github.com/chainsafe/lodestar)  [+17 other relevant repos in same namespace] | TypeScript
@@ -295,7 +295,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vuejs/vue](https://github.com/vuejs/vue)  [+2 other relevant repos in same namespace] | TypeScript
     - [29] [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio)  [+1 other relevant repos in same namespace] | TypeScript
     - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
-  - **[sigp/lighthouse](https://github.com/sigp/lighthouse)** | Rust | 30/451 dependencies
+  - **[sigp/lighthouse](https://github.com/sigp/lighthouse)** | Rust | 30/451 dependencies | 435 pairwise combinations (vs 101475 previously)
     - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+2 other relevant repos in same namespace] | Rust
     - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
     - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
@@ -326,7 +326,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+4 other relevant repos in same namespace] | Rust
     - [29] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+7 other relevant repos in same namespace] | Rust
     - [30] [tower-rs/tower](https://github.com/tower-rs/tower)  | Rust
-  - **[status-im/nimbus-eth2](https://github.com/status-im/nimbus-eth2)** | Nim | 8/96 dependencies
+  - **[status-im/nimbus-eth2](https://github.com/status-im/nimbus-eth2)** | Nim | 8/96 dependencies | 28 pairwise combinations (vs 4560 previously)
     - [1] [microsoft/debugpy](https://github.com/microsoft/debugpy)  | Python
     - [2] [mozilla/bleach](https://github.com/mozilla/bleach)  | Python
     - [3] [numpy/numpy](https://github.com/numpy/numpy)  | Python
@@ -335,7 +335,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [6] [pypa/build](https://github.com/pypa/build)  | Python
     - [7] [pypa/packaging](https://github.com/pypa/packaging)  | Python
     - [8] [pypa/wheel](https://github.com/pypa/wheel)  | Python
-  - **[ethereum/remix-project](https://github.com/ethereum/remix-project)** | TypeScript | 30/2277 dependencies
+  - **[ethereum/remix-project](https://github.com/ethereum/remix-project)** | TypeScript | 30/2277 dependencies | 435 pairwise combinations (vs 2591226 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+6 other relevant repos in same namespace] | TypeScript
     - [3] [coinbase/coinbase-wallet-sdk](https://github.com/coinbase/coinbase-wallet-sdk)  | TypeScript
@@ -366,7 +366,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [walletconnect/walletconnect-monorepo](https://github.com/walletconnect/walletconnect-monorepo)  [+2 other relevant repos in same namespace] | TypeScript
     - [29] [wevm/abitype](https://github.com/wevm/abitype)  | TypeScript
     - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
-  - **[safe-global/safe-smart-account](https://github.com/safe-global/safe-smart-account)** | TypeScript | 30/519 dependencies
+  - **[safe-global/safe-smart-account](https://github.com/safe-global/safe-smart-account)** | TypeScript | 30/519 dependencies | 435 pairwise combinations (vs 134421 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)  | TypeScript
@@ -397,7 +397,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [uuidjs/uuid](https://github.com/uuidjs/uuid)  | TypeScript
     - [29] [vercel/ms](https://github.com/vercel/ms)  [+1 other relevant repos in same namespace] | TypeScript
     - [30] [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy)  | TypeScript
-  - **[eth-infinitism/account-abstraction](https://github.com/eth-infinitism/account-abstraction)** | Solidity | 30/854 dependencies
+  - **[eth-infinitism/account-abstraction](https://github.com/eth-infinitism/account-abstraction)** | Solidity | 30/854 dependencies | 435 pairwise combinations (vs 364231 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+2 other relevant repos in same namespace] | TypeScript
     - [3] [broofa/mime](https://github.com/broofa/mime)  | TypeScript
