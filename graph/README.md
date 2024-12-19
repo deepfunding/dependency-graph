@@ -1,0 +1,430 @@
+
+# Deep Funding - Dependency Graph
+
+The full unfiltered dependency graph is available [here](./unweighted_graph.json).
+
+To import this graph into Python, you can use the `networkx` library.
+
+```python
+import networkx as nx
+with open('./unweighted_graph.json', 'r') as f:
+    graph_data = json.load(f)
+G = nx.node_link_graph(graph_data)
+```
+
+We have also done some pruning of the graph for some initial experiments using pairwise voting. This list may change and is purely for testing purposes.
+
+## Quick Prune of Dependencies for Pairwise Testing
+
+- **ethereum/**
+  - **[ethereum/solidity](https://github.com/ethereum/solidity)** | C++ | 3/3 dependencies
+    - [1] [readthedocs/sphinx_rtd_theme](https://github.com/readthedocs/sphinx_rtd_theme)  | n/a (not indexed yet)
+    - [2] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
+    - [3] [taminomara/sphinx-a4doc](https://github.com/taminomara/sphinx-a4doc)  | n/a (not indexed yet)
+  - **[vyperlang/vyper](https://github.com/vyperlang/vyper)** | Python | 9/9 dependencies
+    - [1] [agronholm/cbor2](https://github.com/agronholm/cbor2)  | n/a (not indexed yet)
+    - [2] [executablebooks/sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton)  | n/a (not indexed yet)
+    - [3] [gristlabs/asttokens](https://github.com/gristlabs/asttokens)  | n/a (not indexed yet)
+    - [4] [legrandin/pycryptodome](https://github.com/legrandin/pycryptodome)  | n/a (not indexed yet)
+    - [5] [lepture/shibuya](https://github.com/lepture/shibuya)  | n/a (not indexed yet)
+    - [6] [pypa/packaging](https://github.com/pypa/packaging)  | Python
+    - [7] [pypa/wheel](https://github.com/pypa/wheel)  | Python
+    - [8] [python/importlib_metadata](https://github.com/python/importlib_metadata)  | n/a (not indexed yet)
+    - [9] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
+  - **[ethereum/py-evm](https://github.com/ethereum/py-evm)** | Python | 11/11 dependencies
+    - [1] [ethereum/eth-hash](https://github.com/ethereum/eth-hash)  | Python
+    - [2] [hypothesisworks/hypothesis](https://github.com/hypothesisworks/hypothesis)  | n/a (not indexed yet)
+    - [3] [ipython/ipython](https://github.com/ipython/ipython)  | n/a (not indexed yet)
+    - [4] [peritus/bumpversion](https://github.com/peritus/bumpversion)  | n/a (not indexed yet)
+    - [5] [pycqa/flake8](https://github.com/pycqa/flake8)  | n/a (not indexed yet)
+    - [6] [pytest-dev/pytest](https://github.com/pytest-dev/pytest)  | Python
+    - [7] [pytest-dev/pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio)  | Python
+    - [8] [pytest-dev/pytest-cov](https://github.com/pytest-dev/pytest-cov)  | Python
+    - [9] [pytest-dev/pytest-xdist](https://github.com/pytest-dev/pytest-xdist)  | Python
+    - [10] [python/mypy](https://github.com/python/mypy)  | n/a (not indexed yet)
+    - [11] [tox-dev/tox](https://github.com/tox-dev/tox)  | n/a (not indexed yet)
+  - **[ethereum/web3.py](https://github.com/ethereum/web3.py)** | Python | 13/13 dependencies
+    - [1] [aaugustin/websockets](https://github.com/aaugustin/websockets)  | n/a (not indexed yet)
+    - [2] [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp)  | n/a (not indexed yet)
+    - [3] [ethereum/eth-abi](https://github.com/ethereum/eth-abi)  | Python
+    - [4] [ethereum/eth-account](https://github.com/ethereum/eth-account)  | Python
+    - [5] [ethereum/eth-hash](https://github.com/ethereum/eth-hash)  | Python
+    - [6] [ethereum/eth-typing](https://github.com/ethereum/eth-typing)  | Python
+    - [7] [ethereum/eth-utils](https://github.com/ethereum/eth-utils)  | Python
+    - [8] [ethereum/hexbytes](https://github.com/ethereum/hexbytes)  | Python
+    - [9] [mlodewijck/pyunormalize](https://github.com/mlodewijck/pyunormalize)  | n/a (not indexed yet)
+    - [10] [psf/requests](https://github.com/psf/requests)  | n/a (not indexed yet)
+    - [11] [pydantic/pydantic](https://github.com/pydantic/pydantic)  | n/a (not indexed yet)
+    - [12] [python/typeshed](https://github.com/python/typeshed)  | n/a (not indexed yet)
+    - [13] [python/typing_extensions](https://github.com/python/typing_extensions)  | n/a (not indexed yet)
+  - **[paradigmxyz/reth](https://github.com/paradigmxyz/reth)** | Rust | 30/463 dependencies
+    - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+7 other relevant repos in same namespace] | Rust
+    - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+2 other relevant repos in same namespace] | Rust
+    - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
+    - [4] [bluealloy/revm](https://github.com/bluealloy/revm)  | Rust
+    - [5] [boa-dev/boa](https://github.com/boa-dev/boa)  [+1 other relevant repos in same namespace] | Rust
+    - [6] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
+    - [7] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
+    - [8] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+15 other relevant repos in same namespace] | Rust
+    - [9] [getsentry/symbolic](https://github.com/getsentry/symbolic)  [+1 other relevant repos in same namespace] | Rust
+    - [10] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
+    - [11] [hyperium/hyper](https://github.com/hyperium/hyper)  [+6 other relevant repos in same namespace] | Rust
+    - [12] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
+    - [13] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
+    - [14] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [15] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [16] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [17] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [18] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [19] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [20] [rust-lang/cargo](https://github.com/rust-lang/cargo)  [+14 other relevant repos in same namespace] | Rust
+    - [21] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
+    - [22] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
+    - [23] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+14 other relevant repos in same namespace] | Rust
+    - [24] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
+    - [25] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
+    - [26] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+4 other relevant repos in same namespace] | Rust
+    - [27] [tikv/pprof-rs](https://github.com/tikv/pprof-rs)  [+1 other relevant repos in same namespace] | Rust
+    - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+8 other relevant repos in same namespace] | Rust
+    - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
+    - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
+  - **[consensys/teku](https://github.com/consensys/teku)** | Java | 30/137 dependencies
+    - [1] [acornjs/acorn](https://github.com/acornjs/acorn)  [+1 other relevant repos in same namespace] | JavaScript
+    - [2] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
+    - [3] [alexei/sprintf.js](https://github.com/alexei/sprintf.js)  | JavaScript
+    - [4] [babel/babel](https://github.com/babel/babel)  | TypeScript
+    - [5] [caolan/async](https://github.com/caolan/async)  | JavaScript
+    - [6] [chalk/chalk](https://github.com/chalk/chalk)  [+5 other relevant repos in same namespace] | JavaScript
+    - [7] [colorjs/color-name](https://github.com/colorjs/color-name)  | JavaScript
+    - [8] [debug-js/debug](https://github.com/debug-js/debug)  | JavaScript
+    - [9] [enquirer/enquirer](https://github.com/enquirer/enquirer)  | JavaScript
+    - [10] [epoberezkin/fast-deep-equal](https://github.com/epoberezkin/fast-deep-equal)  [+2 other relevant repos in same namespace] | JavaScript
+    - [11] [eslint/eslint](https://github.com/eslint/eslint)  [+4 other relevant repos in same namespace] | JavaScript
+    - [12] [gulpjs/glob-parent](https://github.com/gulpjs/glob-parent)  | JavaScript
+    - [13] [humanwhocodes/object-schema](https://github.com/humanwhocodes/object-schema)  [+1 other relevant repos in same namespace] | JavaScript
+    - [14] [isaacs/node-glob](https://github.com/isaacs/node-glob)  [+9 other relevant repos in same namespace] | TypeScript
+    - [15] [jprichardson/node-fs-extra](https://github.com/jprichardson/node-fs-extra)  [+1 other relevant repos in same namespace] | JavaScript
+    - [16] [jquery/esprima](https://github.com/jquery/esprima)  | TypeScript
+    - [17] [kaelzhang/node-ignore](https://github.com/kaelzhang/node-ignore)  | JavaScript
+    - [18] [ljharb/concat-map](https://github.com/ljharb/concat-map)  | JavaScript
+    - [19] [lodash/lodash](https://github.com/lodash/lodash)  | JavaScript
+    - [20] [mathiasbynens/emoji-regex](https://github.com/mathiasbynens/emoji-regex)  [+1 other relevant repos in same namespace] | JavaScript
+    - [21] [mysticatea/regexpp](https://github.com/mysticatea/regexpp)  [+1 other relevant repos in same namespace] | TypeScript
+    - [22] [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch)  [+1 other relevant repos in same namespace] | JavaScript
+    - [23] [nodeca/js-yaml](https://github.com/nodeca/js-yaml)  [+1 other relevant repos in same namespace] | JavaScript
+    - [24] [npm/node-semver](https://github.com/npm/node-semver)  [+3 other relevant repos in same namespace] | JavaScript
+    - [25] [qix-/color-convert](https://github.com/qix-/color-convert)  | JavaScript
+    - [26] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+31 other relevant repos in same namespace] | TypeScript
+    - [27] [tj/commander.js](https://github.com/tj/commander.js)  | JavaScript
+    - [28] [vercel/ms](https://github.com/vercel/ms)  | TypeScript
+    - [29] [visionmedia/node-progress](https://github.com/visionmedia/node-progress)  | JavaScript
+    - [30] [webreflection/flatted](https://github.com/webreflection/flatted)  | JavaScript
+  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 16/244 dependencies
+    - [1] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
+    - [2] [crate-crypto/go-kzg-4844](https://github.com/crate-crypto/go-kzg-4844)  | Go
+    - [3] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
+    - [4] [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)  | Go
+    - [5] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
+    - [6] [google/pprof](https://github.com/google/pprof)  | Go
+    - [7] [hashicorp/golang-lru](https://github.com/hashicorp/golang-lru)  | Go
+    - [8] [ipfs/go-cid](https://github.com/ipfs/go-cid)  | Go
+    - [9] [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p)  | Go
+    - [10] [microsoft/go-winio](https://github.com/microsoft/go-winio)  | Go
+    - [11] [multiformats/go-multiaddr](https://github.com/multiformats/go-multiaddr)  | Go
+    - [12] [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)  | Go
+    - [13] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
+    - [14] [prysmaticlabs/go-bitfield](https://github.com/prysmaticlabs/go-bitfield)  | Go
+    - [15] [quic-go/quic-go](https://github.com/quic-go/quic-go)  | Go
+    - [16] [trailofbits/go-mutexasserts](https://github.com/trailofbits/go-mutexasserts)  | Go
+  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 19/112 dependencies
+    - [1] [aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)  | Go
+    - [2] [azure/azure-sdk-for-go](https://github.com/azure/azure-sdk-for-go)  | Go
+    - [3] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
+    - [4] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  | Go
+    - [5] [crate-crypto/go-kzg-4844](https://github.com/crate-crypto/go-kzg-4844)  | Go
+    - [6] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
+    - [7] [ethereum/go-verkle](https://github.com/ethereum/go-verkle)  | Go
+    - [8] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
+    - [9] [google/go-querystring](https://github.com/google/go-querystring)  | Go
+    - [10] [google/gofuzz](https://github.com/google/gofuzz)  | Go
+    - [11] [google/pprof](https://github.com/google/pprof)  | Go
+    - [12] [google/uuid](https://github.com/google/uuid)  | Go
+    - [13] [hashicorp/go-bexpr](https://github.com/hashicorp/go-bexpr)  | Go
+    - [14] [hashicorp/go-cleanhttp](https://github.com/hashicorp/go-cleanhttp)  | Go
+    - [15] [hashicorp/go-retryablehttp](https://github.com/hashicorp/go-retryablehttp)  | Go
+    - [16] [microsoft/go-winio](https://github.com/microsoft/go-winio)  | Go
+    - [17] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
+    - [18] [prometheus/common](https://github.com/prometheus/common)  | Go
+    - [19] [prometheus/procfs](https://github.com/prometheus/procfs)  | Go
+  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 14/253 dependencies
+    - [1] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
+    - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  | Go
+    - [3] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
+    - [4] [erigontech/interfaces](https://github.com/erigontech/interfaces)  | Go
+    - [5] [google/pprof](https://github.com/google/pprof)  | Go
+    - [6] [hashicorp/golang-lru](https://github.com/hashicorp/golang-lru)  | Go
+    - [7] [ipfs/go-cid](https://github.com/ipfs/go-cid)  | Go
+    - [8] [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p)  | Go
+    - [9] [maticnetwork/crand](https://github.com/maticnetwork/crand)  | Go
+    - [10] [multiformats/go-multiaddr](https://github.com/multiformats/go-multiaddr)  | Go
+    - [11] [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)  | Go
+    - [12] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
+    - [13] [prysmaticlabs/go-bitfield](https://github.com/prysmaticlabs/go-bitfield)  | Go
+    - [14] [quic-go/quic-go](https://github.com/quic-go/quic-go)  | Go
+  - **[web3/web3.js](https://github.com/web3/web3.js)** | TypeScript | 30/1709 dependencies
+    - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
+    - [2] [babel/babel](https://github.com/babel/babel)  [+3 other relevant repos in same namespace] | TypeScript
+    - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
+    - [4] [ethereum/solc-js](https://github.com/ethereum/solc-js)  [+2 other relevant repos in same namespace] | TypeScript
+    - [5] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  [+9 other relevant repos in same namespace] | TypeScript
+    - [6] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
+    - [7] [facebook/docusaurus](https://github.com/facebook/docusaurus)  [+6 other relevant repos in same namespace] | TypeScript
+    - [8] [fb55/entities](https://github.com/fb55/entities)  [+8 other relevant repos in same namespace] | TypeScript
+    - [9] [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui)  | TypeScript
+    - [10] [getsentry/sentry-javascript](https://github.com/getsentry/sentry-javascript)  | TypeScript
+    - [11] [gregberge/svgr](https://github.com/gregberge/svgr)  | TypeScript
+    - [12] [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js)  | TypeScript
+    - [13] [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript)  [+1 other relevant repos in same namespace] | TypeScript
+    - [14] [inikulin/parse5](https://github.com/inikulin/parse5)  | TypeScript
+    - [15] [jestjs/jest](https://github.com/jestjs/jest)  | TypeScript
+    - [16] [lerna/lerna](https://github.com/lerna/lerna)  | TypeScript
+    - [17] [lukeed/mrmime](https://github.com/lukeed/mrmime)  [+8 other relevant repos in same namespace] | TypeScript
+    - [18] [microsoft/typescript](https://github.com/microsoft/typescript)  [+7 other relevant repos in same namespace] | TypeScript
+    - [19] [mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)  [+3 other relevant repos in same namespace] | TypeScript
+    - [20] [nrwl/nx](https://github.com/nrwl/nx)  | TypeScript
+    - [21] [pnpm/components](https://github.com/pnpm/components)  [+1 other relevant repos in same namespace] | TypeScript
+    - [22] [postcss/postcss](https://github.com/postcss/postcss)  [+3 other relevant repos in same namespace] | TypeScript
+    - [23] [reactivex/rxjs](https://github.com/reactivex/rxjs)  | TypeScript
+    - [24] [remix-run/react-router](https://github.com/remix-run/react-router)  [+1 other relevant repos in same namespace] | TypeScript
+    - [25] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
+    - [26] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+183 other relevant repos in same namespace] | TypeScript
+    - [27] [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)  | TypeScript
+    - [28] [vercel/swr](https://github.com/vercel/swr)  [+4 other relevant repos in same namespace] | TypeScript
+    - [29] [wevm/viem](https://github.com/wevm/viem)  [+2 other relevant repos in same namespace] | TypeScript
+    - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
+  - **[ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)** | TypeScript | 30/796 dependencies
+    - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
+    - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
+    - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
+    - [4] [ethereum/solc-js](https://github.com/ethereum/solc-js)  [+1 other relevant repos in same namespace] | TypeScript
+    - [5] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  [+2 other relevant repos in same namespace] | TypeScript
+    - [6] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
+    - [7] [fb55/entities](https://github.com/fb55/entities)  | TypeScript
+    - [8] [isaacs/node-glob](https://github.com/isaacs/node-glob)  [+15 other relevant repos in same namespace] | TypeScript
+    - [9] [jquery/esprima](https://github.com/jquery/esprima)  | TypeScript
+    - [10] [lukeed/mrmime](https://github.com/lukeed/mrmime)  [+5 other relevant repos in same namespace] | TypeScript
+    - [11] [microsoft/typescript](https://github.com/microsoft/typescript)  [+3 other relevant repos in same namespace] | TypeScript
+    - [12] [mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)  [+4 other relevant repos in same namespace] | TypeScript
+    - [13] [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)  | TypeScript
+    - [14] [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp)  [+3 other relevant repos in same namespace] | TypeScript
+    - [15] [postcss/postcss](https://github.com/postcss/postcss)  | TypeScript
+    - [16] [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)  | TypeScript
+    - [17] [reactivex/rxjs](https://github.com/reactivex/rxjs)  | TypeScript
+    - [18] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
+    - [19] [sboudrias/inquirer.js](https://github.com/sboudrias/inquirer.js)  | TypeScript
+    - [20] [shikijs/shiki](https://github.com/shikijs/shiki)  [+1 other relevant repos in same namespace] | TypeScript
+    - [21] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+83 other relevant repos in same namespace] | TypeScript
+    - [22] [streetsidesoftware/cspell](https://github.com/streetsidesoftware/cspell)  [+3 other relevant repos in same namespace] | TypeScript
+    - [23] [swc-project/pkgs](https://github.com/swc-project/pkgs)  [+1 other relevant repos in same namespace] | TypeScript
+    - [24] [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)  | TypeScript
+    - [25] [typestrong/typedoc](https://github.com/typestrong/typedoc)  | TypeScript
+    - [26] [uuidjs/uuid](https://github.com/uuidjs/uuid)  | TypeScript
+    - [27] [vercel/ms](https://github.com/vercel/ms)  | TypeScript
+    - [28] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
+    - [29] [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio)  [+1 other relevant repos in same namespace] | TypeScript
+    - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  | TypeScript
+  - **[grandinetech/grandine](https://github.com/grandinetech/grandine)** | Rust | 30/435 dependencies
+    - [1] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
+    - [2] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
+    - [3] [burntsushi/quickcheck](https://github.com/burntsushi/quickcheck)  [+8 other relevant repos in same namespace] | Rust
+    - [4] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
+    - [5] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
+    - [6] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+17 other relevant repos in same namespace] | Rust
+    - [7] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
+    - [8] [heim-rs/darwin-libproc](https://github.com/heim-rs/darwin-libproc)  | Rust
+    - [9] [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns)  | Rust
+    - [10] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
+    - [11] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
+    - [12] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
+    - [13] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [14] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [15] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [16] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [17] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [18] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [19] [rusqlite/rusqlite](https://github.com/rusqlite/rusqlite)  | Rust
+    - [20] [rust-lang/cargo](https://github.com/rust-lang/cargo)  [+15 other relevant repos in same namespace] | Rust
+    - [21] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
+    - [22] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
+    - [23] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+16 other relevant repos in same namespace] | Rust
+    - [24] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
+    - [25] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
+    - [26] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+5 other relevant repos in same namespace] | Rust
+    - [27] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+5 other relevant repos in same namespace] | Rust
+    - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+6 other relevant repos in same namespace] | Rust
+    - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
+    - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
+  - **[chainsafe/lodestar](https://github.com/chainsafe/lodestar)** | TypeScript | 30/1514 dependencies
+    - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
+    - [2] [babel/babel](https://github.com/babel/babel)  [+3 other relevant repos in same namespace] | TypeScript
+    - [3] [chainsafe/lodestar](https://github.com/chainsafe/lodestar)  [+17 other relevant repos in same namespace] | TypeScript
+    - [4] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
+    - [5] [electron/get](https://github.com/electron/get)  [+1 other relevant repos in same namespace] | TypeScript
+    - [6] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  [+1 other relevant repos in same namespace] | TypeScript
+    - [7] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
+    - [8] [facebook/docusaurus](https://github.com/facebook/docusaurus)  [+4 other relevant repos in same namespace] | TypeScript
+    - [9] [fb55/entities](https://github.com/fb55/entities)  [+8 other relevant repos in same namespace] | TypeScript
+    - [10] [gregberge/svgr](https://github.com/gregberge/svgr)  | TypeScript
+    - [11] [inikulin/parse5](https://github.com/inikulin/parse5)  | TypeScript
+    - [12] [ipfs/protons](https://github.com/ipfs/protons)  [+2 other relevant repos in same namespace] | TypeScript
+    - [13] [jestjs/jest](https://github.com/jestjs/jest)  | TypeScript
+    - [14] [libp2p/js-libp2p](https://github.com/libp2p/js-libp2p)  | TypeScript
+    - [15] [lukeed/mrmime](https://github.com/lukeed/mrmime)  [+12 other relevant repos in same namespace] | TypeScript
+    - [16] [microsoft/typescript](https://github.com/microsoft/typescript)  [+5 other relevant repos in same namespace] | TypeScript
+    - [17] [mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)  [+2 other relevant repos in same namespace] | TypeScript
+    - [18] [pnpm/components](https://github.com/pnpm/components)  [+1 other relevant repos in same namespace] | TypeScript
+    - [19] [postcss/postcss](https://github.com/postcss/postcss)  [+3 other relevant repos in same namespace] | TypeScript
+    - [20] [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)  | TypeScript
+    - [21] [reactivex/rxjs](https://github.com/reactivex/rxjs)  | TypeScript
+    - [22] [remix-run/react-router](https://github.com/remix-run/react-router)  [+1 other relevant repos in same namespace] | TypeScript
+    - [23] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
+    - [24] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+156 other relevant repos in same namespace] | TypeScript
+    - [25] [swc-project/pkgs](https://github.com/swc-project/pkgs)  [+1 other relevant repos in same namespace] | TypeScript
+    - [26] [vercel/ms](https://github.com/vercel/ms)  [+2 other relevant repos in same namespace] | TypeScript
+    - [27] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
+    - [28] [vuejs/vue](https://github.com/vuejs/vue)  [+2 other relevant repos in same namespace] | TypeScript
+    - [29] [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio)  [+1 other relevant repos in same namespace] | TypeScript
+    - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
+  - **[sigp/lighthouse](https://github.com/sigp/lighthouse)** | Rust | 30/451 dependencies
+    - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+2 other relevant repos in same namespace] | Rust
+    - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
+    - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
+    - [4] [burntsushi/quickcheck](https://github.com/burntsushi/quickcheck)  [+9 other relevant repos in same namespace] | Rust
+    - [5] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
+    - [6] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
+    - [7] [diesel-rs/diesel](https://github.com/diesel-rs/diesel)  | Rust
+    - [8] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+17 other relevant repos in same namespace] | Rust
+    - [9] [gakonst/ethers-rs](https://github.com/gakonst/ethers-rs)  [+1 other relevant repos in same namespace] | Rust
+    - [10] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
+    - [11] [heim-rs/darwin-libproc](https://github.com/heim-rs/darwin-libproc)  | Rust
+    - [12] [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns)  | Rust
+    - [13] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
+    - [14] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
+    - [15] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [16] [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs)  | Rust
+    - [17] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [18] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [19] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [20] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [21] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [22] [rusqlite/rusqlite](https://github.com/rusqlite/rusqlite)  | Rust
+    - [23] [rust-lang/cargo](https://github.com/rust-lang/cargo)  [+16 other relevant repos in same namespace] | Rust
+    - [24] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
+    - [25] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+15 other relevant repos in same namespace] | Rust
+    - [26] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  | Rust
+    - [27] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
+    - [28] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+4 other relevant repos in same namespace] | Rust
+    - [29] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+7 other relevant repos in same namespace] | Rust
+    - [30] [tower-rs/tower](https://github.com/tower-rs/tower)  | Rust
+  - **[status-im/nimbus-eth2](https://github.com/status-im/nimbus-eth2)** | Nim | 8/96 dependencies
+    - [1] [microsoft/debugpy](https://github.com/microsoft/debugpy)  | Python
+    - [2] [mozilla/bleach](https://github.com/mozilla/bleach)  | Python
+    - [3] [numpy/numpy](https://github.com/numpy/numpy)  | Python
+    - [4] [pandas-dev/pandas](https://github.com/pandas-dev/pandas)  | Python
+    - [5] [prometheus/client_python](https://github.com/prometheus/client_python)  | Python
+    - [6] [pypa/build](https://github.com/pypa/build)  | Python
+    - [7] [pypa/packaging](https://github.com/pypa/packaging)  | Python
+    - [8] [pypa/wheel](https://github.com/pypa/wheel)  | Python
+  - **[ethereum/remix-project](https://github.com/ethereum/remix-project)** | TypeScript | 30/2277 dependencies
+    - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
+    - [2] [babel/babel](https://github.com/babel/babel)  [+6 other relevant repos in same namespace] | TypeScript
+    - [3] [coinbase/coinbase-wallet-sdk](https://github.com/coinbase/coinbase-wallet-sdk)  | TypeScript
+    - [4] [electron/forge](https://github.com/electron/forge)  [+9 other relevant repos in same namespace] | TypeScript
+    - [5] [ethereum/remix-project](https://github.com/ethereum/remix-project)  [+4 other relevant repos in same namespace] | TypeScript
+    - [6] [ethereum/solc-js](https://github.com/ethereum/solc-js)  [+4 other relevant repos in same namespace] | TypeScript
+    - [7] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  [+3 other relevant repos in same namespace] | TypeScript
+    - [8] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
+    - [9] [fb55/entities](https://github.com/fb55/entities)  [+8 other relevant repos in same namespace] | TypeScript
+    - [10] [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui)  | TypeScript
+    - [11] [formatjs/formatjs](https://github.com/formatjs/formatjs)  | TypeScript
+    - [12] [getsentry/sentry-javascript](https://github.com/getsentry/sentry-javascript)  | TypeScript
+    - [13] [gregberge/svgr](https://github.com/gregberge/svgr)  | TypeScript
+    - [14] [inikulin/parse5](https://github.com/inikulin/parse5)  | TypeScript
+    - [15] [ipfs/protons](https://github.com/ipfs/protons)  [+2 other relevant repos in same namespace] | TypeScript
+    - [16] [lukeed/mrmime](https://github.com/lukeed/mrmime)  [+14 other relevant repos in same namespace] | TypeScript
+    - [17] [mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)  [+6 other relevant repos in same namespace] | TypeScript
+    - [18] [openzeppelin/openzeppelin-upgrades](https://github.com/openzeppelin/openzeppelin-upgrades)  [+4 other relevant repos in same namespace] | TypeScript
+    - [19] [pnpm/cmd-shim](https://github.com/pnpm/cmd-shim)  | TypeScript
+    - [20] [postcss/postcss](https://github.com/postcss/postcss)  [+5 other relevant repos in same namespace] | TypeScript
+    - [21] [reactivex/rxjs](https://github.com/reactivex/rxjs)  | TypeScript
+    - [22] [rollup/rollup-pluginutils](https://github.com/rollup/rollup-pluginutils)  [+2 other relevant repos in same namespace] | TypeScript
+    - [23] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
+    - [24] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+209 other relevant repos in same namespace] | TypeScript
+    - [25] [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)  | TypeScript
+    - [26] [vercel/ms](https://github.com/vercel/ms)  [+2 other relevant repos in same namespace] | TypeScript
+    - [27] [vuejs/core](https://github.com/vuejs/core)  | TypeScript
+    - [28] [walletconnect/walletconnect-monorepo](https://github.com/walletconnect/walletconnect-monorepo)  [+2 other relevant repos in same namespace] | TypeScript
+    - [29] [wevm/abitype](https://github.com/wevm/abitype)  | TypeScript
+    - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
+  - **[safe-global/safe-smart-account](https://github.com/safe-global/safe-smart-account)** | TypeScript | 30/519 dependencies
+    - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
+    - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
+    - [3] [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)  | TypeScript
+    - [4] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
+    - [5] [ethereum/js-ethereum-cryptography](https://github.com/ethereum/js-ethereum-cryptography)  [+1 other relevant repos in same namespace] | TypeScript
+    - [6] [ethereum/solc-js](https://github.com/ethereum/solc-js)  [+1 other relevant repos in same namespace] | TypeScript
+    - [7] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  | TypeScript
+    - [8] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
+    - [9] [gajus/table](https://github.com/gajus/table)  | TypeScript
+    - [10] [gcanti/fp-ts](https://github.com/gcanti/fp-ts)  [+1 other relevant repos in same namespace] | TypeScript
+    - [11] [getsentry/sentry-javascript](https://github.com/getsentry/sentry-javascript)  | TypeScript
+    - [12] [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js)  | TypeScript
+    - [13] [isaacs/node-glob](https://github.com/isaacs/node-glob)  [+17 other relevant repos in same namespace] | TypeScript
+    - [14] [jaredwray/keyv](https://github.com/jaredwray/keyv)  [+3 other relevant repos in same namespace] | TypeScript
+    - [15] [jquery/esprima](https://github.com/jquery/esprima)  | TypeScript
+    - [16] [jshttp/cookie](https://github.com/jshttp/cookie)  [+4 other relevant repos in same namespace] | TypeScript
+    - [17] [microsoft/typescript](https://github.com/microsoft/typescript)  [+1 other relevant repos in same namespace] | TypeScript
+    - [18] [nomicfoundation/hardhat](https://github.com/nomicfoundation/hardhat)  [+3 other relevant repos in same namespace] | TypeScript
+    - [19] [omnidan/node-emoji](https://github.com/omnidan/node-emoji)  | TypeScript
+    - [20] [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp)  | TypeScript
+    - [21] [pnpm/components](https://github.com/pnpm/components)  [+1 other relevant repos in same namespace] | TypeScript
+    - [22] [safe-global/safe-singleton-factory](https://github.com/safe-global/safe-singleton-factory)  | TypeScript
+    - [23] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+65 other relevant repos in same namespace] | TypeScript
+    - [24] [tootallnate/proxy-agents](https://github.com/tootallnate/proxy-agents)  [+1 other relevant repos in same namespace] | TypeScript
+    - [25] [tsconfig/bases](https://github.com/tsconfig/bases)  | TypeScript
+    - [26] [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)  | TypeScript
+    - [27] [typestrong/ts-node](https://github.com/typestrong/ts-node)  | TypeScript
+    - [28] [uuidjs/uuid](https://github.com/uuidjs/uuid)  | TypeScript
+    - [29] [vercel/ms](https://github.com/vercel/ms)  [+1 other relevant repos in same namespace] | TypeScript
+    - [30] [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy)  | TypeScript
+  - **[eth-infinitism/account-abstraction](https://github.com/eth-infinitism/account-abstraction)** | Solidity | 30/854 dependencies
+    - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
+    - [2] [babel/babel](https://github.com/babel/babel)  [+2 other relevant repos in same namespace] | TypeScript
+    - [3] [broofa/mime](https://github.com/broofa/mime)  | TypeScript
+    - [4] [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)  | TypeScript
+    - [5] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
+    - [6] [dividab/tsconfig-paths](https://github.com/dividab/tsconfig-paths)  | TypeScript
+    - [7] [eemeli/yaml](https://github.com/eemeli/yaml)  | TypeScript
+    - [8] [ethereum/solc-js](https://github.com/ethereum/solc-js)  [+2 other relevant repos in same namespace] | TypeScript
+    - [9] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  [+11 other relevant repos in same namespace] | TypeScript
+    - [10] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
+    - [11] [gcanti/fp-ts](https://github.com/gcanti/fp-ts)  [+1 other relevant repos in same namespace] | TypeScript
+    - [12] [getsentry/sentry-javascript](https://github.com/getsentry/sentry-javascript)  | TypeScript
+    - [13] [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js)  | TypeScript
+    - [14] [isaacs/node-glob](https://github.com/isaacs/node-glob)  [+18 other relevant repos in same namespace] | TypeScript
+    - [15] [jaredwray/keyv](https://github.com/jaredwray/keyv)  [+3 other relevant repos in same namespace] | TypeScript
+    - [16] [jquery/esprima](https://github.com/jquery/esprima)  | TypeScript
+    - [17] [jshttp/cookie](https://github.com/jshttp/cookie)  [+18 other relevant repos in same namespace] | TypeScript
+    - [18] [microsoft/typescript](https://github.com/microsoft/typescript)  [+1 other relevant repos in same namespace] | TypeScript
+    - [19] [mysticatea/regexpp](https://github.com/mysticatea/regexpp)  [+3 other relevant repos in same namespace] | TypeScript
+    - [20] [nomicfoundation/hardhat](https://github.com/nomicfoundation/hardhat)  [+2 other relevant repos in same namespace] | TypeScript
+    - [21] [openzeppelin/openzeppelin-contracts](https://github.com/openzeppelin/openzeppelin-contracts)  | Solidity
+    - [22] [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp)  [+4 other relevant repos in same namespace] | TypeScript
+    - [23] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
+    - [24] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+86 other relevant repos in same namespace] | TypeScript
+    - [25] [tsconfig/bases](https://github.com/tsconfig/bases)  | TypeScript
+    - [26] [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)  | TypeScript
+    - [27] [typestrong/ts-node](https://github.com/typestrong/ts-node)  | TypeScript
+    - [28] [uuidjs/uuid](https://github.com/uuidjs/uuid)  | TypeScript
+    - [29] [vercel/ms](https://github.com/vercel/ms)  [+1 other relevant repos in same namespace] | TypeScript
+    - [30] [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy)  [+1 other relevant repos in same namespace] | TypeScript
