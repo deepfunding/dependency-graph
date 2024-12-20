@@ -10,11 +10,6 @@
     },
     {
       "level": 2,
-      "language": "Python",
-      "id": "https://github.com/sphinx-doc/sphinx"
-    },
-    {
-      "level": 2,
       "language": "n/a (not indexed yet)",
       "id": "https://github.com/readthedocs/sphinx_rtd_theme"
     },
@@ -24,6 +19,11 @@
       "id": "https://github.com/taminomara/sphinx-a4doc"
     },
     {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/sphinx-doc/sphinx"
+    },
+    {
       "level": 1,
       "language": "Python",
       "id": "https://github.com/vyperlang/vyper"
@@ -31,12 +31,12 @@
     {
       "level": 2,
       "language": "Python",
-      "id": "https://github.com/pypa/packaging"
+      "id": "https://github.com/pypa/wheel"
     },
     {
       "level": 2,
       "language": "n/a (not indexed yet)",
-      "id": "https://github.com/executablebooks/sphinx-copybutton"
+      "id": "https://github.com/python/importlib_metadata"
     },
     {
       "level": 2,
@@ -46,7 +46,7 @@
     {
       "level": 2,
       "language": "n/a (not indexed yet)",
-      "id": "https://github.com/lepture/shibuya"
+      "id": "https://github.com/executablebooks/sphinx-copybutton"
     },
     {
       "level": 2,
@@ -61,12 +61,12 @@
     {
       "level": 2,
       "language": "n/a (not indexed yet)",
-      "id": "https://github.com/python/importlib_metadata"
+      "id": "https://github.com/lepture/shibuya"
     },
     {
       "level": 2,
       "language": "Python",
-      "id": "https://github.com/pypa/wheel"
+      "id": "https://github.com/pypa/packaging"
     },
     {
       "level": 1,
@@ -75,28 +75,13 @@
     },
     {
       "level": 2,
-      "language": "n/a (not indexed yet)",
-      "id": "https://github.com/ipython/ipython"
-    },
-    {
-      "level": 2,
-      "language": "n/a (not indexed yet)",
-      "id": "https://github.com/peritus/bumpversion"
-    },
-    {
-      "level": 2,
       "language": "Python",
       "id": "https://github.com/ethereum/eth-hash"
     },
     {
       "level": 2,
-      "language": "Python",
-      "id": "https://github.com/pytest-dev/pytest-xdist"
-    },
-    {
-      "level": 2,
       "language": "n/a (not indexed yet)",
-      "id": "https://github.com/tox-dev/tox"
+      "id": "https://github.com/pycqa/flake8"
     },
     {
       "level": 2,
@@ -106,17 +91,7 @@
     {
       "level": 2,
       "language": "Python",
-      "id": "https://github.com/pytest-dev/pytest-cov"
-    },
-    {
-      "level": 2,
-      "language": "n/a (not indexed yet)",
-      "id": "https://github.com/hypothesisworks/hypothesis"
-    },
-    {
-      "level": 2,
-      "language": "n/a (not indexed yet)",
-      "id": "https://github.com/pycqa/flake8"
+      "id": "https://github.com/pytest-dev/pytest-xdist"
     },
     {
       "level": 2,
@@ -125,8 +100,33 @@
     },
     {
       "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/ipython/ipython"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/tox-dev/tox"
+    },
+    {
+      "level": 2,
       "language": "Python",
       "id": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pytest-dev/pytest-cov"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/peritus/bumpversion"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/hypothesisworks/hypothesis"
     },
     {
       "level": 1,
@@ -135,8 +135,13 @@
     },
     {
       "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/psf/requests"
+    },
+    {
+      "level": 2,
       "language": "Python",
-      "id": "https://github.com/ethereum/eth-utils"
+      "id": "https://github.com/ethereum/eth-typing"
     },
     {
       "level": 2,
@@ -146,7 +151,37 @@
     {
       "level": 2,
       "language": "n/a (not indexed yet)",
+      "id": "https://github.com/python/typeshed"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-account"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
       "id": "https://github.com/aaugustin/websockets"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-abi"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/hexbytes"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-utils"
     },
     {
       "level": 2,
@@ -157,41 +192,6 @@
       "level": 2,
       "language": "n/a (not indexed yet)",
       "id": "https://github.com/python/typing_extensions"
-    },
-    {
-      "level": 2,
-      "language": "Python",
-      "id": "https://github.com/ethereum/eth-typing"
-    },
-    {
-      "level": 2,
-      "language": "Python",
-      "id": "https://github.com/ethereum/hexbytes"
-    },
-    {
-      "level": 2,
-      "language": "n/a (not indexed yet)",
-      "id": "https://github.com/aio-libs/aiohttp"
-    },
-    {
-      "level": 2,
-      "language": "Python",
-      "id": "https://github.com/ethereum/eth-account"
-    },
-    {
-      "level": 2,
-      "language": "n/a (not indexed yet)",
-      "id": "https://github.com/psf/requests"
-    },
-    {
-      "level": 2,
-      "language": "Python",
-      "id": "https://github.com/ethereum/eth-abi"
-    },
-    {
-      "level": 2,
-      "language": "n/a (not indexed yet)",
-      "id": "https://github.com/python/typeshed"
     },
     {
       "level": 1,
@@ -540,58 +540,133 @@
     },
     {
       "level": 2,
+      "language": "Assembly",
+      "id": "https://github.com/supranational/blst"
+    },
+    {
+      "level": 2,
+      "language": "Assembly",
+      "id": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "level": 2,
       "language": "Go",
       "id": "https://github.com/crate-crypto/go-kzg-4844"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/prysmaticlabs/go-bitfield"
+      "id": "https://github.com/sirupsen/logrus"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/prometheus/client_golang"
+      "id": "https://github.com/stretchr/testify"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/open-telemetry/opentelemetry-go"
+      "id": "https://github.com/gorilla/websocket"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/hashicorp/golang-lru"
+      "id": "https://github.com/urfave/cli"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/deckarep/golang-set"
+      "id": "https://github.com/uber-go/zap"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/cespare/xxhash"
+      "id": "https://github.com/grpc/grpc-go"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/microsoft/go-winio"
+      "id": "https://github.com/go-playground/validator"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/multiformats/go-multiaddr"
+      "id": "https://github.com/pion/webrtc"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/trailofbits/go-mutexasserts"
+      "id": "https://github.com/json-iterator/go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/golang/groupcache"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/kubernetes/client-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/patrickmn/go-cache"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/pkg/errors"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/miekg/dns"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/fatih/color"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/golang-jwt/jwt"
     },
     {
       "level": 1,
       "language": "Go",
       "id": "https://github.com/erigontech/erigon"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/ethers-io/ethers.js"
     },
     {
       "level": 2,
@@ -605,18 +680,38 @@
     },
     {
       "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/microsoft/typescript"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "level": 2,
       "language": "Go",
-      "id": "https://github.com/maticnetwork/crand"
+      "id": "https://github.com/spf13/cobra"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/websockets/ws"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/go-chi/chi"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/julienschmidt/httprouter"
     },
     {
       "level": 1,
       "language": "TypeScript",
       "id": "https://github.com/web3/web3.js"
-    },
-    {
-      "level": 2,
-      "language": "TypeScript",
-      "id": "https://github.com/ethers-io/ethers.js"
     },
     {
       "level": 2,
@@ -716,17 +811,7 @@
     {
       "level": 2,
       "language": "TypeScript",
-      "id": "https://github.com/microsoft/typescript"
-    },
-    {
-      "level": 2,
-      "language": "TypeScript",
       "id": "https://github.com/remix-run/react-router"
-    },
-    {
-      "level": 2,
-      "language": "TypeScript",
-      "id": "https://github.com/definitelytyped/definitelytyped"
     },
     {
       "level": 2,
@@ -846,17 +931,77 @@
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/google/uuid"
+      "id": "https://github.com/golang/protobuf"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/google/go-querystring"
+      "id": "https://github.com/syndtr/goleveldb"
     },
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/google/gofuzz"
+      "id": "https://github.com/davecgh/go-spew"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/dop251/goja"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/gogo/protobuf"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/russross/blackfriday"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/prometheus/client_golang"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/cockroachdb/pebble"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/klauspost/compress"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/graph-gophers/graphql-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/olekukonko/tablewriter"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/deckarep/golang-set"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/uber-go/automaxprocs"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/opentracing/opentracing-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/goccy/go-json"
     },
     {
       "level": 2,
@@ -866,37 +1011,7 @@
     {
       "level": 2,
       "language": "Go",
-      "id": "https://github.com/hashicorp/go-retryablehttp"
-    },
-    {
-      "level": 2,
-      "language": "Go",
-      "id": "https://github.com/azure/azure-sdk-for-go"
-    },
-    {
-      "level": 2,
-      "language": "Go",
-      "id": "https://github.com/prometheus/procfs"
-    },
-    {
-      "level": 2,
-      "language": "Go",
-      "id": "https://github.com/hashicorp/go-cleanhttp"
-    },
-    {
-      "level": 2,
-      "language": "Go",
-      "id": "https://github.com/prometheus/common"
-    },
-    {
-      "level": 2,
-      "language": "Go",
-      "id": "https://github.com/ethereum/go-verkle"
-    },
-    {
-      "level": 2,
-      "language": "Go",
-      "id": "https://github.com/hashicorp/go-bexpr"
+      "id": "https://github.com/rs/cors"
     },
     {
       "level": 1,
@@ -1117,10 +1232,6 @@
   "links": [
     {
       "source": "https://github.com/ethereum/solidity",
-      "target": "https://github.com/sphinx-doc/sphinx"
-    },
-    {
-      "source": "https://github.com/ethereum/solidity",
       "target": "https://github.com/readthedocs/sphinx_rtd_theme"
     },
     {
@@ -1128,12 +1239,20 @@
       "target": "https://github.com/taminomara/sphinx-a4doc"
     },
     {
-      "source": "https://github.com/vyperlang/vyper",
-      "target": "https://github.com/pypa/packaging"
+      "source": "https://github.com/ethereum/solidity",
+      "target": "https://github.com/sphinx-doc/sphinx"
     },
     {
       "source": "https://github.com/vyperlang/vyper",
-      "target": "https://github.com/executablebooks/sphinx-copybutton"
+      "target": "https://github.com/pypa/wheel"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/python/importlib_metadata"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/sphinx-doc/sphinx"
     },
     {
       "source": "https://github.com/vyperlang/vyper",
@@ -1141,7 +1260,7 @@
     },
     {
       "source": "https://github.com/vyperlang/vyper",
-      "target": "https://github.com/lepture/shibuya"
+      "target": "https://github.com/executablebooks/sphinx-copybutton"
     },
     {
       "source": "https://github.com/vyperlang/vyper",
@@ -1153,23 +1272,11 @@
     },
     {
       "source": "https://github.com/vyperlang/vyper",
-      "target": "https://github.com/python/importlib_metadata"
+      "target": "https://github.com/lepture/shibuya"
     },
     {
       "source": "https://github.com/vyperlang/vyper",
-      "target": "https://github.com/pypa/wheel"
-    },
-    {
-      "source": "https://github.com/vyperlang/vyper",
-      "target": "https://github.com/sphinx-doc/sphinx"
-    },
-    {
-      "source": "https://github.com/ethereum/py-evm",
-      "target": "https://github.com/ipython/ipython"
-    },
-    {
-      "source": "https://github.com/ethereum/py-evm",
-      "target": "https://github.com/peritus/bumpversion"
+      "target": "https://github.com/pypa/packaging"
     },
     {
       "source": "https://github.com/ethereum/py-evm",
@@ -1177,11 +1284,7 @@
     },
     {
       "source": "https://github.com/ethereum/py-evm",
-      "target": "https://github.com/pytest-dev/pytest-xdist"
-    },
-    {
-      "source": "https://github.com/ethereum/py-evm",
-      "target": "https://github.com/tox-dev/tox"
+      "target": "https://github.com/pycqa/flake8"
     },
     {
       "source": "https://github.com/ethereum/py-evm",
@@ -1189,15 +1292,7 @@
     },
     {
       "source": "https://github.com/ethereum/py-evm",
-      "target": "https://github.com/pytest-dev/pytest-cov"
-    },
-    {
-      "source": "https://github.com/ethereum/py-evm",
-      "target": "https://github.com/hypothesisworks/hypothesis"
-    },
-    {
-      "source": "https://github.com/ethereum/py-evm",
-      "target": "https://github.com/pycqa/flake8"
+      "target": "https://github.com/pytest-dev/pytest-xdist"
     },
     {
       "source": "https://github.com/ethereum/py-evm",
@@ -1205,27 +1300,31 @@
     },
     {
       "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/ipython/ipython"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/tox-dev/tox"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
       "target": "https://github.com/pytest-dev/pytest"
     },
     {
-      "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/ethereum/eth-utils"
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest-cov"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/peritus/bumpversion"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/hypothesisworks/hypothesis"
     },
     {
       "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/mlodewijck/pyunormalize"
-    },
-    {
-      "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/aaugustin/websockets"
-    },
-    {
-      "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/pydantic/pydantic"
-    },
-    {
-      "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/python/typing_extensions"
+      "target": "https://github.com/psf/requests"
     },
     {
       "source": "https://github.com/ethereum/web3.py",
@@ -1237,11 +1336,11 @@
     },
     {
       "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/ethereum/hexbytes"
+      "target": "https://github.com/mlodewijck/pyunormalize"
     },
     {
       "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/aio-libs/aiohttp"
+      "target": "https://github.com/python/typeshed"
     },
     {
       "source": "https://github.com/ethereum/web3.py",
@@ -1249,7 +1348,11 @@
     },
     {
       "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/psf/requests"
+      "target": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/aaugustin/websockets"
     },
     {
       "source": "https://github.com/ethereum/web3.py",
@@ -1257,7 +1360,19 @@
     },
     {
       "source": "https://github.com/ethereum/web3.py",
-      "target": "https://github.com/python/typeshed"
+      "target": "https://github.com/ethereum/hexbytes"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-utils"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/pydantic/pydantic"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/python/typing_extensions"
     },
     {
       "source": "https://github.com/paradigmxyz/reth",
@@ -1525,43 +1640,99 @@
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
       "target": "https://github.com/crate-crypto/go-kzg-4844"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/prysmaticlabs/go-bitfield"
+      "target": "https://github.com/sirupsen/logrus"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/prometheus/client_golang"
+      "target": "https://github.com/stretchr/testify"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/open-telemetry/opentelemetry-go"
+      "target": "https://github.com/gorilla/websocket"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/hashicorp/golang-lru"
+      "target": "https://github.com/urfave/cli"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/deckarep/golang-set"
+      "target": "https://github.com/uber-go/zap"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/cespare/xxhash"
+      "target": "https://github.com/grpc/grpc-go"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/microsoft/go-winio"
+      "target": "https://github.com/go-playground/validator"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/multiformats/go-multiaddr"
+      "target": "https://github.com/pion/webrtc"
     },
     {
       "source": "https://github.com/prysmaticlabs/prysm",
-      "target": "https://github.com/trailofbits/go-mutexasserts"
+      "target": "https://github.com/json-iterator/go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/golang/groupcache"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/kubernetes/client-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/patrickmn/go-cache"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/pkg/errors"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/miekg/dns"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/fatih/color"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/golang-jwt/jwt"
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
@@ -1569,19 +1740,11 @@
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/google/uuid"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/google/go-querystring"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/google/gofuzz"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
       "target": "https://github.com/getsentry/sentry-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/supranational/blst"
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
@@ -1589,7 +1752,63 @@
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/crate-crypto/go-kzg-4844"
+      "target": "https://github.com/stretchr/testify"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/gorilla/websocket"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/golang/protobuf"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/pkg/errors"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/fatih/color"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/golang-jwt/jwt"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/syndtr/goleveldb"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/davecgh/go-spew"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/dop251/goja"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/gogo/protobuf"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/russross/blackfriday"
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
@@ -1597,7 +1816,35 @@
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/cockroachdb/pebble"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/klauspost/compress"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/graph-gophers/graphql-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/olekukonko/tablewriter"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
       "target": "https://github.com/deckarep/golang-set"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/uber-go/automaxprocs"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/opentracing/opentracing-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/goccy/go-json"
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
@@ -1605,39 +1852,11 @@
     },
     {
       "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/hashicorp/go-retryablehttp"
+      "target": "https://github.com/rs/cors"
     },
     {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/cespare/xxhash"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/azure/azure-sdk-for-go"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/microsoft/go-winio"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/prometheus/procfs"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/hashicorp/go-cleanhttp"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/prometheus/common"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/ethereum/go-verkle"
-    },
-    {
-      "source": "https://github.com/ethereum/go-ethereum",
-      "target": "https://github.com/hashicorp/go-bexpr"
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/ethers-io/ethers.js"
     },
     {
       "source": "https://github.com/erigontech/erigon",
@@ -1657,6 +1876,10 @@
     },
     {
       "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
       "target": "https://github.com/erigontech/interfaces"
     },
     {
@@ -1665,35 +1888,91 @@
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/prysmaticlabs/go-bitfield"
+      "target": "https://github.com/prysmaticlabs/gohashtree"
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/prometheus/client_golang"
+      "target": "https://github.com/microsoft/typescript"
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/open-telemetry/opentelemetry-go"
+      "target": "https://github.com/definitelytyped/definitelytyped"
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/hashicorp/golang-lru"
+      "target": "https://github.com/spf13/cobra"
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/deckarep/golang-set"
+      "target": "https://github.com/sirupsen/logrus"
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/cespare/xxhash"
+      "target": "https://github.com/stretchr/testify"
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/multiformats/go-multiaddr"
+      "target": "https://github.com/gorilla/websocket"
     },
     {
       "source": "https://github.com/erigontech/erigon",
-      "target": "https://github.com/maticnetwork/crand"
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/uber-go/zap"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/websockets/ws"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/go-chi/chi"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/julienschmidt/httprouter"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/pion/webrtc"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/json-iterator/go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/pkg/errors"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/miekg/dns"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/mitchellh/mapstructure"
     },
     {
       "source": "https://github.com/web3/web3.js",

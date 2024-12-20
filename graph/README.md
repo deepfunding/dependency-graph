@@ -119,58 +119,99 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vercel/ms](https://github.com/vercel/ms)  | TypeScript
     - [29] [visionmedia/node-progress](https://github.com/visionmedia/node-progress)  | JavaScript
     - [30] [webreflection/flatted](https://github.com/webreflection/flatted)  | JavaScript
-  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 16/244 dependencies | 120 pairwise combinations (vs 29646 previously)
-    - [1] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
-    - [2] [crate-crypto/go-kzg-4844](https://github.com/crate-crypto/go-kzg-4844)  | Go
-    - [3] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
-    - [4] [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)  | Go
-    - [5] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
-    - [6] [google/pprof](https://github.com/google/pprof)  | Go
-    - [7] [hashicorp/golang-lru](https://github.com/hashicorp/golang-lru)  | Go
-    - [8] [ipfs/go-cid](https://github.com/ipfs/go-cid)  | Go
-    - [9] [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p)  | Go
-    - [10] [microsoft/go-winio](https://github.com/microsoft/go-winio)  | Go
-    - [11] [multiformats/go-multiaddr](https://github.com/multiformats/go-multiaddr)  | Go
-    - [12] [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)  | Go
-    - [13] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
-    - [14] [prysmaticlabs/go-bitfield](https://github.com/prysmaticlabs/go-bitfield)  | Go
-    - [15] [quic-go/quic-go](https://github.com/quic-go/quic-go)  | Go
-    - [16] [trailofbits/go-mutexasserts](https://github.com/trailofbits/go-mutexasserts)  | Go
-  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 19/112 dependencies | 171 pairwise combinations (vs 6216 previously)
-    - [1] [aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)  | Go
-    - [2] [azure/azure-sdk-for-go](https://github.com/azure/azure-sdk-for-go)  | Go
-    - [3] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
-    - [4] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  | Go
-    - [5] [crate-crypto/go-kzg-4844](https://github.com/crate-crypto/go-kzg-4844)  | Go
-    - [6] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
-    - [7] [ethereum/go-verkle](https://github.com/ethereum/go-verkle)  | Go
-    - [8] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
-    - [9] [google/go-querystring](https://github.com/google/go-querystring)  | Go
-    - [10] [google/gofuzz](https://github.com/google/gofuzz)  | Go
-    - [11] [google/pprof](https://github.com/google/pprof)  | Go
-    - [12] [google/uuid](https://github.com/google/uuid)  | Go
-    - [13] [hashicorp/go-bexpr](https://github.com/hashicorp/go-bexpr)  | Go
-    - [14] [hashicorp/go-cleanhttp](https://github.com/hashicorp/go-cleanhttp)  | Go
-    - [15] [hashicorp/go-retryablehttp](https://github.com/hashicorp/go-retryablehttp)  | Go
-    - [16] [microsoft/go-winio](https://github.com/microsoft/go-winio)  | Go
-    - [17] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
-    - [18] [prometheus/common](https://github.com/prometheus/common)  | Go
-    - [19] [prometheus/procfs](https://github.com/prometheus/procfs)  | Go
-  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 14/253 dependencies | 91 pairwise combinations (vs 31878 previously)
-    - [1] [cespare/xxhash](https://github.com/cespare/xxhash)  | Go
-    - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  | Go
-    - [3] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
-    - [4] [erigontech/interfaces](https://github.com/erigontech/interfaces)  | Go
-    - [5] [google/pprof](https://github.com/google/pprof)  | Go
-    - [6] [hashicorp/golang-lru](https://github.com/hashicorp/golang-lru)  | Go
-    - [7] [ipfs/go-cid](https://github.com/ipfs/go-cid)  | Go
-    - [8] [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p)  | Go
-    - [9] [maticnetwork/crand](https://github.com/maticnetwork/crand)  | Go
-    - [10] [multiformats/go-multiaddr](https://github.com/multiformats/go-multiaddr)  | Go
-    - [11] [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)  | Go
-    - [12] [prometheus/client_golang](https://github.com/prometheus/client_golang)  | Go
-    - [13] [prysmaticlabs/go-bitfield](https://github.com/prysmaticlabs/go-bitfield)  | Go
-    - [14] [quic-go/quic-go](https://github.com/quic-go/quic-go)  | Go
+  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 30/244 dependencies | 435 pairwise combinations (vs 29646 previously)
+    - [1] [crate-crypto/go-kzg-4844](https://github.com/crate-crypto/go-kzg-4844)  | Go
+    - [2] [etcd-io/bbolt](https://github.com/etcd-io/bbolt)  | Go
+    - [3] [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)  [+1 other relevant repos in same namespace] | Go
+    - [4] [fatih/color](https://github.com/fatih/color)  | Go
+    - [5] [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)  | Go
+    - [6] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
+    - [7] [go-playground/validator](https://github.com/go-playground/validator)  [+2 other relevant repos in same namespace] | Go
+    - [8] [golang-jwt/jwt](https://github.com/golang-jwt/jwt)  | Go
+    - [9] [golang/groupcache](https://github.com/golang/groupcache)  [+3 other relevant repos in same namespace] | Go
+    - [10] [google/pprof](https://github.com/google/pprof)  [+4 other relevant repos in same namespace] | Go
+    - [11] [gorilla/websocket](https://github.com/gorilla/websocket)  | Go
+    - [12] [grpc/grpc-go](https://github.com/grpc/grpc-go)  | Go
+    - [13] [ipfs/go-cid](https://github.com/ipfs/go-cid)  [+1 other relevant repos in same namespace] | Go
+    - [14] [json-iterator/go](https://github.com/json-iterator/go)  | Go
+    - [15] [kubernetes/client-go](https://github.com/kubernetes/client-go)  [+3 other relevant repos in same namespace] | Go
+    - [16] [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p)  [+11 other relevant repos in same namespace] | Go
+    - [17] [miekg/dns](https://github.com/miekg/dns)  | Go
+    - [18] [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)  [+2 other relevant repos in same namespace] | Go
+    - [19] [onsi/ginkgo](https://github.com/onsi/ginkgo)  [+1 other relevant repos in same namespace] | Go
+    - [20] [patrickmn/go-cache](https://github.com/patrickmn/go-cache)  | Go
+    - [21] [pion/webrtc](https://github.com/pion/webrtc)  [+15 other relevant repos in same namespace] | Go
+    - [22] [pkg/errors](https://github.com/pkg/errors)  | Go
+    - [23] [prysmaticlabs/gohashtree](https://github.com/prysmaticlabs/gohashtree)  [+4 other relevant repos in same namespace] | Assembly
+    - [24] [quic-go/quic-go](https://github.com/quic-go/quic-go)  [+2 other relevant repos in same namespace] | Go
+    - [25] [shirou/gopsutil](https://github.com/shirou/gopsutil)  | Go
+    - [26] [sirupsen/logrus](https://github.com/sirupsen/logrus)  | Go
+    - [27] [stretchr/testify](https://github.com/stretchr/testify)  [+1 other relevant repos in same namespace] | Go
+    - [28] [supranational/blst](https://github.com/supranational/blst)  | Assembly
+    - [29] [uber-go/zap](https://github.com/uber-go/zap)  [+4 other relevant repos in same namespace] | Go
+    - [30] [urfave/cli](https://github.com/urfave/cli)  | Go
+  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 30/112 dependencies | 435 pairwise combinations (vs 6216 previously)
+    - [1] [aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)  [+1 other relevant repos in same namespace] | Go
+    - [2] [cockroachdb/pebble](https://github.com/cockroachdb/pebble)  [+5 other relevant repos in same namespace] | Go
+    - [3] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
+    - [4] [davecgh/go-spew](https://github.com/davecgh/go-spew)  | Go
+    - [5] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
+    - [6] [dop251/goja](https://github.com/dop251/goja)  | Go
+    - [7] [fatih/color](https://github.com/fatih/color)  | Go
+    - [8] [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)  | Go
+    - [9] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
+    - [10] [goccy/go-json](https://github.com/goccy/go-json)  | Go
+    - [11] [gogo/protobuf](https://github.com/gogo/protobuf)  | Go
+    - [12] [golang-jwt/jwt](https://github.com/golang-jwt/jwt)  | Go
+    - [13] [golang/protobuf](https://github.com/golang/protobuf)  [+1 other relevant repos in same namespace] | Go
+    - [14] [google/pprof](https://github.com/google/pprof)  [+3 other relevant repos in same namespace] | Go
+    - [15] [gorilla/websocket](https://github.com/gorilla/websocket)  | Go
+    - [16] [graph-gophers/graphql-go](https://github.com/graph-gophers/graphql-go)  | Go
+    - [17] [klauspost/compress](https://github.com/klauspost/compress)  [+1 other relevant repos in same namespace] | Go
+    - [18] [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)  [+1 other relevant repos in same namespace] | Go
+    - [19] [olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)  | Go
+    - [20] [opentracing/opentracing-go](https://github.com/opentracing/opentracing-go)  | Go
+    - [21] [pkg/errors](https://github.com/pkg/errors)  | Go
+    - [22] [prometheus/client_golang](https://github.com/prometheus/client_golang)  [+3 other relevant repos in same namespace] | Go
+    - [23] [rs/cors](https://github.com/rs/cors)  | Go
+    - [24] [russross/blackfriday](https://github.com/russross/blackfriday)  | Go
+    - [25] [shirou/gopsutil](https://github.com/shirou/gopsutil)  | Go
+    - [26] [stretchr/testify](https://github.com/stretchr/testify)  | Go
+    - [27] [supranational/blst](https://github.com/supranational/blst)  | Assembly
+    - [28] [syndtr/goleveldb](https://github.com/syndtr/goleveldb)  | Go
+    - [29] [uber-go/automaxprocs](https://github.com/uber-go/automaxprocs)  | Go
+    - [30] [urfave/cli](https://github.com/urfave/cli)  | Go
+  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 30/253 dependencies | 435 pairwise combinations (vs 31878 previously)
+    - [1] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
+    - [2] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
+    - [3] [erigontech/interfaces](https://github.com/erigontech/interfaces)  [+6 other relevant repos in same namespace] | Go
+    - [4] [etcd-io/bbolt](https://github.com/etcd-io/bbolt)  | Go
+    - [5] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
+    - [6] [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)  | Go
+    - [7] [go-chi/chi](https://github.com/go-chi/chi)  [+1 other relevant repos in same namespace] | Go
+    - [8] [google/pprof](https://github.com/google/pprof)  [+5 other relevant repos in same namespace] | Go
+    - [9] [gorilla/websocket](https://github.com/gorilla/websocket)  | Go
+    - [10] [grpc/grpc-go](https://github.com/grpc/grpc-go)  | Go
+    - [11] [ipfs/go-cid](https://github.com/ipfs/go-cid)  [+1 other relevant repos in same namespace] | Go
+    - [12] [json-iterator/go](https://github.com/json-iterator/go)  | Go
+    - [13] [julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)  | Go
+    - [14] [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p)  [+11 other relevant repos in same namespace] | Go
+    - [15] [microsoft/typescript](https://github.com/microsoft/typescript)  [+1 other relevant repos in same namespace] | TypeScript
+    - [16] [miekg/dns](https://github.com/miekg/dns)  | Go
+    - [17] [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)  [+2 other relevant repos in same namespace] | Go
+    - [18] [onsi/ginkgo](https://github.com/onsi/ginkgo)  | Go
+    - [19] [pion/webrtc](https://github.com/pion/webrtc)  [+16 other relevant repos in same namespace] | Go
+    - [20] [pkg/errors](https://github.com/pkg/errors)  | Go
+    - [21] [prysmaticlabs/gohashtree](https://github.com/prysmaticlabs/gohashtree)  [+1 other relevant repos in same namespace] | Assembly
+    - [22] [quic-go/quic-go](https://github.com/quic-go/quic-go)  [+2 other relevant repos in same namespace] | Go
+    - [23] [shirou/gopsutil](https://github.com/shirou/gopsutil)  | Go
+    - [24] [sirupsen/logrus](https://github.com/sirupsen/logrus)  | Go
+    - [25] [spf13/cobra](https://github.com/spf13/cobra)  [+3 other relevant repos in same namespace] | Go
+    - [26] [stretchr/testify](https://github.com/stretchr/testify)  | Go
+    - [27] [supranational/blst](https://github.com/supranational/blst)  | Assembly
+    - [28] [uber-go/zap](https://github.com/uber-go/zap)  [+4 other relevant repos in same namespace] | Go
+    - [29] [urfave/cli](https://github.com/urfave/cli)  | Go
+    - [30] [websockets/ws](https://github.com/websockets/ws)  | JavaScript
   - **[web3/web3.js](https://github.com/web3/web3.js)** | TypeScript | 30/1709 dependencies | 435 pairwise combinations (vs 1459486 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+3 other relevant repos in same namespace] | TypeScript
