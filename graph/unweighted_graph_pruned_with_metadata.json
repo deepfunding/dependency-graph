@@ -1,0 +1,6345 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "level": 1,
+      "language": "C++",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-08-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 23573,
+      "forkCount": 5864,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 2164563.631978417,
+      "totalFundingUsdSince2023": 2164562.651978417,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 11,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/ethereum/solidity"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/readthedocs/sphinx_rtd_theme"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/taminomara/sphinx-a4doc"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-01-02",
+      "updatedAt": "2024-12-19",
+      "starCount": 6675,
+      "forkCount": 2137,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/sphinx-doc/sphinx"
+    },
+    {
+      "level": 1,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-11-11",
+      "updatedAt": "2024-12-19",
+      "starCount": 4929,
+      "forkCount": 808,
+      "numPackages": 1,
+      "numDependentsInOso": 33,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 1344104.0101820854,
+      "totalFundingUsdSince2023": 1279161.3421502705,
+      "osoDependencyRank": 0.20982658959537573,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.4166666666666667,
+      "id": "https://github.com/vyperlang/vyper"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/python/importlib_metadata"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/legrandin/pycryptodome"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-05-15",
+      "updatedAt": "2024-12-13",
+      "starCount": 631,
+      "forkCount": 251,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pypa/packaging"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/executablebooks/sphinx-copybutton"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/gristlabs/asttokens"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-07-25",
+      "updatedAt": "2024-12-12",
+      "starCount": 504,
+      "forkCount": 152,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pypa/wheel"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/agronholm/cbor2"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/lepture/shibuya"
+    },
+    {
+      "level": 1,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-12-27",
+      "updatedAt": "2024-12-19",
+      "starCount": 2285,
+      "forkCount": 657,
+      "numPackages": 1,
+      "numDependentsInOso": 25,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.20057803468208094,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.375,
+      "id": "https://github.com/ethereum/py-evm"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-09-01",
+      "updatedAt": "2024-12-18",
+      "starCount": 1507,
+      "forkCount": 230,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 73983.23,
+      "totalFundingUsdSince2023": 25073.89,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pytest-dev/pytest-xdist"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/peritus/bumpversion"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-04-17",
+      "updatedAt": "2024-12-18",
+      "starCount": 1783,
+      "forkCount": 211,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 73983.23,
+      "totalFundingUsdSince2023": 25073.89,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pytest-dev/pytest-cov"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/hypothesisworks/hypothesis"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/tox-dev/tox"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/python/mypy"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/ipython/ipython"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-04-11",
+      "updatedAt": "2024-12-17",
+      "starCount": 1443,
+      "forkCount": 157,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 73983.23,
+      "totalFundingUsdSince2023": 25073.89,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pytest-dev/pytest-asyncio"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-06-15",
+      "updatedAt": "2024-12-19",
+      "starCount": 12228,
+      "forkCount": 2712,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 73983.23,
+      "totalFundingUsdSince2023": 25073.89,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/pycqa/flake8"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-02-06",
+      "updatedAt": "2024-11-27",
+      "starCount": 105,
+      "forkCount": 64,
+      "numPackages": 1,
+      "numDependentsInOso": 150,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 119173.11160226,
+      "totalFundingUsdSince2023": 119173.11160226,
+      "osoDependencyRank": 0.315606936416185,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.6666666666666666,
+      "id": "https://github.com/ethereum/eth-hash"
+    },
+    {
+      "level": 1,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-04-14",
+      "updatedAt": "2024-12-19",
+      "starCount": 5084,
+      "forkCount": 1722,
+      "numPackages": 1,
+      "numDependentsInOso": 215,
+      "listOfFunders": [
+        "Octant"
+      ],
+      "totalFundingUsd": 97340.691,
+      "totalFundingUsdSince2023": 97340.691,
+      "osoDependencyRank": 0.3647398843930636,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.9166666666666666,
+      "id": "https://github.com/ethereum/web3.py"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/python/typeshed"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-02-19",
+      "updatedAt": "2024-12-04",
+      "starCount": 249,
+      "forkCount": 269,
+      "numPackages": 2,
+      "numDependentsInOso": 151,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 119173.11160226,
+      "totalFundingUsdSince2023": 119173.11160226,
+      "osoDependencyRank": 0.31676300578034683,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.7083333333333334,
+      "id": "https://github.com/ethereum/eth-abi"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/psf/requests"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/pydantic/pydantic"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-03-15",
+      "updatedAt": "2024-10-31",
+      "starCount": 31,
+      "forkCount": 35,
+      "numPackages": 1,
+      "numDependentsInOso": 151,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 119173.11160226,
+      "totalFundingUsdSince2023": 119173.11160226,
+      "osoDependencyRank": 0.31676300578034683,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.7083333333333334,
+      "id": "https://github.com/ethereum/eth-typing"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/mlodewijck/pyunormalize"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-01-24",
+      "updatedAt": "2024-12-01",
+      "starCount": 277,
+      "forkCount": 161,
+      "numPackages": 2,
+      "numDependentsInOso": 142,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 119173.11160226,
+      "totalFundingUsdSince2023": 119173.11160226,
+      "osoDependencyRank": 0.3086705202312139,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.625,
+      "id": "https://github.com/ethereum/eth-account"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-02-07",
+      "updatedAt": "2024-12-17",
+      "starCount": 323,
+      "forkCount": 154,
+      "numPackages": 2,
+      "numDependentsInOso": 166,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 119173.11160226,
+      "totalFundingUsdSince2023": 119173.11160226,
+      "osoDependencyRank": 0.33179190751445087,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.7916666666666666,
+      "id": "https://github.com/ethereum/eth-utils"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-01-25",
+      "updatedAt": "2024-10-31",
+      "starCount": 28,
+      "forkCount": 19,
+      "numPackages": 1,
+      "numDependentsInOso": 135,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 119173.11160226,
+      "totalFundingUsdSince2023": 119173.11160226,
+      "osoDependencyRank": 0.2953757225433526,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.5833333333333334,
+      "id": "https://github.com/ethereum/hexbytes"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/python/typing_extensions"
+    },
+    {
+      "level": 2,
+      "status": "not_indexed",
+      "id": "https://github.com/aaugustin/websockets"
+    },
+    {
+      "level": 1,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-09-15",
+      "updatedAt": "2024-12-19",
+      "starCount": 4067,
+      "forkCount": 1280,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 795399.697879558,
+      "totalFundingUsdSince2023": 795399.697879558,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/paradigmxyz/reth"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2021-09-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 1693,
+      "forkCount": 583,
+      "numPackages": 5,
+      "numDependentsInOso": 51,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 919898.2195913141,
+      "totalFundingUsdSince2023": 919771.592938578,
+      "osoDependencyRank": 0.22427745664739884,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.16477272727272727,
+      "id": "https://github.com/bluealloy/revm"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-09-09",
+      "updatedAt": "2024-12-19",
+      "starCount": 27394,
+      "forkCount": 2508,
+      "numPackages": 21,
+      "numDependentsInOso": 327,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 235795.79000000007,
+      "totalFundingUsdSince2023": 97014.98,
+      "osoDependencyRank": 0.43815028901734104,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.8295454545454546,
+      "id": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-02-25",
+      "updatedAt": "2024-12-19",
+      "starCount": 14478,
+      "forkCount": 1060,
+      "numPackages": 11,
+      "numDependentsInOso": 281,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 8546.31,
+      "totalFundingUsdSince2023": 4088.19,
+      "osoDependencyRank": 0.41098265895953756,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.7329545454545454,
+      "id": "https://github.com/clap-rs/clap"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-08-08",
+      "updatedAt": "2024-12-19",
+      "starCount": 5318,
+      "forkCount": 405,
+      "numPackages": 9,
+      "numDependentsInOso": 12,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 37986.3,
+      "totalFundingUsdSince2023": 36831.3,
+      "osoDependencyRank": 0.1884393063583815,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.05113636363636364,
+      "id": "https://github.com/boa-dev/boa"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-03-24",
+      "updatedAt": "2024-12-19",
+      "starCount": 4677,
+      "forkCount": 980,
+      "numPackages": 47,
+      "numDependentsInOso": 85,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 1696389.680917599,
+      "totalFundingUsdSince2023": 1696389.680917599,
+      "osoDependencyRank": 0.2566473988439306,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.2897727272727273,
+      "id": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-09-08",
+      "updatedAt": "2024-12-19",
+      "starCount": 1642,
+      "forkCount": 105,
+      "numPackages": 2,
+      "numDependentsInOso": 209,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 1500.0,
+      "totalFundingUsdSince2023": 1500.0,
+      "osoDependencyRank": 0.3606936416184971,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.5568181818181818,
+      "id": "https://github.com/google/zerocopy"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-04-05",
+      "updatedAt": "2024-12-19",
+      "starCount": 1374,
+      "forkCount": 146,
+      "numPackages": 1,
+      "numDependentsInOso": 374,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 18734.69,
+      "totalFundingUsdSince2023": 18734.69,
+      "osoDependencyRank": 0.4699421965317919,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.9090909090909091,
+      "id": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2023-03-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 809,
+      "forkCount": 162,
+      "numPackages": 10,
+      "numDependentsInOso": 92,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 271305.44,
+      "totalFundingUsdSince2023": 271305.44,
+      "osoDependencyRank": 0.26416184971098267,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.32386363636363635,
+      "id": "https://github.com/alloy-rs/core"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-08-31",
+      "updatedAt": "2024-12-18",
+      "starCount": 468,
+      "forkCount": 77,
+      "numPackages": 3,
+      "numDependentsInOso": 16,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 96852.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.19132947976878611,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.056818181818181816,
+      "id": "https://github.com/getsentry/symbolic"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-08-30",
+      "updatedAt": "2024-12-19",
+      "starCount": 14717,
+      "forkCount": 1610,
+      "numPackages": 1,
+      "numDependentsInOso": 298,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.4208092485549133,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.7727272727272727,
+      "id": "https://github.com/hyperium/hyper"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-03-04",
+      "updatedAt": "2024-12-19",
+      "starCount": 12922,
+      "forkCount": 2442,
+      "numPackages": 11,
+      "numDependentsInOso": 224,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.37283236994219654,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.5852272727272727,
+      "id": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-10-02",
+      "updatedAt": "2024-12-19",
+      "starCount": 11228,
+      "forkCount": 506,
+      "numPackages": 2,
+      "numDependentsInOso": 288,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.4144508670520231,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.7443181818181818,
+      "id": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-09-12",
+      "updatedAt": "2024-12-19",
+      "starCount": 10814,
+      "forkCount": 508,
+      "numPackages": 21,
+      "numDependentsInOso": 358,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.45838150289017343,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.8863636363636364,
+      "id": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-11-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 9258,
+      "forkCount": 786,
+      "numPackages": 5,
+      "numDependentsInOso": 447,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.4907514450867052,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.9886363636363636,
+      "id": "https://github.com/serde-rs/serde"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-12-18",
+      "updatedAt": "2024-12-19",
+      "starCount": 7902,
+      "forkCount": 1081,
+      "numPackages": 11,
+      "numDependentsInOso": 384,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.4728323699421965,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.9204545454545454,
+      "id": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-05-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 7545,
+      "forkCount": 473,
+      "numPackages": 7,
+      "numDependentsInOso": 326,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.4375722543352601,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.8238636363636364,
+      "id": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-05-26",
+      "updatedAt": "2024-12-19",
+      "starCount": 4698,
+      "forkCount": 315,
+      "numPackages": 4,
+      "numDependentsInOso": 111,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.27803468208092486,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.3693181818181818,
+      "id": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-10-09",
+      "updatedAt": "2024-12-19",
+      "starCount": 4604,
+      "forkCount": 166,
+      "numPackages": 4,
+      "numDependentsInOso": 400,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.47803468208092487,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.9375,
+      "id": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-04-24",
+      "updatedAt": "2024-12-18",
+      "starCount": 3939,
+      "forkCount": 285,
+      "numPackages": 4,
+      "numDependentsInOso": 90,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.26011560693641617,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.3068181818181818,
+      "id": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-04-03",
+      "updatedAt": "2024-12-19",
+      "starCount": 3908,
+      "forkCount": 400,
+      "numPackages": 6,
+      "numDependentsInOso": 107,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.27341040462427746,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.3522727272727273,
+      "id": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-07-24",
+      "updatedAt": "2024-12-18",
+      "starCount": 3586,
+      "forkCount": 281,
+      "numPackages": 15,
+      "numDependentsInOso": 291,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.41734104046242776,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.7556818181818182,
+      "id": "https://github.com/tower-rs/tower"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-05-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 2790,
+      "forkCount": 219,
+      "numPackages": 3,
+      "numDependentsInOso": 334,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.4421965317919075,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.8409090909090909,
+      "id": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-11-18",
+      "updatedAt": "2024-12-16",
+      "starCount": 1913,
+      "forkCount": 256,
+      "numPackages": 15,
+      "numDependentsInOso": 406,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.48092485549132946,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.9602272727272727,
+      "id": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-01-17",
+      "updatedAt": "2024-12-18",
+      "starCount": 1855,
+      "forkCount": 119,
+      "numPackages": 5,
+      "numDependentsInOso": 176,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.34277456647398846,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.5113636363636364,
+      "id": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-09-09",
+      "updatedAt": "2024-12-12",
+      "starCount": 1850,
+      "forkCount": 393,
+      "numPackages": 9,
+      "numDependentsInOso": 376,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.47109826589595377,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.9147727272727273,
+      "id": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-02-05",
+      "updatedAt": "2024-12-18",
+      "starCount": 1840,
+      "forkCount": 153,
+      "numPackages": 2,
+      "numDependentsInOso": 252,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3913294797687861,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.6477272727272727,
+      "id": "https://github.com/peternator7/strum"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-03-24",
+      "updatedAt": "2024-12-18",
+      "starCount": 1767,
+      "forkCount": 124,
+      "numPackages": 2,
+      "numDependentsInOso": 272,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.4069364161849711,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.6988636363636364,
+      "id": "https://github.com/jeltef/derive_more"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-02-03",
+      "updatedAt": "2024-12-19",
+      "starCount": 1693,
+      "forkCount": 433,
+      "numPackages": 6,
+      "numDependentsInOso": 419,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.48265895953757226,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.9715909090909091,
+      "id": "https://github.com/rust-random/rand"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-02-27",
+      "updatedAt": "2024-12-19",
+      "starCount": 1394,
+      "forkCount": 182,
+      "numPackages": 38,
+      "numDependentsInOso": 33,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.20982658959537573,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.10795454545454546,
+      "id": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-10-21",
+      "updatedAt": "2024-12-18",
+      "starCount": 1357,
+      "forkCount": 108,
+      "numPackages": 1,
+      "numDependentsInOso": 17,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.1936416184971098,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.06818181818181818,
+      "id": "https://github.com/tikv/pprof-rs"
+    },
+    {
+      "level": 1,
+      "language": "Java",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-09-07",
+      "updatedAt": "2024-12-19",
+      "starCount": 692,
+      "forkCount": 298,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 120767.82247372733,
+      "totalFundingUsdSince2023": 117300.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 2,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/consensys/teku"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-09-28",
+      "updatedAt": "2024-12-19",
+      "starCount": 43319,
+      "forkCount": 5651,
+      "numPackages": 339,
+      "numDependentsInOso": 1702,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 1377185.37,
+      "totalFundingUsdSince2023": 191005.57000000004,
+      "osoDependencyRank": 0.9635838150289018,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.957983193277311,
+      "id": "https://github.com/babel/babel"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-06-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 25345,
+      "forkCount": 4590,
+      "numPackages": 3,
+      "numDependentsInOso": 1566,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 820038.0300000001,
+      "totalFundingUsdSince2023": 260859.4699999999,
+      "osoDependencyRank": 0.8936416184971099,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.8278508771929824,
+      "id": "https://github.com/eslint/eslint"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-03-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 14572,
+      "forkCount": 555,
+      "numPackages": 1,
+      "numDependentsInOso": 1680,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 197900.05000000002,
+      "totalFundingUsdSince2023": 39221.35,
+      "osoDependencyRank": 0.9508670520231214,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9537815126050421,
+      "id": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-05-19",
+      "updatedAt": "2024-12-19",
+      "starCount": 13928,
+      "forkCount": 883,
+      "numPackages": 2,
+      "numDependentsInOso": 1712,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 46783.95999999999,
+      "totalFundingUsdSince2023": 22281.63,
+      "osoDependencyRank": 0.9676300578034682,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9663865546218487,
+      "id": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-11-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 11177,
+      "forkCount": 946,
+      "numPackages": 1,
+      "numDependentsInOso": 1766,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 9107.2,
+      "totalFundingUsdSince2023": 4228.2,
+      "osoDependencyRank": 0.9982658959537573,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9978070175438597,
+      "id": "https://github.com/debug-js/debug"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-01-26",
+      "updatedAt": "2024-12-18",
+      "starCount": 8808,
+      "forkCount": 1025,
+      "numPackages": 1,
+      "numDependentsInOso": 1587,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 4011.4599999999996,
+      "totalFundingUsdSince2023": 2158.99,
+      "osoDependencyRank": 0.9069364161849711,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.8508771929824561,
+      "id": "https://github.com/node-fetch/node-fetch"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-10-03",
+      "updatedAt": "2024-12-18",
+      "starCount": 6328,
+      "forkCount": 776,
+      "numPackages": 3,
+      "numDependentsInOso": 1724,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 2412.31,
+      "totalFundingUsdSince2023": 1728.98,
+      "osoDependencyRank": 0.976878612716763,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9638157894736842,
+      "id": "https://github.com/nodeca/js-yaml"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-03-08",
+      "updatedAt": "2024-12-19",
+      "starCount": 5179,
+      "forkCount": 265,
+      "numPackages": 2,
+      "numDependentsInOso": 1763,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 13400.0,
+      "totalFundingUsdSince2023": 4400.0,
+      "osoDependencyRank": 0.9971098265895953,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9957983193277311,
+      "id": "https://github.com/vercel/ms"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-06-15",
+      "updatedAt": "2024-12-19",
+      "starCount": 1924,
+      "forkCount": 105,
+      "numPackages": 1,
+      "numDependentsInOso": 1713,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 11792.04,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.969364161849711,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9517543859649122,
+      "id": "https://github.com/epoberezkin/fast-deep-equal"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-04-26",
+      "updatedAt": "2024-12-19",
+      "starCount": 1052,
+      "forkCount": 47,
+      "numPackages": 1,
+      "numDependentsInOso": 1489,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 7594.590000000001,
+      "totalFundingUsdSince2023": 710.65,
+      "osoDependencyRank": 0.8531791907514451,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.7598684210526315,
+      "id": "https://github.com/webreflection/flatted"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-06-10",
+      "updatedAt": "2024-12-19",
+      "starCount": 748,
+      "forkCount": 96,
+      "numPackages": 1,
+      "numDependentsInOso": 1761,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 4813.94,
+      "totalFundingUsdSince2023": 4367.4,
+      "osoDependencyRank": 0.9965317919075144,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9956140350877193,
+      "id": "https://github.com/qix-/color-convert"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-09-01",
+      "updatedAt": "2024-12-19",
+      "starCount": 447,
+      "forkCount": 46,
+      "numPackages": 1,
+      "numDependentsInOso": 1642,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 3.0,
+      "totalFundingUsdSince2023": 1.0,
+      "osoDependencyRank": 0.9387283236994219,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9013157894736842,
+      "id": "https://github.com/kaelzhang/node-ignore"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-02-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 153,
+      "forkCount": 16,
+      "numPackages": 1,
+      "numDependentsInOso": 1178,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 5000.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7242774566473988,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.7563025210084033,
+      "id": "https://github.com/mysticatea/regexpp"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-11-23",
+      "updatedAt": "2024-11-13",
+      "starCount": 119,
+      "forkCount": 30,
+      "numPackages": 1,
+      "numDependentsInOso": 1764,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 120.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9976878612716763,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9967105263157895,
+      "id": "https://github.com/colorjs/color-name"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-01-12",
+      "updatedAt": "2024-12-07",
+      "starCount": 80,
+      "forkCount": 46,
+      "numPackages": 2,
+      "numDependentsInOso": 1739,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 88083.57999999997,
+      "totalFundingUsdSince2023": 18263.04,
+      "osoDependencyRank": 0.9849710982658959,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9747807017543859,
+      "id": "https://github.com/gulpjs/glob-parent"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-02-03",
+      "updatedAt": "2024-06-10",
+      "starCount": 32,
+      "forkCount": 7,
+      "numPackages": 1,
+      "numDependentsInOso": 1388,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 30096.870000000003,
+      "totalFundingUsdSince2023": 25849.59,
+      "osoDependencyRank": 0.8023121387283237,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.6732456140350878,
+      "id": "https://github.com/humanwhocodes/object-schema"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-10-10",
+      "updatedAt": "2024-06-09",
+      "starCount": 3,
+      "forkCount": 0,
+      "numPackages": 1,
+      "numDependentsInOso": 1744,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 8954.41,
+      "totalFundingUsdSince2023": 6700.780000000001,
+      "osoDependencyRank": 0.9878612716763006,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9802631578947368,
+      "id": "https://github.com/ljharb/concat-map"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-04-07",
+      "updatedAt": "2024-12-19",
+      "starCount": 59970,
+      "forkCount": 7041,
+      "numPackages": 238,
+      "numDependentsInOso": 1766,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9982658959537573,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9978070175438597,
+      "id": "https://github.com/lodash/lodash"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2010-06-01",
+      "updatedAt": "2024-12-19",
+      "starCount": 28209,
+      "forkCount": 2410,
+      "numPackages": 4,
+      "numDependentsInOso": 1482,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8479768786127168,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.7521929824561403,
+      "id": "https://github.com/caolan/async"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-08-14",
+      "updatedAt": "2024-12-19",
+      "starCount": 26880,
+      "forkCount": 1698,
+      "numPackages": 1,
+      "numDependentsInOso": 1716,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9716763005780347,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.956140350877193,
+      "id": "https://github.com/tj/commander.js"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-08-03",
+      "updatedAt": "2024-12-19",
+      "starCount": 22052,
+      "forkCount": 862,
+      "numPackages": 2,
+      "numDependentsInOso": 1754,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.992485549132948,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9879385964912281,
+      "id": "https://github.com/chalk/chalk"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-09-24",
+      "updatedAt": "2024-12-19",
+      "starCount": 10676,
+      "forkCount": 889,
+      "numPackages": 3,
+      "numDependentsInOso": 1697,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9618497109826589,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9407894736842105,
+      "id": "https://github.com/acornjs/acorn"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-11-16",
+      "updatedAt": "2024-12-19",
+      "starCount": 9490,
+      "forkCount": 773,
+      "numPackages": 1,
+      "numDependentsInOso": 1596,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9144508670520232,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.8585526315789473,
+      "id": "https://github.com/jprichardson/node-fs-extra"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2009-11-02",
+      "updatedAt": "2024-12-16",
+      "starCount": 8529,
+      "forkCount": 480,
+      "numPackages": 1,
+      "numDependentsInOso": 1748,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9901734104046243,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9915966386554622,
+      "id": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-08-29",
+      "updatedAt": "2024-12-18",
+      "starCount": 7717,
+      "forkCount": 285,
+      "numPackages": 1,
+      "numDependentsInOso": 1301,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7786127167630058,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.6381578947368421,
+      "id": "https://github.com/enquirer/enquirer"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-11-23",
+      "updatedAt": "2024-12-19",
+      "starCount": 7066,
+      "forkCount": 786,
+      "numPackages": 1,
+      "numDependentsInOso": 1566,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8936416184971099,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9243697478991597,
+      "id": "https://github.com/jquery/esprima"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-02-12",
+      "updatedAt": "2024-12-19",
+      "starCount": 5135,
+      "forkCount": 492,
+      "numPackages": 1,
+      "numDependentsInOso": 1751,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.991907514450867,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9868421052631579,
+      "id": "https://github.com/npm/node-semver"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-04-21",
+      "updatedAt": "2024-12-14",
+      "starCount": 2979,
+      "forkCount": 222,
+      "numPackages": 1,
+      "numDependentsInOso": 1022,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.6664739884393064,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.46600877192982454,
+      "id": "https://github.com/visionmedia/node-progress"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-04-02",
+      "updatedAt": "2024-12-18",
+      "starCount": 2116,
+      "forkCount": 290,
+      "numPackages": 1,
+      "numDependentsInOso": 1564,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.891907514450867,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.8256578947368421,
+      "id": "https://github.com/alexei/sprintf.js"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-09-28",
+      "updatedAt": "2024-12-18",
+      "starCount": 1776,
+      "forkCount": 173,
+      "numPackages": 1,
+      "numDependentsInOso": 1720,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9757225433526011,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9616228070175439,
+      "id": "https://github.com/mathiasbynens/emoji-regex"
+    },
+    {
+      "level": 1,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-01-11",
+      "updatedAt": "2024-12-19",
+      "starCount": 3492,
+      "forkCount": 1041,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 370638.76337887003,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/prysmaticlabs/prysm"
+    },
+    {
+      "level": 1,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-12-26",
+      "updatedAt": "2024-12-19",
+      "starCount": 47933,
+      "forkCount": 20331,
+      "numPackages": 1,
+      "numDependentsInOso": 238,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 2657310.869683773,
+      "totalFundingUsdSince2023": 2496187.6791883335,
+      "osoDependencyRank": 0.38208092485549133,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9907407407407407,
+      "id": "https://github.com/ethereum/go-ethereum"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-08-23",
+      "updatedAt": "2024-12-12",
+      "starCount": 157,
+      "forkCount": 47,
+      "numPackages": 1,
+      "numDependentsInOso": 165,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 791769.407770362,
+      "totalFundingUsdSince2023": 791769.407770362,
+      "osoDependencyRank": 0.33005780346820807,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9691358024691358,
+      "id": "https://github.com/ipfs/go-cid"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-04-06",
+      "updatedAt": "2024-12-19",
+      "starCount": 10249,
+      "forkCount": 1330,
+      "numPackages": 1,
+      "numDependentsInOso": 97,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 93678.3663341146,
+      "totalFundingUsdSince2023": 93678.3663341146,
+      "osoDependencyRank": 0.2682080924855491,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.8827160493827161,
+      "id": "https://github.com/quic-go/quic-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-01-29",
+      "updatedAt": "2024-12-18",
+      "starCount": 8083,
+      "forkCount": 612,
+      "numPackages": 1,
+      "numDependentsInOso": 135,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 1500.0,
+      "totalFundingUsdSince2023": 1500.0,
+      "osoDependencyRank": 0.2953757225433526,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9320987654320988,
+      "id": "https://github.com/google/pprof"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-09-30",
+      "updatedAt": "2024-12-19",
+      "starCount": 6140,
+      "forkCount": 1088,
+      "numPackages": 1,
+      "numDependentsInOso": 142,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 1696389.680917599,
+      "totalFundingUsdSince2023": 1696389.680917599,
+      "osoDependencyRank": 0.3086705202312139,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9351851851851852,
+      "id": "https://github.com/libp2p/go-libp2p"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-03-08",
+      "updatedAt": "2024-12-17",
+      "starCount": 932,
+      "forkCount": 215,
+      "numPackages": 1,
+      "numDependentsInOso": 116,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 96852.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.2832369942196532,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9104938271604939,
+      "id": "https://github.com/getsentry/sentry-go"
+    },
+    {
+      "level": 2,
+      "language": "Assembly",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-06-22",
+      "updatedAt": "2024-12-18",
+      "starCount": 482,
+      "forkCount": 181,
+      "numPackages": 2,
+      "numDependentsInOso": 194,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 287008.855,
+      "totalFundingUsdSince2023": 287008.855,
+      "osoDependencyRank": 0.35202312138728326,
+      "numReposInSameLanguage": 3,
+      "osoDependencyRankForLanguage": 1.0,
+      "id": "https://github.com/supranational/blst"
+    },
+    {
+      "level": 2,
+      "language": "Assembly",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-01-10",
+      "updatedAt": "2024-11-22",
+      "starCount": 20,
+      "forkCount": 9,
+      "numPackages": 1,
+      "numDependentsInOso": 23,
+      "listOfFunders": [
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 370638.76337887003,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.19826589595375724,
+      "numReposInSameLanguage": 3,
+      "osoDependencyRankForLanguage": 0.5,
+      "id": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2024-06-19",
+      "updatedAt": "2024-12-16",
+      "starCount": 8,
+      "forkCount": 5,
+      "numPackages": 1,
+      "numDependentsInOso": 128,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 192087.74,
+      "totalFundingUsdSince2023": 192087.74,
+      "osoDependencyRank": 0.29364161849710985,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9259259259259259,
+      "id": "https://github.com/crate-crypto/go-kzg-4844"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-10-16",
+      "updatedAt": "2024-12-19",
+      "starCount": 24845,
+      "forkCount": 2272,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/sirupsen/logrus"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-10-16",
+      "updatedAt": "2024-12-19",
+      "starCount": 23682,
+      "forkCount": 1605,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/stretchr/testify"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-10-16",
+      "updatedAt": "2024-12-19",
+      "starCount": 22761,
+      "forkCount": 3495,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/gorilla/websocket"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-07-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 22485,
+      "forkCount": 1712,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/urfave/cli"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-02-18",
+      "updatedAt": "2024-12-19",
+      "starCount": 22199,
+      "forkCount": 1440,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/uber-go/zap"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-12-08",
+      "updatedAt": "2024-12-19",
+      "starCount": 21225,
+      "forkCount": 4418,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-02-12",
+      "updatedAt": "2024-12-19",
+      "starCount": 17118,
+      "forkCount": 1325,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/go-playground/validator"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-05-18",
+      "updatedAt": "2024-12-19",
+      "starCount": 14019,
+      "forkCount": 1661,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 9857.0,
+      "totalFundingUsdSince2023": 100.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pion/webrtc"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-11-30",
+      "updatedAt": "2024-12-19",
+      "starCount": 13494,
+      "forkCount": 1030,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/json-iterator/go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-07-22",
+      "updatedAt": "2024-12-19",
+      "starCount": 12996,
+      "forkCount": 1393,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/golang/groupcache"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-04-18",
+      "updatedAt": "2024-12-19",
+      "starCount": 10721,
+      "forkCount": 1588,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-06-28",
+      "updatedAt": "2024-12-19",
+      "starCount": 9711,
+      "forkCount": 920,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-08-25",
+      "updatedAt": "2024-12-19",
+      "starCount": 9167,
+      "forkCount": 2961,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/kubernetes/client-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-08-23",
+      "updatedAt": "2024-12-19",
+      "starCount": 8419,
+      "forkCount": 664,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-06-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 8377,
+      "forkCount": 649,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-01-02",
+      "updatedAt": "2024-12-19",
+      "starCount": 8232,
+      "forkCount": 878,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/patrickmn/go-cache"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-12-27",
+      "updatedAt": "2024-12-19",
+      "starCount": 8203,
+      "forkCount": 700,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pkg/errors"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2010-08-03",
+      "updatedAt": "2024-12-19",
+      "starCount": 8118,
+      "forkCount": 1144,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/miekg/dns"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-05-20",
+      "updatedAt": "2024-12-19",
+      "starCount": 7939,
+      "forkCount": 681,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-02-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 7425,
+      "forkCount": 622,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/fatih/color"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2021-05-18",
+      "updatedAt": "2024-12-19",
+      "starCount": 7403,
+      "forkCount": 356,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/golang-jwt/jwt"
+    },
+    {
+      "level": 1,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-05-27",
+      "updatedAt": "2024-12-19",
+      "starCount": 3167,
+      "forkCount": 1154,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 237160.421099024,
+      "totalFundingUsdSince2023": 237160.421099024,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/erigontech/erigon"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-07-16",
+      "updatedAt": "2024-12-19",
+      "starCount": 8032,
+      "forkCount": 1883,
+      "numPackages": 53,
+      "numDependentsInOso": 1546,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin",
+        "Open Collective"
+      ],
+      "totalFundingUsd": 1911409.316915849,
+      "totalFundingUsdSince2023": 1424332.8360155046,
+      "osoDependencyRank": 0.8809248554913295,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.907563025210084,
+      "id": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-10-27",
+      "updatedAt": "2024-12-11",
+      "starCount": 101,
+      "forkCount": 58,
+      "numPackages": 1,
+      "numDependentsInOso": 1,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 237160.421099024,
+      "totalFundingUsdSince2023": 237160.421099024,
+      "osoDependencyRank": 0.16647398843930636,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.8055555555555556,
+      "id": "https://github.com/erigontech/interfaces"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2021-10-13",
+      "updatedAt": "2024-12-10",
+      "starCount": 33,
+      "forkCount": 14,
+      "numPackages": 1,
+      "numDependentsInOso": 64,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 192087.74,
+      "totalFundingUsdSince2023": 192087.74,
+      "osoDependencyRank": 0.23410404624277456,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.8611111111111112,
+      "id": "https://github.com/crate-crypto/go-ipa"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-06-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 101522,
+      "forkCount": 12553,
+      "numPackages": 3,
+      "numDependentsInOso": 1703,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9641618497109826,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9621848739495799,
+      "id": "https://github.com/microsoft/typescript"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-10-05",
+      "updatedAt": "2024-12-19",
+      "starCount": 48881,
+      "forkCount": 30217,
+      "numPackages": 2107,
+      "numDependentsInOso": 1832,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 1.0,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 1.0,
+      "id": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-09-03",
+      "updatedAt": "2024-12-19",
+      "starCount": 38626,
+      "forkCount": 2863,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/spf13/cobra"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-11-09",
+      "updatedAt": "2024-12-19",
+      "starCount": 21859,
+      "forkCount": 2443,
+      "numPackages": 1,
+      "numDependentsInOso": 1690,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9572254335260115,
+      "numReposInSameLanguage": 913,
+      "osoDependencyRankForLanguage": 0.9320175438596491,
+      "id": "https://github.com/websockets/ws"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-10-15",
+      "updatedAt": "2024-12-19",
+      "starCount": 18802,
+      "forkCount": 993,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/go-chi/chi"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-12-05",
+      "updatedAt": "2024-12-19",
+      "starCount": 16673,
+      "forkCount": 1471,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/julienschmidt/httprouter"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-09-30",
+      "updatedAt": "2024-12-19",
+      "starCount": 19457,
+      "forkCount": 4984,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin",
+        "Octant"
+      ],
+      "totalFundingUsd": 976818.7364161767,
+      "totalFundingUsdSince2023": 976818.7364161767,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/web3/web3.js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-07-22",
+      "updatedAt": "2024-12-19",
+      "starCount": 2627,
+      "forkCount": 901,
+      "numPackages": 1,
+      "numDependentsInOso": 673,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 1109377.1454766958,
+      "totalFundingUsdSince2023": 1016603.212276547,
+      "osoDependencyRank": 0.5589595375722544,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.5084033613445378,
+      "id": "https://github.com/wevm/viem"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-06-20",
+      "updatedAt": "2024-12-19",
+      "starCount": 57249,
+      "forkCount": 8627,
+      "numPackages": 38,
+      "numDependentsInOso": 244,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 697730.38,
+      "totalFundingUsdSince2023": 212.01,
+      "osoDependencyRank": 0.38670520231213873,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.2605042016806723,
+      "id": "https://github.com/facebook/docusaurus"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-03-15",
+      "updatedAt": "2024-12-19",
+      "starCount": 30864,
+      "forkCount": 3005,
+      "numPackages": 2,
+      "numDependentsInOso": 1299,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 70.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7780346820809249,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.819327731092437,
+      "id": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-10-28",
+      "updatedAt": "2024-12-19",
+      "starCount": 30736,
+      "forkCount": 1228,
+      "numPackages": 1,
+      "numDependentsInOso": 255,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 13400.0,
+      "totalFundingUsdSince2023": 4400.0,
+      "osoDependencyRank": 0.3942196531791908,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.2689075630252101,
+      "id": "https://github.com/vercel/swr"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-03-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 30349,
+      "forkCount": 1619,
+      "numPackages": 8,
+      "numDependentsInOso": 581,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 33524.94,
+      "totalFundingUsdSince2023": 18315.429999999997,
+      "osoDependencyRank": 0.5300578034682081,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.46638655462184875,
+      "id": "https://github.com/floating-ui/floating-ui"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-09-24",
+      "updatedAt": "2024-12-19",
+      "starCount": 28583,
+      "forkCount": 1565,
+      "numPackages": 1,
+      "numDependentsInOso": 1466,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 40958.0,
+      "totalFundingUsdSince2023": 12058.0,
+      "osoDependencyRank": 0.8398843930635839,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8823529411764706,
+      "id": "https://github.com/postcss/postcss"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-01-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 15379,
+      "forkCount": 2749,
+      "numPackages": 12,
+      "numDependentsInOso": 1404,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 91561.17,
+      "totalFundingUsdSince2023": 59274.73000000001,
+      "osoDependencyRank": 0.8109826589595376,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8613445378151261,
+      "id": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-09-01",
+      "updatedAt": "2024-12-18",
+      "starCount": 10600,
+      "forkCount": 424,
+      "numPackages": 18,
+      "numDependentsInOso": 776,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 5128.879999999999,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.5826589595375723,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.5756302521008403,
+      "id": "https://github.com/gregberge/svgr"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-02-01",
+      "updatedAt": "2024-12-19",
+      "starCount": 8048,
+      "forkCount": 1598,
+      "numPackages": 29,
+      "numDependentsInOso": 1101,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 96852.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.7184873949579832,
+      "id": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-09-10",
+      "updatedAt": "2024-12-19",
+      "starCount": 7503,
+      "forkCount": 1123,
+      "numPackages": 39,
+      "numDependentsInOso": 328,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 62911.93,
+      "totalFundingUsdSince2023": 17712.22,
+      "osoDependencyRank": 0.43872832369942194,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.3025210084033613,
+      "id": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-03-18",
+      "updatedAt": "2024-12-19",
+      "starCount": 3687,
+      "forkCount": 236,
+      "numPackages": 5,
+      "numDependentsInOso": 1185,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 150.0,
+      "totalFundingUsdSince2023": 105.0,
+      "osoDependencyRank": 0.7260115606936416,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.7605042016806722,
+      "id": "https://github.com/inikulin/parse5"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-07-10",
+      "updatedAt": "2024-12-19",
+      "starCount": 2611,
+      "forkCount": 769,
+      "numPackages": 37,
+      "numDependentsInOso": 1361,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 211072.774778132,
+      "totalFundingUsdSince2023": 211072.774778132,
+      "osoDependencyRank": 0.7953757225433526,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8445378151260504,
+      "id": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-04-04",
+      "updatedAt": "2024-12-11",
+      "starCount": 1464,
+      "forkCount": 478,
+      "numPackages": 2,
+      "numDependentsInOso": 1083,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 119173.11160226,
+      "totalFundingUsdSince2023": 119173.11160226,
+      "osoDependencyRank": 0.6965317919075145,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.7142857142857143,
+      "id": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-10-19",
+      "updatedAt": "2024-12-13",
+      "starCount": 972,
+      "forkCount": 211,
+      "numPackages": 1,
+      "numDependentsInOso": 1403,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 265003.92000000004,
+      "totalFundingUsdSince2023": 57000.0,
+      "osoDependencyRank": 0.8104046242774566,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8571428571428571,
+      "id": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-09-24",
+      "updatedAt": "2024-12-19",
+      "starCount": 739,
+      "forkCount": 63,
+      "numPackages": 1,
+      "numDependentsInOso": 803,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 5387.0,
+      "totalFundingUsdSince2023": 3177.0,
+      "osoDependencyRank": 0.5913294797687861,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.6008403361344538,
+      "id": "https://github.com/import-js/eslint-import-resolver-typescript"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-01-13",
+      "updatedAt": "2024-12-16",
+      "starCount": 328,
+      "forkCount": 63,
+      "numPackages": 1,
+      "numDependentsInOso": 1279,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 1630.67,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7653179190751445,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8025210084033614,
+      "id": "https://github.com/fb55/entities"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2021-10-12",
+      "updatedAt": "2024-10-29",
+      "starCount": 312,
+      "forkCount": 7,
+      "numPackages": 1,
+      "numDependentsInOso": 538,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 19240.64,
+      "totalFundingUsdSince2023": 200.25,
+      "osoDependencyRank": 0.5213872832369942,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.4495798319327731,
+      "id": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-09-29",
+      "updatedAt": "2024-11-22",
+      "starCount": 303,
+      "forkCount": 36,
+      "numPackages": 1,
+      "numDependentsInOso": 1285,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 5000.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7682080924855491,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8067226890756303,
+      "id": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-05-09",
+      "updatedAt": "2024-01-11",
+      "starCount": 2,
+      "forkCount": 8,
+      "numPackages": 11,
+      "numDependentsInOso": 284,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 147230.06999999995,
+      "totalFundingUsdSince2023": 109771.23000000001,
+      "osoDependencyRank": 0.4115606936416185,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.2773109243697479,
+      "id": "https://github.com/pnpm/components"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-05-16",
+      "updatedAt": "2024-12-19",
+      "starCount": 53528,
+      "forkCount": 10370,
+      "numPackages": 5,
+      "numDependentsInOso": 831,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.5959537572254335,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.6092436974789915,
+      "id": "https://github.com/remix-run/react-router"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-12-10",
+      "updatedAt": "2024-12-19",
+      "starCount": 44359,
+      "forkCount": 6474,
+      "numPackages": 45,
+      "numDependentsInOso": 1301,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7786127167630058,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8235294117647058,
+      "id": "https://github.com/jestjs/jest"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-12-04",
+      "updatedAt": "2024-12-19",
+      "starCount": 35768,
+      "forkCount": 2265,
+      "numPackages": 122,
+      "numDependentsInOso": 205,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3578034682080925,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.226890756302521,
+      "id": "https://github.com/lerna/lerna"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-07-02",
+      "updatedAt": "2024-12-19",
+      "starCount": 32986,
+      "forkCount": 1784,
+      "numPackages": 1,
+      "numDependentsInOso": 1303,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7803468208092486,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8277310924369747,
+      "id": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-08-11",
+      "updatedAt": "2024-12-19",
+      "starCount": 23998,
+      "forkCount": 2393,
+      "numPackages": 59,
+      "numDependentsInOso": 149,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.31445086705202313,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.19327731092436976,
+      "id": "https://github.com/nrwl/nx"
+    },
+    {
+      "level": 1,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2021-06-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 180,
+      "forkCount": 31,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 214333.73056824302,
+      "totalFundingUsdSince2023": 214333.73056824302,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/grandinetech/grandine"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-08-13",
+      "updatedAt": "2023-11-08",
+      "starCount": 7,
+      "forkCount": 22,
+      "numPackages": 2,
+      "numDependentsInOso": 4,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 107.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.1745664739884393,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.028409090909090908,
+      "id": "https://github.com/heim-rs/darwin-libproc"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-08-08",
+      "updatedAt": "2024-12-19",
+      "starCount": 4131,
+      "forkCount": 471,
+      "numPackages": 5,
+      "numDependentsInOso": 46,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.2208092485549133,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.14772727272727273,
+      "id": "https://github.com/hickory-dns/hickory-dns"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-11-04",
+      "updatedAt": "2024-12-19",
+      "starCount": 3285,
+      "forkCount": 372,
+      "numPackages": 2,
+      "numDependentsInOso": 69,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.23699421965317918,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.19318181818181818,
+      "id": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-03-09",
+      "updatedAt": "2024-12-19",
+      "starCount": 2444,
+      "forkCount": 150,
+      "numPackages": 2,
+      "numDependentsInOso": 38,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.21329479768786128,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.125,
+      "id": "https://github.com/burntsushi/quickcheck"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-12-28",
+      "updatedAt": "2024-12-17",
+      "starCount": 1420,
+      "forkCount": 757,
+      "numPackages": 2,
+      "numDependentsInOso": 213,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.36358381502890175,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.5681818181818182,
+      "id": "https://github.com/sfackler/rust-openssl"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-06-22",
+      "updatedAt": "2024-12-19",
+      "starCount": 1218,
+      "forkCount": 309,
+      "numPackages": 16,
+      "numDependentsInOso": 12,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 1179805.585337423,
+      "totalFundingUsdSince2023": 1171552.36501416,
+      "osoDependencyRank": 0.1884393063583815,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.0546218487394958,
+      "id": "https://github.com/chainsafe/lodestar"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-06-08",
+      "updatedAt": "2024-12-03",
+      "starCount": 34,
+      "forkCount": 23,
+      "numPackages": 2,
+      "numDependentsInOso": 388,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 791769.407770362,
+      "totalFundingUsdSince2023": 791769.407770362,
+      "osoDependencyRank": 0.4745664739884393,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.33613445378151263,
+      "id": "https://github.com/ipfs/protons"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-07-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 208179,
+      "forkCount": 33682,
+      "numPackages": 3,
+      "numDependentsInOso": 289,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 703993.0400000002,
+      "totalFundingUsdSince2023": 234934.91,
+      "osoDependencyRank": 0.41560693641618496,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.2815126050420168,
+      "id": "https://github.com/vuejs/vue"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2021-12-03",
+      "updatedAt": "2024-12-19",
+      "starCount": 13288,
+      "forkCount": 1209,
+      "numPackages": 15,
+      "numDependentsInOso": 340,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 7123.34,
+      "totalFundingUsdSince2023": 7123.34,
+      "osoDependencyRank": 0.44682080924855494,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.3067226890756303,
+      "id": "https://github.com/vitest-dev/vitest"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-08-30",
+      "updatedAt": "2024-12-19",
+      "starCount": 9125,
+      "forkCount": 2526,
+      "numPackages": 26,
+      "numDependentsInOso": 30,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 29252.51,
+      "totalFundingUsdSince2023": 27368.01,
+      "osoDependencyRank": 0.2069364161849711,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.09663865546218488,
+      "id": "https://github.com/webdriverio/webdriverio"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-07-23",
+      "updatedAt": "2024-12-19",
+      "starCount": 2355,
+      "forkCount": 447,
+      "numPackages": 68,
+      "numDependentsInOso": 182,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 1696389.680917599,
+      "totalFundingUsdSince2023": 1696389.680917599,
+      "osoDependencyRank": 0.34508670520231216,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.21428571428571427,
+      "id": "https://github.com/libp2p/js-libp2p"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-05-10",
+      "updatedAt": "2024-12-16",
+      "starCount": 347,
+      "forkCount": 106,
+      "numPackages": 1,
+      "numDependentsInOso": 90,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 70444.81,
+      "totalFundingUsdSince2023": 16089.400000000001,
+      "osoDependencyRank": 0.26011560693641617,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.15546218487394958,
+      "id": "https://github.com/electron/get"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2023-07-14",
+      "updatedAt": "2024-12-02",
+      "starCount": 62,
+      "forkCount": 21,
+      "numPackages": 3,
+      "numDependentsInOso": 371,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 56450.16999999998,
+      "totalFundingUsdSince2023": 32085.600000000002,
+      "osoDependencyRank": 0.4687861271676301,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.31932773109243695,
+      "id": "https://github.com/swc-project/pkgs"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-05-09",
+      "updatedAt": "2024-12-19",
+      "starCount": 89127,
+      "forkCount": 9103,
+      "numPackages": 3,
+      "numDependentsInOso": 235,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3815028901734104,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.25210084033613445,
+      "id": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "level": 1,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-07-06",
+      "updatedAt": "2024-12-19",
+      "starCount": 2996,
+      "forkCount": 778,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 1910814.6365555478,
+      "totalFundingUsdSince2023": 1552985.061669217,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/sigp/lighthouse"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": true,
+      "createdAt": "2018-05-25",
+      "updatedAt": "2024-10-15",
+      "starCount": 71,
+      "forkCount": 38,
+      "numPackages": 2,
+      "numDependentsInOso": 6,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 590.77,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.1791907514450867,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.03977272727272727,
+      "id": "https://github.com/mozilla/lmdb-rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-08-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 12900,
+      "forkCount": 1088,
+      "numPackages": 7,
+      "numDependentsInOso": 34,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.21098265895953758,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.11363636363636363,
+      "id": "https://github.com/diesel-rs/diesel"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-05-24",
+      "updatedAt": "2024-12-18",
+      "starCount": 2515,
+      "forkCount": 794,
+      "numPackages": 11,
+      "numDependentsInOso": 140,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3040462427745665,
+      "numReposInSameLanguage": 177,
+      "osoDependencyRankForLanguage": 0.44886363636363635,
+      "id": "https://github.com/gakonst/ethers-rs"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-11-23",
+      "updatedAt": "2024-12-19",
+      "starCount": 9823,
+      "forkCount": 1582,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/golang/protobuf"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-01-23",
+      "updatedAt": "2024-12-18",
+      "starCount": 6181,
+      "forkCount": 968,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/syndtr/goleveldb"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-01-09",
+      "updatedAt": "2024-12-19",
+      "starCount": 6111,
+      "forkCount": 367,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/davecgh/go-spew"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-11-04",
+      "updatedAt": "2024-12-19",
+      "starCount": 5698,
+      "forkCount": 383,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/dop251/goja"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-12-03",
+      "updatedAt": "2024-12-18",
+      "starCount": 5668,
+      "forkCount": 808,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/gogo/protobuf"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2011-05-27",
+      "updatedAt": "2024-12-17",
+      "starCount": 5478,
+      "forkCount": 602,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/russross/blackfriday"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-01-25",
+      "updatedAt": "2024-12-19",
+      "starCount": 5459,
+      "forkCount": 1189,
+      "numPackages": 1,
+      "numDependentsInOso": 232,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3786127167630058,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9876543209876543,
+      "id": "https://github.com/prometheus/client_golang"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-07-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 5041,
+      "forkCount": 465,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/cockroachdb/pebble"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-07-21",
+      "updatedAt": "2024-12-19",
+      "starCount": 4845,
+      "forkCount": 323,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/klauspost/compress"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-10-18",
+      "updatedAt": "2024-12-15",
+      "starCount": 4662,
+      "forkCount": 493,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/graph-gophers/graphql-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-02-04",
+      "updatedAt": "2024-12-16",
+      "starCount": 4317,
+      "forkCount": 369,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/olekukonko/tablewriter"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-07-03",
+      "updatedAt": "2024-12-19",
+      "starCount": 4294,
+      "forkCount": 278,
+      "numPackages": 2,
+      "numDependentsInOso": 215,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3647398843930636,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.9783950617283951,
+      "id": "https://github.com/deckarep/golang-set"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-05-05",
+      "updatedAt": "2024-12-19",
+      "starCount": 4236,
+      "forkCount": 164,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/uber-go/automaxprocs"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-11-26",
+      "updatedAt": "2024-12-19",
+      "starCount": 3497,
+      "forkCount": 316,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/opentracing/opentracing-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-04-19",
+      "updatedAt": "2024-12-19",
+      "starCount": 3153,
+      "forkCount": 150,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/goccy/go-json"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-07-02",
+      "updatedAt": "2024-12-19",
+      "starCount": 2709,
+      "forkCount": 653,
+      "numPackages": 38,
+      "numDependentsInOso": 61,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.230635838150289,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.8518518518518519,
+      "id": "https://github.com/aws/aws-sdk-go-v2"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-10-25",
+      "updatedAt": "2024-12-17",
+      "starCount": 2699,
+      "forkCount": 222,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 325,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/rs/cors"
+    },
+    {
+      "level": 1,
+      "language": "Nim",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-07-20",
+      "updatedAt": "2024-12-16",
+      "starCount": 555,
+      "forkCount": 244,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 1001923.915035258,
+      "totalFundingUsdSince2023": 1001923.915035258,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 1,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/status-im/nimbus-eth2"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2010-08-24",
+      "updatedAt": "2024-12-19",
+      "starCount": 44063,
+      "forkCount": 18081,
+      "numPackages": 1,
+      "numDependentsInOso": 180,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 306466.6900000001,
+      "totalFundingUsdSince2023": 42147.130000000005,
+      "osoDependencyRank": 0.3439306358381503,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.8333333333333334,
+      "id": "https://github.com/pandas-dev/pandas"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2010-09-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 28362,
+      "forkCount": 10225,
+      "numPackages": 1,
+      "numDependentsInOso": 212,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 236625.3399999999,
+      "totalFundingUsdSince2023": 82313.24,
+      "osoDependencyRank": 0.36184971098265895,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.875,
+      "id": "https://github.com/numpy/numpy"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2010-02-19",
+      "updatedAt": "2024-12-13",
+      "starCount": 2660,
+      "forkCount": 250,
+      "numPackages": 1,
+      "numDependentsInOso": 54,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 590.77,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.2254335260115607,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.4583333333333333,
+      "id": "https://github.com/mozilla/bleach"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-02-10",
+      "updatedAt": "2024-12-18",
+      "starCount": 4014,
+      "forkCount": 802,
+      "numPackages": 1,
+      "numDependentsInOso": 72,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.24104046242774566,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.5416666666666666,
+      "id": "https://github.com/prometheus/client_python"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-01-15",
+      "updatedAt": "2024-12-19",
+      "starCount": 1904,
+      "forkCount": 142,
+      "numPackages": 1,
+      "numDependentsInOso": 55,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.22716763005780347,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.5,
+      "id": "https://github.com/microsoft/debugpy"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-05-10",
+      "updatedAt": "2024-12-19",
+      "starCount": 749,
+      "forkCount": 122,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 25,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/pypa/build"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-03-20",
+      "updatedAt": "2024-12-19",
+      "starCount": 2522,
+      "forkCount": 999,
+      "numPackages": 7,
+      "numDependentsInOso": 14,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 1109272.0890155984,
+      "totalFundingUsdSince2023": 1109271.1090155984,
+      "osoDependencyRank": 0.1907514450867052,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.06302521008403361,
+      "id": "https://github.com/ethereum/remix-project"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-08-26",
+      "updatedAt": "2024-12-19",
+      "starCount": 1478,
+      "forkCount": 723,
+      "numPackages": 38,
+      "numDependentsInOso": 887,
+      "listOfFunders": [
+        "Open Collective",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 136708.0018018118,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.6242774566473989,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.6386554621848739,
+      "id": "https://github.com/walletconnect/walletconnect-monorepo"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-06-19",
+      "updatedAt": "2024-12-15",
+      "starCount": 631,
+      "forkCount": 271,
+      "numPackages": 5,
+      "numDependentsInOso": 421,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 1179876.3433536743,
+      "totalFundingUsdSince2023": 1170386.1365289977,
+      "osoDependencyRank": 0.484393063583815,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.36134453781512604,
+      "id": "https://github.com/openzeppelin/openzeppelin-upgrades"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-08-03",
+      "updatedAt": "2024-12-15",
+      "starCount": 493,
+      "forkCount": 48,
+      "numPackages": 1,
+      "numDependentsInOso": 774,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 1109377.1454766958,
+      "totalFundingUsdSince2023": 1016603.212276547,
+      "osoDependencyRank": 0.5815028901734104,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.5714285714285714,
+      "id": "https://github.com/wevm/abitype"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-06-12",
+      "updatedAt": "2024-12-19",
+      "starCount": 48111,
+      "forkCount": 8387,
+      "numPackages": 11,
+      "numDependentsInOso": 437,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 703993.0400000002,
+      "totalFundingUsdSince2023": 234934.91,
+      "osoDependencyRank": 0.48786127167630056,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.36554621848739494,
+      "id": "https://github.com/vuejs/core"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-04-24",
+      "updatedAt": "2024-12-18",
+      "starCount": 14350,
+      "forkCount": 1361,
+      "numPackages": 29,
+      "numDependentsInOso": 221,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 400.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3676300578034682,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.23949579831932774,
+      "id": "https://github.com/formatjs/formatjs"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-10-05",
+      "updatedAt": "2024-12-19",
+      "starCount": 6535,
+      "forkCount": 523,
+      "numPackages": 25,
+      "numDependentsInOso": 10,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 70444.81,
+      "totalFundingUsdSince2023": 16089.400000000001,
+      "osoDependencyRank": 0.18554913294797687,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.046218487394957986,
+      "id": "https://github.com/electron/forge"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-05-01",
+      "updatedAt": "2024-12-19",
+      "starCount": 1514,
+      "forkCount": 581,
+      "numPackages": 1,
+      "numDependentsInOso": 690,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 94050.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.5612716763005781,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.5210084033613446,
+      "id": "https://github.com/coinbase/coinbase-wallet-sdk"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-10-24",
+      "updatedAt": "2024-02-28",
+      "starCount": 45,
+      "forkCount": 17,
+      "numPackages": 1,
+      "numDependentsInOso": 468,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 67670.36,
+      "totalFundingUsdSince2023": 16681.079999999998,
+      "osoDependencyRank": 0.4953757225433526,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.37815126050420167,
+      "id": "https://github.com/rollup/rollup-pluginutils"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": true,
+      "createdAt": "2016-08-01",
+      "updatedAt": "2023-06-20",
+      "starCount": 14,
+      "forkCount": 11,
+      "numPackages": 1,
+      "numDependentsInOso": 61,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 147230.06999999995,
+      "totalFundingUsdSince2023": 109771.23000000001,
+      "osoDependencyRank": 0.230635838150289,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.12605042016806722,
+      "id": "https://github.com/pnpm/cmd-shim"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-09-02",
+      "updatedAt": "2024-12-19",
+      "starCount": 1899,
+      "forkCount": 944,
+      "numPackages": 0,
+      "numDependentsInOso": 0,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 804376.0,
+      "totalFundingUsdSince2023": 179376.0,
+      "osoDependencyRank": 0.0,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/safe-global/safe-smart-account"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-04-14",
+      "updatedAt": "2024-12-18",
+      "starCount": 7385,
+      "forkCount": 1437,
+      "numPackages": 12,
+      "numDependentsInOso": 757,
+      "listOfFunders": [
+        "Gitcoin",
+        "Optimism"
+      ],
+      "totalFundingUsd": 1196181.8242535084,
+      "totalFundingUsdSince2023": 981156.5903086627,
+      "osoDependencyRank": 0.576300578034682,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.5546218487394958,
+      "id": "https://github.com/nomicfoundation/hardhat"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-03-19",
+      "updatedAt": "2024-12-13",
+      "starCount": 1206,
+      "forkCount": 297,
+      "numPackages": 3,
+      "numDependentsInOso": 471,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 497560.24418047204,
+      "totalFundingUsdSince2023": 444332.5610110313,
+      "osoDependencyRank": 0.49653179190751445,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.38235294117647056,
+      "id": "https://github.com/wighawag/hardhat-deploy"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2021-09-17",
+      "updatedAt": "2024-12-11",
+      "starCount": 94,
+      "forkCount": 93,
+      "numPackages": 1,
+      "numDependentsInOso": 11,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 804376.0,
+      "totalFundingUsdSince2023": 179376.0,
+      "osoDependencyRank": 0.18728323699421964,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.05042016806722689,
+      "id": "https://github.com/safe-global/safe-singleton-factory"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2010-12-28",
+      "updatedAt": "2024-12-19",
+      "starCount": 14689,
+      "forkCount": 906,
+      "numPackages": 1,
+      "numDependentsInOso": 1656,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.9416184971098266,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9495798319327731,
+      "id": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-07-15",
+      "updatedAt": "2024-12-18",
+      "starCount": 12940,
+      "forkCount": 534,
+      "numPackages": 2,
+      "numDependentsInOso": 1298,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.776878612716763,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8151260504201681,
+      "id": "https://github.com/typestrong/ts-node"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-01-25",
+      "updatedAt": "2024-12-19",
+      "starCount": 10915,
+      "forkCount": 504,
+      "numPackages": 1,
+      "numDependentsInOso": 1041,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.6751445086705202,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.6974789915966386,
+      "id": "https://github.com/gcanti/fp-ts"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-08-01",
+      "updatedAt": "2024-12-18",
+      "starCount": 8234,
+      "forkCount": 388,
+      "numPackages": 3,
+      "numDependentsInOso": 1446,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8312138728323699,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8739495798319328,
+      "id": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2020-05-13",
+      "updatedAt": "2024-12-19",
+      "starCount": 6466,
+      "forkCount": 244,
+      "numPackages": 23,
+      "numDependentsInOso": 1202,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7369942196531792,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.7773109243697479,
+      "id": "https://github.com/tsconfig/bases"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-11-07",
+      "updatedAt": "2024-12-18",
+      "starCount": 3972,
+      "forkCount": 134,
+      "numPackages": 1,
+      "numDependentsInOso": 1446,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8312138728323699,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8739495798319328,
+      "id": "https://github.com/cosmiconfig/cosmiconfig"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-07-07",
+      "updatedAt": "2024-12-18",
+      "starCount": 2671,
+      "forkCount": 152,
+      "numPackages": 4,
+      "numDependentsInOso": 1412,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8190751445086705,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.865546218487395,
+      "id": "https://github.com/jaredwray/keyv"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2012-05-28",
+      "updatedAt": "2024-12-18",
+      "starCount": 1369,
+      "forkCount": 160,
+      "numPackages": 1,
+      "numDependentsInOso": 1565,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8930635838150289,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9201680672268907,
+      "id": "https://github.com/jshttp/cookie"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-08-13",
+      "updatedAt": "2024-12-18",
+      "starCount": 1319,
+      "forkCount": 241,
+      "numPackages": 1,
+      "numDependentsInOso": 1015,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.6641618497109827,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.6890756302521008,
+      "id": "https://github.com/omnidan/node-emoji"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-07-09",
+      "updatedAt": "2024-12-18",
+      "starCount": 963,
+      "forkCount": 248,
+      "numPackages": 11,
+      "numDependentsInOso": 1515,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8664739884393063,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8949579831932774,
+      "id": "https://github.com/tootallnate/proxy-agents"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2015-09-11",
+      "updatedAt": "2024-12-19",
+      "starCount": 911,
+      "forkCount": 77,
+      "numPackages": 2,
+      "numDependentsInOso": 1213,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7433526011560694,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.7899159663865546,
+      "id": "https://github.com/gajus/table"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-09-25",
+      "updatedAt": "2024-12-15",
+      "starCount": 713,
+      "forkCount": 93,
+      "numPackages": 1,
+      "numDependentsInOso": 1334,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7890173410404624,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8361344537815126,
+      "id": "https://github.com/ethereum/js-ethereum-cryptography"
+    },
+    {
+      "level": 1,
+      "language": "Solidity",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2022-01-24",
+      "updatedAt": "2024-12-15",
+      "starCount": 1574,
+      "forkCount": 669,
+      "numPackages": 2,
+      "numDependentsInOso": 77,
+      "listOfFunders": [
+        "Optimism"
+      ],
+      "totalFundingUsd": 1648789.822954181,
+      "totalFundingUsdSince2023": 1648789.822954181,
+      "osoDependencyRank": 0.2468208092485549,
+      "numReposInSameLanguage": 3,
+      "osoDependencyRankForLanguage": 0.0,
+      "id": "https://github.com/eth-infinitism/account-abstraction"
+    },
+    {
+      "level": 2,
+      "language": "Solidity",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-08-01",
+      "updatedAt": "2024-12-19",
+      "starCount": 25121,
+      "forkCount": 11847,
+      "numPackages": 4,
+      "numDependentsInOso": 1071,
+      "listOfFunders": [
+        "Optimism",
+        "Gitcoin"
+      ],
+      "totalFundingUsd": 1179876.3433536743,
+      "totalFundingUsdSince2023": 1170386.1365289977,
+      "osoDependencyRank": 0.6884393063583815,
+      "numReposInSameLanguage": 3,
+      "osoDependencyRankForLanguage": 1.0,
+      "id": "https://github.com/openzeppelin/openzeppelin-contracts"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2010-02-25",
+      "updatedAt": "2024-12-18",
+      "starCount": 2197,
+      "forkCount": 319,
+      "numPackages": 1,
+      "numDependentsInOso": 1533,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.876878612716763,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.9033613445378151,
+      "id": "https://github.com/broofa/mime"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2016-12-30",
+      "updatedAt": "2024-12-16",
+      "starCount": 1830,
+      "forkCount": 104,
+      "numPackages": 1,
+      "numDependentsInOso": 1308,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.7820809248554913,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8319327731092437,
+      "id": "https://github.com/dividab/tsconfig-paths"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-01-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 1323,
+      "forkCount": 118,
+      "numPackages": 2,
+      "numDependentsInOso": 1484,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.8502890173410405,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.8865546218487395,
+      "id": "https://github.com/eemeli/yaml"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2017-01-15",
+      "updatedAt": "2024-12-19",
+      "starCount": 1280,
+      "forkCount": 104,
+      "numPackages": 21,
+      "numDependentsInOso": 31,
+      "listOfFunders": [
+        "Open Collective"
+      ],
+      "totalFundingUsd": 286.16,
+      "totalFundingUsdSince2023": 172.0,
+      "osoDependencyRank": 0.20751445086705203,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.10084033613445378,
+      "id": "https://github.com/streetsidesoftware/cspell"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2013-05-17",
+      "updatedAt": "2024-12-19",
+      "starCount": 20392,
+      "forkCount": 1302,
+      "numPackages": 16,
+      "numDependentsInOso": 988,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.653757225433526,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.6764705882352942,
+      "id": "https://github.com/sboudrias/inquirer.js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2018-10-29",
+      "updatedAt": "2024-12-19",
+      "starCount": 10513,
+      "forkCount": 380,
+      "numPackages": 12,
+      "numDependentsInOso": 297,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.42023121387283235,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.29411764705882354,
+      "id": "https://github.com/shikijs/shiki"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2014-05-24",
+      "updatedAt": "2024-12-18",
+      "starCount": 7822,
+      "forkCount": 708,
+      "numPackages": 2,
+      "numDependentsInOso": 234,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.3809248554913295,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.24789915966386555,
+      "id": "https://github.com/typestrong/typedoc"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "status": "indexed",
+      "isFork": false,
+      "createdAt": "2019-05-10",
+      "updatedAt": "2024-12-19",
+      "starCount": 2787,
+      "forkCount": 825,
+      "numPackages": 45,
+      "numDependentsInOso": 194,
+      "listOfFunders": [],
+      "totalFundingUsd": 0.0,
+      "totalFundingUsdSince2023": 0.0,
+      "osoDependencyRank": 0.35202312138728326,
+      "numReposInSameLanguage": 239,
+      "osoDependencyRankForLanguage": 0.22268907563025211,
+      "id": "https://github.com/open-telemetry/opentelemetry-js"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://github.com/ethereum/solidity",
+      "target": "https://github.com/readthedocs/sphinx_rtd_theme"
+    },
+    {
+      "source": "https://github.com/ethereum/solidity",
+      "target": "https://github.com/taminomara/sphinx-a4doc"
+    },
+    {
+      "source": "https://github.com/ethereum/solidity",
+      "target": "https://github.com/sphinx-doc/sphinx"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/python/importlib_metadata"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/legrandin/pycryptodome"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/pypa/packaging"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/sphinx-doc/sphinx"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/executablebooks/sphinx-copybutton"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/gristlabs/asttokens"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/pypa/wheel"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/agronholm/cbor2"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/lepture/shibuya"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest-xdist"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/peritus/bumpversion"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest-cov"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/hypothesisworks/hypothesis"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/tox-dev/tox"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/python/mypy"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/ipython/ipython"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest-asyncio"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pycqa/flake8"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/ethereum/eth-hash"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/python/typeshed"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-abi"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/psf/requests"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/pydantic/pydantic"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-typing"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/mlodewijck/pyunormalize"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-account"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-utils"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-hash"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/hexbytes"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/python/typing_extensions"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/aaugustin/websockets"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/bluealloy/revm"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/clap-rs/clap"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/boa-dev/boa"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/google/zerocopy"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/alloy-rs/core"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/getsentry/symbolic"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/hyperium/hyper"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/serde-rs/serde"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/tower-rs/tower"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/peternator7/strum"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/jeltef/derive_more"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rust-random/rand"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/tikv/pprof-rs"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/eslint/eslint"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/debug-js/debug"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/node-fetch/node-fetch"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/nodeca/js-yaml"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/epoberezkin/fast-deep-equal"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/webreflection/flatted"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/qix-/color-convert"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/kaelzhang/node-ignore"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/mysticatea/regexpp"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/colorjs/color-name"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/gulpjs/glob-parent"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/humanwhocodes/object-schema"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/ljharb/concat-map"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/lodash/lodash"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/caolan/async"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/tj/commander.js"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/chalk/chalk"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/acornjs/acorn"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/jprichardson/node-fs-extra"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/enquirer/enquirer"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/npm/node-semver"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/visionmedia/node-progress"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/alexei/sprintf.js"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/mathiasbynens/emoji-regex"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/ethereum/go-ethereum"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/ipfs/go-cid"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/quic-go/quic-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/google/pprof"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/libp2p/go-libp2p"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/getsentry/sentry-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/crate-crypto/go-kzg-4844"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/sirupsen/logrus"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/stretchr/testify"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/gorilla/websocket"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/uber-go/zap"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/go-playground/validator"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/pion/webrtc"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/json-iterator/go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/golang/groupcache"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/kubernetes/client-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/patrickmn/go-cache"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/pkg/errors"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/miekg/dns"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/fatih/color"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/golang-jwt/jwt"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/google/pprof"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/getsentry/sentry-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/crate-crypto/go-ipa"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/stretchr/testify"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/gorilla/websocket"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/golang/protobuf"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/pkg/errors"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/fatih/color"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/golang-jwt/jwt"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/syndtr/goleveldb"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/davecgh/go-spew"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/dop251/goja"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/gogo/protobuf"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/russross/blackfriday"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/prometheus/client_golang"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/cockroachdb/pebble"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/klauspost/compress"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/graph-gophers/graphql-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/olekukonko/tablewriter"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/deckarep/golang-set"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/uber-go/automaxprocs"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/opentracing/opentracing-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/goccy/go-json"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/aws/aws-sdk-go-v2"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/rs/cors"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/ipfs/go-cid"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/quic-go/quic-go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/google/pprof"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/libp2p/go-libp2p"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/erigontech/interfaces"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/crate-crypto/go-ipa"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/spf13/cobra"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/sirupsen/logrus"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/stretchr/testify"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/gorilla/websocket"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/uber-go/zap"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/websockets/ws"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/go-chi/chi"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/julienschmidt/httprouter"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/pion/webrtc"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/json-iterator/go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/pkg/errors"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/miekg/dns"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/wevm/viem"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/facebook/docusaurus"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/vercel/swr"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/floating-ui/floating-ui"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/gregberge/svgr"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/inikulin/parse5"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/import-js/eslint-import-resolver-typescript"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/pnpm/components"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/remix-run/react-router"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/jestjs/jest"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/lerna/lerna"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/nrwl/nx"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/vitest-dev/vitest"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/webdriverio/webdriverio"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/streetsidesoftware/cspell"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/swc-project/pkgs"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/sboudrias/inquirer.js"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/shikijs/shiki"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/typestrong/typedoc"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/open-telemetry/opentelemetry-js"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/clap-rs/clap"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/google/zerocopy"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/heim-rs/darwin-libproc"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/hyperium/hyper"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/serde-rs/serde"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/hickory-dns/hickory-dns"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/tower-rs/tower"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/burntsushi/quickcheck"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/peternator7/strum"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/jeltef/derive_more"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rust-random/rand"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/sfackler/rust-openssl"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/chainsafe/lodestar"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ipfs/protons"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/vuejs/vue"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/facebook/docusaurus"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/vitest-dev/vitest"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/gregberge/svgr"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/webdriverio/webdriverio"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/inikulin/parse5"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/libp2p/js-libp2p"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/electron/get"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/swc-project/pkgs"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/pnpm/components"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/remix-run/react-router"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/jestjs/jest"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/clap-rs/clap"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/google/zerocopy"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/alloy-rs/core"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/mozilla/lmdb-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/heim-rs/darwin-libproc"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/hyperium/hyper"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/diesel-rs/diesel"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/serde-rs/serde"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/hickory-dns/hickory-dns"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/tower-rs/tower"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/gakonst/ethers-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/burntsushi/quickcheck"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/peternator7/strum"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pandas-dev/pandas"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/numpy/numpy"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/mozilla/bleach"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/prometheus/client_python"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/microsoft/debugpy"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pypa/build"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pypa/packaging"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pypa/wheel"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethereum/remix-project"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/walletconnect/walletconnect-monorepo"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/openzeppelin/openzeppelin-upgrades"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/wevm/abitype"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ipfs/protons"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/vuejs/core"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/floating-ui/floating-ui"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/formatjs/formatjs"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/gregberge/svgr"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/electron/forge"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/inikulin/parse5"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/coinbase/coinbase-wallet-sdk"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/rollup/rollup-pluginutils"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/pnpm/cmd-shim"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/nomicfoundation/hardhat"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/wighawag/hardhat-deploy"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/safe-global/safe-singleton-factory"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/pnpm/components"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/typestrong/ts-node"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/gcanti/fp-ts"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/tsconfig/bases"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/cosmiconfig/cosmiconfig"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/jaredwray/keyv"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/jshttp/cookie"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/omnidan/node-emoji"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/tootallnate/proxy-agents"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/gajus/table"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethereum/js-ethereum-cryptography"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/openzeppelin/openzeppelin-contracts"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/nomicfoundation/hardhat"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/wighawag/hardhat-deploy"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/mysticatea/regexpp"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/typestrong/ts-node"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/gcanti/fp-ts"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/tsconfig/bases"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/cosmiconfig/cosmiconfig"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/jaredwray/keyv"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/broofa/mime"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/dividab/tsconfig-paths"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/jshttp/cookie"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/eemeli/yaml"
+    }
+  ]
+}

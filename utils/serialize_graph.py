@@ -2,9 +2,10 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from typing import Any, Dict, List, Union
+from datetime import date, datetime
 
 
-def to_native(obj: Any) -> Union[Dict, List, int, float, bool, None, Any]:
+def to_native(obj: Any) -> Union[Dict, List, int, float, bool, None, str, Any]:
     """
     Convert numpy and pandas data types to native Python types.
     
@@ -25,9 +26,11 @@ def to_native(obj: Any) -> Union[Dict, List, int, float, bool, None, Any]:
     elif isinstance(obj, list):
         return [to_native(v) for v in obj]
     elif isinstance(obj, (np.integer, np.floating, np.bool_)):
-        if pd.isna(obj):
-            return None
         return obj.item()
+    elif isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif isinstance(obj, (pd.Timestamp, datetime, date)):
+        return obj.isoformat()
     elif pd.isna(obj):
         return None
     else:
