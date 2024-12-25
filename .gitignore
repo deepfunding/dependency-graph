@@ -1,5 +1,7 @@
-# OSO
+# Local
 oso_gcp_credentials.json
+datasets/competition/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
