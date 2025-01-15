@@ -56,6 +56,10 @@ def process_graph(input_file, output_dir):
 
 if __name__ == "__main__":
     input_file = input("Enter the path to the input JSON file: ")
+    if input_file == "":
+        input_file = "graph/unweighted_graph_pruned_with_metadata.json"
     output_dir = input("Enter the directory path for output JSON files: ")
+    if output_dir == "":
+        output_dir = "datasets/pairwise"
     
     process_graph(input_file, output_dir)
