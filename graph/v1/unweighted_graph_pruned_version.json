@@ -1,0 +1,3060 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "level": 1,
+      "language": "Go",
+      "id": "https://github.com/prysmaticlabs/prysm"
+    },
+    {
+      "level": 1,
+      "language": "Go",
+      "id": "https://github.com/ethereum/go-ethereum"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/ipfs/go-cid"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/pion/webrtc"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/quic-go/quic-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/google/pprof"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/libp2p/go-libp2p"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/chzyer/readline"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/getsentry/sentry-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/mattn/go-isatty"
+    },
+    {
+      "level": 2,
+      "language": "Assembly",
+      "id": "https://github.com/supranational/blst"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/mmcloughlin/addchain"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/tklauser/go-sysconf"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/go-task/slim-sprig"
+    },
+    {
+      "level": 2,
+      "language": "Assembly",
+      "id": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/crate-crypto/go-kzg-4844"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/sirupsen/logrus"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/stretchr/testify"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/gorilla/websocket"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/urfave/cli"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/uber-go/zap"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/go-playground/validator"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/json-iterator/go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/golang/groupcache"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/kubernetes/client-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/patrickmn/go-cache"
+    },
+    {
+      "level": 1,
+      "language": "Rust",
+      "id": "https://github.com/sigp/lighthouse"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/clap-rs/clap"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/google/zerocopy"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/alloy-rs/core"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/mozilla/lmdb-rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/heim-rs/darwin-libproc"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/hyperium/hyper"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/diesel-rs/diesel"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/serde-rs/serde"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/hickory-dns/hickory-dns"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/tower-rs/tower"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/gakonst/ethers-rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/burntsushi/quickcheck"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/peternator7/strum"
+    },
+    {
+      "level": 1,
+      "language": "Java",
+      "id": "https://github.com/consensys/teku"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/babel/babel"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/eslint/eslint"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/debug-js/debug"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/node-fetch/node-fetch"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/nodeca/js-yaml"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/vercel/ms"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/epoberezkin/fast-deep-equal"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/webreflection/flatted"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/qix-/color-convert"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/kaelzhang/node-ignore"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/mysticatea/regexpp"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/colorjs/color-name"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/gulpjs/glob-parent"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/humanwhocodes/object-schema"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/ljharb/concat-map"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/lodash/lodash"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/caolan/async"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/tj/commander.js"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/chalk/chalk"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/acornjs/acorn"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/jprichardson/node-fs-extra"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/enquirer/enquirer"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/jquery/esprima"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/npm/node-semver"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/visionmedia/node-progress"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/alexei/sprintf.js"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/mathiasbynens/emoji-regex"
+    },
+    {
+      "level": 1,
+      "language": "Nim",
+      "id": "https://github.com/status-im/nimbus-eth2"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pandas-dev/pandas"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/numpy/numpy"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/mozilla/bleach"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/python/typing_extensions"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/python/mypy_extensions"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/python/importlib_metadata"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/psf/black"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ipython/ipython"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/prometheus/client_python"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/microsoft/debugpy"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pypa/build"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ipython/ipykernel"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pypa/packaging"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ipython/traitlets"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/tox-dev/platformdirs"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pypa/wheel"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/gristlabs/asttokens"
+    },
+    {
+      "level": 2,
+      "language": "Jupyter Notebook",
+      "id": "https://github.com/ipython/matplotlib-inline"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "id": "https://github.com/chainsafe/lodestar"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/ipfs/protons"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/vuejs/vue"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/facebook/docusaurus"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/postcss/postcss"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/vitest-dev/vitest"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/gregberge/svgr"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/webdriverio/webdriverio"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/inikulin/parse5"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "id": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/libp2p/js-libp2p"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/electron/get"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/fb55/entities"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/swc-project/pkgs"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/pnpm/components"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/microsoft/typescript"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/remix-run/react-router"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/jestjs/jest"
+    },
+    {
+      "level": 1,
+      "language": "Rust",
+      "id": "https://github.com/grandinetech/grandine"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/jeltef/derive_more"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/rust-random/rand"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/sfackler/rust-openssl"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/jedisct1/go-minisign"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/crate-crypto/go-ipa"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/golang/protobuf"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/pkg/errors"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/fatih/color"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/golang-jwt/jwt"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/syndtr/goleveldb"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/davecgh/go-spew"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/dop251/goja"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/gogo/protobuf"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/russross/blackfriday"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/prometheus/client_golang"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/cockroachdb/pebble"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/klauspost/compress"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/graph-gophers/graphql-go"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/olekukonko/tablewriter"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/deckarep/golang-set"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/uber-go/automaxprocs"
+    },
+    {
+      "level": 1,
+      "language": "C#",
+      "id": "https://github.com/nethermindeth/nethermind"
+    },
+    {
+      "level": 1,
+      "language": "Java",
+      "id": "https://github.com/hyperledger/besu"
+    },
+    {
+      "level": 1,
+      "language": "Go",
+      "id": "https://github.com/erigontech/erigon"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/bradfitz/iter"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/erigontech/interfaces"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/spf13/cobra"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/websockets/ws"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/go-chi/chi"
+    },
+    {
+      "level": 2,
+      "language": "Go",
+      "id": "https://github.com/julienschmidt/httprouter"
+    },
+    {
+      "level": 1,
+      "language": "Rust",
+      "id": "https://github.com/paradigmxyz/reth"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/bluealloy/revm"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/boa-dev/boa"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/getsentry/symbolic"
+    },
+    {
+      "level": 2,
+      "language": "Rust",
+      "id": "https://github.com/tikv/pprof-rs"
+    },
+    {
+      "level": 1,
+      "language": "C++",
+      "id": "https://github.com/ethereum/solidity"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/sphinx-doc/sphinx"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/taminomara/sphinx-a4doc"
+    },
+    {
+      "level": 2,
+      "language": "Sass",
+      "id": "https://github.com/readthedocs/sphinx_rtd_theme"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "id": "https://github.com/ethereum/remix-project"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/walletconnect/walletconnect-monorepo"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/openzeppelin/openzeppelin-upgrades"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/wevm/abitype"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/vuejs/core"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/floating-ui/floating-ui"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/formatjs/formatjs"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/electron/forge"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/coinbase/coinbase-wallet-sdk"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/rollup/rollup-pluginutils"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/pnpm/cmd-shim"
+    },
+    {
+      "level": 1,
+      "language": "Python",
+      "id": "https://github.com/vyperlang/vyper"
+    },
+    {
+      "level": 2,
+      "language": "JavaScript",
+      "id": "https://github.com/executablebooks/sphinx-copybutton"
+    },
+    {
+      "level": 2,
+      "language": "CSS",
+      "id": "https://github.com/lepture/shibuya"
+    },
+    {
+      "level": 2,
+      "language": "C",
+      "id": "https://github.com/agronholm/cbor2"
+    },
+    {
+      "level": 2,
+      "language": "C",
+      "id": "https://github.com/legrandin/pycryptodome"
+    },
+    {
+      "level": 1,
+      "language": "Python",
+      "id": "https://github.com/ethereum/web3.py"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-typing"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pydantic/pydantic"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/hexbytes"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/python/typeshed"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/aaugustin/websockets"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-abi"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/psf/requests"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-account"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-utils"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/ethereum/eth-hash"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "level": 2,
+      "language": "n/a (not indexed yet)",
+      "id": "https://github.com/mlodewijck/pyunormalize"
+    },
+    {
+      "level": 1,
+      "language": "Python",
+      "id": "https://github.com/ethereum/py-evm"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/hypothesisworks/hypothesis"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/python/mypy"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/peritus/bumpversion"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pytest-dev/pytest-asyncio"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pytest-dev/pytest-xdist"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/tox-dev/tox"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pycqa/flake8"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pytest-dev/pytest-cov"
+    },
+    {
+      "level": 2,
+      "language": "Python",
+      "id": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "level": 1,
+      "language": "Solidity",
+      "id": "https://github.com/eth-infinitism/account-abstraction"
+    },
+    {
+      "level": 2,
+      "language": "Solidity",
+      "id": "https://github.com/openzeppelin/openzeppelin-contracts"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/nomicfoundation/hardhat"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/wighawag/hardhat-deploy"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/typestrong/ts-node"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/gcanti/fp-ts"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/tsconfig/bases"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/cosmiconfig/cosmiconfig"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/jaredwray/keyv"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/broofa/mime"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/dividab/tsconfig-paths"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/jshttp/cookie"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/eemeli/yaml"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "id": "https://github.com/safe-global/safe-smart-account"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/safe-global/safe-singleton-factory"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/omnidan/node-emoji"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/tootallnate/proxy-agents"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/gajus/table"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/ethereum/js-ethereum-cryptography"
+    },
+    {
+      "level": 1,
+      "language": "TypeScript",
+      "id": "https://github.com/web3/web3.js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/wevm/viem"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/vercel/swr"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/import-js/eslint-import-resolver-typescript"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/lerna/lerna"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/nrwl/nx"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/streetsidesoftware/cspell"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/sboudrias/inquirer.js"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/shikijs/shiki"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/typestrong/typedoc"
+    },
+    {
+      "level": 2,
+      "language": "TypeScript",
+      "id": "https://github.com/open-telemetry/opentelemetry-js"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/ethereum/go-ethereum"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/ipfs/go-cid"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/pion/webrtc"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/quic-go/quic-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/google/pprof"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/libp2p/go-libp2p"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/chzyer/readline"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/getsentry/sentry-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/mattn/go-isatty"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/mmcloughlin/addchain"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/tklauser/go-sysconf"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/go-task/slim-sprig"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/crate-crypto/go-kzg-4844"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/sirupsen/logrus"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/stretchr/testify"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/gorilla/websocket"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/uber-go/zap"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/go-playground/validator"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/json-iterator/go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/golang/groupcache"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/kubernetes/client-go"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/onsi/ginkgo"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/etcd-io/bbolt"
+    },
+    {
+      "source": "https://github.com/prysmaticlabs/prysm",
+      "target": "https://github.com/patrickmn/go-cache"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/google/pprof"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/getsentry/sentry-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/mattn/go-isatty"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/mmcloughlin/addchain"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/tklauser/go-sysconf"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/jedisct1/go-minisign"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/crate-crypto/go-ipa"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/stretchr/testify"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/gorilla/websocket"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/golang/protobuf"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/pkg/errors"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/mitchellh/mapstructure"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/fatih/color"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/golang-jwt/jwt"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/syndtr/goleveldb"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/davecgh/go-spew"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/dop251/goja"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/gogo/protobuf"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/russross/blackfriday"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/prometheus/client_golang"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/cockroachdb/pebble"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/klauspost/compress"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/graph-gophers/graphql-go"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/olekukonko/tablewriter"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/deckarep/golang-set"
+    },
+    {
+      "source": "https://github.com/ethereum/go-ethereum",
+      "target": "https://github.com/uber-go/automaxprocs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/clap-rs/clap"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/google/zerocopy"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/alloy-rs/core"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/mozilla/lmdb-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/heim-rs/darwin-libproc"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/hyperium/hyper"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/diesel-rs/diesel"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/serde-rs/serde"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/hickory-dns/hickory-dns"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/tower-rs/tower"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/gakonst/ethers-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/burntsushi/quickcheck"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "source": "https://github.com/sigp/lighthouse",
+      "target": "https://github.com/peternator7/strum"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/eslint/eslint"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/debug-js/debug"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/node-fetch/node-fetch"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/nodeca/js-yaml"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/epoberezkin/fast-deep-equal"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/webreflection/flatted"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/qix-/color-convert"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/kaelzhang/node-ignore"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/mysticatea/regexpp"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/colorjs/color-name"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/gulpjs/glob-parent"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/humanwhocodes/object-schema"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/ljharb/concat-map"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/lodash/lodash"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/caolan/async"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/tj/commander.js"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/chalk/chalk"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/acornjs/acorn"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/jprichardson/node-fs-extra"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/enquirer/enquirer"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/npm/node-semver"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/visionmedia/node-progress"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/alexei/sprintf.js"
+    },
+    {
+      "source": "https://github.com/consensys/teku",
+      "target": "https://github.com/mathiasbynens/emoji-regex"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pandas-dev/pandas"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/numpy/numpy"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/mozilla/bleach"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/python/typing_extensions"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/python/mypy_extensions"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/python/importlib_metadata"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/psf/black"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/ipython/ipython"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/prometheus/client_python"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/microsoft/debugpy"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pypa/build"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/ipython/ipykernel"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pypa/packaging"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/ipython/traitlets"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/tox-dev/platformdirs"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/pypa/wheel"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/gristlabs/asttokens"
+    },
+    {
+      "source": "https://github.com/status-im/nimbus-eth2",
+      "target": "https://github.com/ipython/matplotlib-inline"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/chainsafe/lodestar"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ipfs/protons"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/vuejs/vue"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/facebook/docusaurus"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/vitest-dev/vitest"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/gregberge/svgr"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/webdriverio/webdriverio"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/inikulin/parse5"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/libp2p/js-libp2p"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/electron/get"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/swc-project/pkgs"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/pnpm/components"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/remix-run/react-router"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/chainsafe/lodestar",
+      "target": "https://github.com/jestjs/jest"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/vitest-dev/vitest"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/webdriverio/webdriverio"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/streetsidesoftware/cspell"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/swc-project/pkgs"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/sboudrias/inquirer.js"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/shikijs/shiki"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/typestrong/typedoc"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/ethereumjs/ethereumjs-monorepo",
+      "target": "https://github.com/open-telemetry/opentelemetry-js"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/clap-rs/clap"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/google/zerocopy"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/heim-rs/darwin-libproc"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/hyperium/hyper"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/serde-rs/serde"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/hickory-dns/hickory-dns"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/tower-rs/tower"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/burntsushi/quickcheck"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/peternator7/strum"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/jeltef/derive_more"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/rust-random/rand"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/sfackler/rust-openssl"
+    },
+    {
+      "source": "https://github.com/grandinetech/grandine",
+      "target": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/ipfs/go-cid"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/pion/webrtc"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/quic-go/quic-go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/google/pprof"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/libp2p/go-libp2p"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/mattn/go-isatty"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/supranational/blst"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/bradfitz/iter"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/mmcloughlin/addchain"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/tklauser/go-sysconf"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/erigontech/interfaces"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/go-task/slim-sprig"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/crate-crypto/go-ipa"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/prysmaticlabs/gohashtree"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/spf13/cobra"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/sirupsen/logrus"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/stretchr/testify"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/gorilla/websocket"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/urfave/cli"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/uber-go/zap"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/websockets/ws"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/go-chi/chi"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/julienschmidt/httprouter"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/json-iterator/go"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/shirou/gopsutil"
+    },
+    {
+      "source": "https://github.com/erigontech/erigon",
+      "target": "https://github.com/fsnotify/fsnotify"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/bluealloy/revm"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/clap-rs/clap"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/boa-dev/boa"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/libp2p/rust-libp2p"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/google/zerocopy"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/alloy-rs/core"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/getsentry/symbolic"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/hyperium/hyper"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/serde-rs/serde"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rustwasm/wasm-bindgen"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/plotters-rs/plotters"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/tower-rs/tower"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/amanieu/parking_lot"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rustcrypto/hashes"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/peternator7/strum"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/jeltef/derive_more"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/rust-random/rand"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "source": "https://github.com/paradigmxyz/reth",
+      "target": "https://github.com/tikv/pprof-rs"
+    },
+    {
+      "source": "https://github.com/ethereum/solidity",
+      "target": "https://github.com/sphinx-doc/sphinx"
+    },
+    {
+      "source": "https://github.com/ethereum/solidity",
+      "target": "https://github.com/taminomara/sphinx-a4doc"
+    },
+    {
+      "source": "https://github.com/ethereum/solidity",
+      "target": "https://github.com/readthedocs/sphinx_rtd_theme"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethereum/remix-project"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/walletconnect/walletconnect-monorepo"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/openzeppelin/openzeppelin-upgrades"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/wevm/abitype"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ipfs/protons"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/vuejs/core"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/floating-ui/floating-ui"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/formatjs/formatjs"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/gregberge/svgr"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/electron/forge"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/inikulin/parse5"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/coinbase/coinbase-wallet-sdk"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/rollup/rollup-pluginutils"
+    },
+    {
+      "source": "https://github.com/ethereum/remix-project",
+      "target": "https://github.com/pnpm/cmd-shim"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/pypa/wheel"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/sphinx-doc/sphinx"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/executablebooks/sphinx-copybutton"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/gristlabs/asttokens"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/lepture/shibuya"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/python/importlib_metadata"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/agronholm/cbor2"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/legrandin/pycryptodome"
+    },
+    {
+      "source": "https://github.com/vyperlang/vyper",
+      "target": "https://github.com/pypa/packaging"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-typing"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/pydantic/pydantic"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/hexbytes"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/python/typeshed"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/aaugustin/websockets"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-abi"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/psf/requests"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-account"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-utils"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/ethereum/eth-hash"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/python/typing_extensions"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "source": "https://github.com/ethereum/web3.py",
+      "target": "https://github.com/mlodewijck/pyunormalize"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/hypothesisworks/hypothesis"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/python/mypy"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/peritus/bumpversion"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest-asyncio"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest-xdist"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/tox-dev/tox"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/ipython/ipython"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/ethereum/eth-hash"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pycqa/flake8"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest-cov"
+    },
+    {
+      "source": "https://github.com/ethereum/py-evm",
+      "target": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/openzeppelin/openzeppelin-contracts"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/nomicfoundation/hardhat"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/wighawag/hardhat-deploy"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/mysticatea/regexpp"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/typestrong/ts-node"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/gcanti/fp-ts"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/tsconfig/bases"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/cosmiconfig/cosmiconfig"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/jaredwray/keyv"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/broofa/mime"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/dividab/tsconfig-paths"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/jshttp/cookie"
+    },
+    {
+      "source": "https://github.com/eth-infinitism/account-abstraction",
+      "target": "https://github.com/eemeli/yaml"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/nomicfoundation/hardhat"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/wighawag/hardhat-deploy"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/vercel/ms"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/safe-global/safe-singleton-factory"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/pnpm/components"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/typestrong/ts-node"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/gcanti/fp-ts"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/isaacs/node-glob"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/pillarjs/path-to-regexp"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/jquery/esprima"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/tsconfig/bases"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/cosmiconfig/cosmiconfig"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/jaredwray/keyv"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/jshttp/cookie"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/omnidan/node-emoji"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/tootallnate/proxy-agents"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/gajus/table"
+    },
+    {
+      "source": "https://github.com/safe-global/safe-smart-account",
+      "target": "https://github.com/ethereum/js-ethereum-cryptography"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/wevm/viem"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/facebook/docusaurus"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/babel/babel"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/reactivex/rxjs"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/vercel/swr"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/floating-ui/floating-ui"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/postcss/postcss"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/typescript-eslint/typescript-eslint"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/sindresorhus/type-fest"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ajv-validator/ajv"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/gregberge/svgr"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/getsentry/sentry-javascript"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/yarnpkg/berry"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/inikulin/parse5"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/ethereum/solc-js"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/salesforce/tough-cookie"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/import-js/eslint-import-resolver-typescript"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/fb55/entities"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/lukeed/mrmime"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/mysticatea/abort-controller"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/pnpm/components"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/microsoft/typescript"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/remix-run/react-router"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/definitelytyped/definitelytyped"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/jestjs/jest"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/lerna/lerna"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "source": "https://github.com/web3/web3.js",
+      "target": "https://github.com/nrwl/nx"
+    }
+  ]
+}
