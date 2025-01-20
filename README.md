@@ -2,11 +2,17 @@
 
 Data and docs for Deep Funding's dependency graph.
 
+>🚨 **Updates** 🚨<br>- 2025-01-20:  We've updated the graph to include more seed nodes (and edges). You can still view the V1 graph data [here](./graph/v1/).
+
 ## Overview
 
 The **Deep Funding** project involves analyzing a depth-2 directed graph of dependencies and using it to allocate funding. The graph consists of nodes representing repositories (on GitHub and various package managers) that are one or two hops away from Ethereum.
 
-Here is a [visualization](https://cosmograph.app/run/?data=https://raw.githubusercontent.com/opensource-observer/insights/refs/heads/main/community/deep_funder/data/unweighted_graph.csv&source=seed_repo_name&target=package_repo_name&gravity=0.25&repulsion=1&repulsionTheta=1&linkSpring=1&linkDistance=10&friction=0.1&renderLabels=true&renderHoveredLabel=true&renderLinks=true&linkArrows=true&curvedLinks=true&nodeSizeScale=0.5&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-outgoing%20links&linkWidth=width-number%20of%20data%20records&linkColor=color-number%20of%20data%20records&) of the graph.
+- Total number of Level 1 (seed) nodes: 31
+- Total number of Level 2 (dependency) nodes: 4,900
+- Total number of edges: 14,308
+
+Here is a [visualization of the V1 graph](https://cosmograph.app/run/?data=https://raw.githubusercontent.com/opensource-observer/insights/refs/heads/main/community/deep_funder/data/unweighted_graph.csv&source=seed_repo_name&target=package_repo_name&gravity=0.25&repulsion=1&repulsionTheta=1&linkSpring=1&linkDistance=10&friction=0.1&renderLabels=true&renderHoveredLabel=true&renderLinks=true&linkArrows=true&curvedLinks=true&nodeSizeScale=0.5&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-outgoing%20links&linkWidth=width-number%20of%20data%20records&linkColor=color-number%20of%20data%20records&) of the graph.
 
 ![image](https://github.com/user-attachments/assets/b3023ab5-f934-4e92-ad40-1e42d37239b6)
 
@@ -31,7 +37,6 @@ You can mine GitHub, dependency, and blockchain data for free from [OSO's BigQue
 1. Explore the dependency data at [./graph/unweighted_graph.json](./graph/unweighted_graph.json). In this version, every edge has a weight of zero. You can also use [`./graph/unweighted_graph.csv`](./graph/unweighted_graph.csv) if you prefer a CSV format.
 2. Try running the example [oso_forks_and_funding_weighting.ipynb](./notebooks/weighting_examples/oso_forks_and_funding_weighting.ipynb) notebook in the `notebooks/weighting_examples` directory to see how we might construct a weighted graph. This version uses a simple approach based on data from Gitcoin, Optimism Retro Funding, and fork counts. The result is exported to [oso_forks_and_funding_weighted_graph.json](./graph/weighting_examples/oso_forks_and_funding_weighted_graph.json).
 3. Experiment! You can access more public datasets from [OSO's BigQuery](https://docs.opensource.observer/docs/integrate/) and use [Vertex AI](https://cloud.google.com/vertex-ai/docs/training/overview) to train your own model. Or you can take things in a completely different direction!
-4. We'll be posting more instructions on how solutions will be evaluated soon.
 
 ## How It Works
 
@@ -39,20 +44,22 @@ The initial graph is seeded with the primary repos of the top consensus and exec
 
 The full list of seed nodes is: 
 
-- `prysmaticlabs/prysm`, `sigp/lighthouse`, `consensys/teku`, `status-im/nimbus-eth2`, `chainsafe/lodestar`, `grandinetech/grandine`
-- `ethereum/go-ethereum`, `nethermindeth/nethermind`, `hyperledger/besu`, `erigontech/erigon`, `paradigmxyz/reth`
-- `ethereum/solidity`, `ethereum/remix-project`, `vyperlang/vyper`, `ethereum/web3.py`, `ethereum/py-evm`, `eth-infinitism/account-abstraction`, `safe-global/safe-smart-account`, `a16z/helios`, `web3/web3.js`, `ethereumjs/ethereumjs-monorepo`
+- **Consensus Clients**: `prysmaticlabs/prysm`, `sigp/lighthouse`, `consensys/teku`, `status-im/nimbus-eth2`, `chainsafe/lodestar`, `grandinetech/grandine`
+- **Execution Clients**: `ethereum/go-ethereum`, `nethermindeth/nethermind`, `hyperledger/besu`, `erigontech/erigon`, `paradigmxyz/reth`
+- **Other Infra & Dev Tools**: `a16z/helios`, `alloy-rs/alloy`, `apeworx/ape`, `eth-infinitism/account-abstraction`, `ethereum-lists/chains`, `ethereum/fe`, `ethereum/py-evm`, `ethereum/remix-project`, `ethereum/solidity`, `ethereum/sourcify`, `ethereum/web3.py`, `ethereumjs/ethereumjs-monorepo`, `ethers-io/ethers.js`, `foundry-rs/foundry`, `hyperledger-web3j/web3j`, `nethereum/nethereum`, `nomicfoundation/hardhat`, `openzeppelin/openzeppelin-contracts`, `safe-global/safe-smart-account`, `scaffold-eth/scaffold-eth-2`, `vyperlang/titanoboa`, `vyperlang/vyper`, `wevm/viem`
+
+The latest version of the graph no longer includes `web3/web3.js` following the announcement that the project is being sunsetted.
 
 Next, we pull the Software Bill of Materials (SBOM) for each of the above repositories and identify all packages in Go, Rust, JavaScript, and Python. 
 
-This gives us a list of approximately 6,000 packages:
+This gives us a list of approximately 7,000 packages:
 
-- JavaScript: 4661 (hosted on npm)
-- Rust: 1037 (hosted on crates.io)
+- JavaScript: 5554 (hosted on npm)
+- Rust: 1255 (hosted on crates.io)
 - Go: 386 (hosted on GitHub)
-- Python: 126 (hosted on PyPi)
+- Python: 153 (hosted on PyPi)
 
-Finally, we try to map each package to an open source repository and build a dependency graph. In total, we are left with 3,990 GitHub repositories and over 10,000 edges in the graph.
+Finally, we try to map each package to an open source repository and build a dependency graph. In total, we are left with 1,996 unique package maintainers on GitHub. 
 
 The notebook used to create the initial graph is [generate_unweighted_graph.ipynb](./notebooks/generate_unweighted_graph.ipynb). You can experiment with adding layers or changing the seed nodes, and getting fresh data from OSO's BigQuery.
 
