@@ -17,11 +17,11 @@ We have also done some pruning of the graph for some initial experiments using p
 ## Quick Prune of Dependencies for Pairwise Testing
 
 - **ethereum/**
-  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 30/244 dependencies | 435 pairwise combinations (vs 29646 previously)
+  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 30/240 dependencies | 435 pairwise combinations (vs 28680 previously)
     - [1] [chzyer/readline](https://github.com/chzyer/readline)  | Go
-    - [2] [crate-crypto/go-kzg-4844](https://github.com/crate-crypto/go-kzg-4844)  | Go
+    - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
     - [3] [etcd-io/bbolt](https://github.com/etcd-io/bbolt)  | Go
-    - [4] [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)  [+1 other relevant repos in same namespace] | Go
+    - [4] [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)  [+2 other relevant repos in same namespace] | Go
     - [5] [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)  | Go
     - [6] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
     - [7] [go-playground/validator](https://github.com/go-playground/validator)  [+2 other relevant repos in same namespace] | Go
@@ -48,28 +48,28 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [tklauser/go-sysconf](https://github.com/tklauser/go-sysconf)  [+1 other relevant repos in same namespace] | Go
     - [29] [uber-go/zap](https://github.com/uber-go/zap)  [+4 other relevant repos in same namespace] | Go
     - [30] [urfave/cli](https://github.com/urfave/cli)  | Go
-  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 30/113 dependencies | 435 pairwise combinations (vs 6328 previously)
+  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 30/111 dependencies | 435 pairwise combinations (vs 6105 previously)
     - [1] [cockroachdb/pebble](https://github.com/cockroachdb/pebble)  [+5 other relevant repos in same namespace] | Go
     - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
     - [3] [davecgh/go-spew](https://github.com/davecgh/go-spew)  | Go
-    - [4] [deckarep/golang-set](https://github.com/deckarep/golang-set)  | Go
-    - [5] [dop251/goja](https://github.com/dop251/goja)  | Go
-    - [6] [fatih/color](https://github.com/fatih/color)  | Go
-    - [7] [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)  | Go
-    - [8] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
-    - [9] [gogo/protobuf](https://github.com/gogo/protobuf)  | Go
-    - [10] [golang-jwt/jwt](https://github.com/golang-jwt/jwt)  | Go
-    - [11] [golang/protobuf](https://github.com/golang/protobuf)  [+1 other relevant repos in same namespace] | Go
-    - [12] [google/pprof](https://github.com/google/pprof)  [+3 other relevant repos in same namespace] | Go
-    - [13] [gorilla/websocket](https://github.com/gorilla/websocket)  | Go
-    - [14] [graph-gophers/graphql-go](https://github.com/graph-gophers/graphql-go)  | Go
-    - [15] [jedisct1/go-minisign](https://github.com/jedisct1/go-minisign)  | Go
-    - [16] [klauspost/compress](https://github.com/klauspost/compress)  [+1 other relevant repos in same namespace] | Go
-    - [17] [mattn/go-isatty](https://github.com/mattn/go-isatty)  [+2 other relevant repos in same namespace] | Go
-    - [18] [mikemcl/bignumber.js](https://github.com/mikemcl/bignumber.js)  | JavaScript
-    - [19] [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)  [+1 other relevant repos in same namespace] | Go
-    - [20] [mmcloughlin/addchain](https://github.com/mmcloughlin/addchain)  | Go
-    - [21] [olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)  | Go
+    - [4] [dop251/goja](https://github.com/dop251/goja)  | Go
+    - [5] [fatih/color](https://github.com/fatih/color)  | Go
+    - [6] [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)  | Go
+    - [7] [getsentry/sentry-go](https://github.com/getsentry/sentry-go)  | Go
+    - [8] [gogo/protobuf](https://github.com/gogo/protobuf)  | Go
+    - [9] [golang-jwt/jwt](https://github.com/golang-jwt/jwt)  | Go
+    - [10] [golang/protobuf](https://github.com/golang/protobuf)  [+1 other relevant repos in same namespace] | Go
+    - [11] [google/pprof](https://github.com/google/pprof)  [+3 other relevant repos in same namespace] | Go
+    - [12] [gorilla/websocket](https://github.com/gorilla/websocket)  | Go
+    - [13] [graph-gophers/graphql-go](https://github.com/graph-gophers/graphql-go)  | Go
+    - [14] [jedisct1/go-minisign](https://github.com/jedisct1/go-minisign)  | Go
+    - [15] [klauspost/compress](https://github.com/klauspost/compress)  [+1 other relevant repos in same namespace] | Go
+    - [16] [mattn/go-isatty](https://github.com/mattn/go-isatty)  [+2 other relevant repos in same namespace] | Go
+    - [17] [mikemcl/bignumber.js](https://github.com/mikemcl/bignumber.js)  | JavaScript
+    - [18] [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)  [+1 other relevant repos in same namespace] | Go
+    - [19] [mmcloughlin/addchain](https://github.com/mmcloughlin/addchain)  | Go
+    - [20] [olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)  | Go
+    - [21] [pion/stun](https://github.com/pion/stun)  [+3 other relevant repos in same namespace] | Go
     - [22] [pkg/errors](https://github.com/pkg/errors)  | Go
     - [23] [prometheus/client_golang](https://github.com/prometheus/client_golang)  [+3 other relevant repos in same namespace] | Go
     - [24] [russross/blackfriday](https://github.com/russross/blackfriday)  | Go
@@ -79,28 +79,28 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [syndtr/goleveldb](https://github.com/syndtr/goleveldb)  | Go
     - [29] [tklauser/go-sysconf](https://github.com/tklauser/go-sysconf)  [+1 other relevant repos in same namespace] | Go
     - [30] [urfave/cli](https://github.com/urfave/cli)  | Go
-  - **[sigp/lighthouse](https://github.com/sigp/lighthouse)** | Rust | 30/452 dependencies | 435 pairwise combinations (vs 101926 previously)
-    - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+2 other relevant repos in same namespace] | Rust
+  - **[sigp/lighthouse](https://github.com/sigp/lighthouse)** | Rust | 30/463 dependencies | 435 pairwise combinations (vs 106953 previously)
+    - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+3 other relevant repos in same namespace] | Rust
     - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
     - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
     - [4] [burntsushi/quickcheck](https://github.com/burntsushi/quickcheck)  [+9 other relevant repos in same namespace] | Rust
     - [5] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
-    - [6] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
-    - [7] [diesel-rs/diesel](https://github.com/diesel-rs/diesel)  | Rust
-    - [8] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+17 other relevant repos in same namespace] | Rust
-    - [9] [gakonst/ethers-rs](https://github.com/gakonst/ethers-rs)  [+1 other relevant repos in same namespace] | Rust
-    - [10] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
-    - [11] [heim-rs/darwin-libproc](https://github.com/heim-rs/darwin-libproc)  | Rust
-    - [12] [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns)  | Rust
-    - [13] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
-    - [14] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
-    - [15] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
-    - [16] [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs)  | Rust
-    - [17] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
-    - [18] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
-    - [19] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
-    - [20] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
-    - [21] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [6] [crate-crypto/rust-eth-kzg](https://github.com/crate-crypto/rust-eth-kzg)  | Rust
+    - [7] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
+    - [8] [diesel-rs/diesel](https://github.com/diesel-rs/diesel)  | Rust
+    - [9] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+18 other relevant repos in same namespace] | Rust
+    - [10] [gakonst/ethers-rs](https://github.com/gakonst/ethers-rs)  [+1 other relevant repos in same namespace] | Rust
+    - [11] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
+    - [12] [heim-rs/darwin-libproc](https://github.com/heim-rs/darwin-libproc)  | Rust
+    - [13] [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns)  | Rust
+    - [14] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
+    - [15] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
+    - [16] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [17] [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs)  | Rust
+    - [18] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [19] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [20] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [21] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
     - [22] [rusqlite/rusqlite](https://github.com/rusqlite/rusqlite)  | Rust
     - [23] [rust-lang/cargo](https://github.com/rust-lang/cargo)  [+16 other relevant repos in same namespace] | Rust
     - [24] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
@@ -141,7 +141,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vercel/ms](https://github.com/vercel/ms)  | TypeScript
     - [29] [visionmedia/node-progress](https://github.com/visionmedia/node-progress)  | JavaScript
     - [30] [webreflection/flatted](https://github.com/webreflection/flatted)  | JavaScript
-  - **[status-im/nimbus-eth2](https://github.com/status-im/nimbus-eth2)** | Nim | 18/96 dependencies | 153 pairwise combinations (vs 4560 previously)
+  - **[status-im/nimbus-eth2](https://github.com/status-im/nimbus-eth2)** | Nim | 19/104 dependencies | 171 pairwise combinations (vs 5356 previously)
     - [1] [gristlabs/asttokens](https://github.com/gristlabs/asttokens)  | Python
     - [2] [ipython/ipykernel](https://github.com/ipython/ipykernel)  | Python
     - [3] [ipython/ipython](https://github.com/ipython/ipython)  | Python
@@ -153,14 +153,15 @@ We have also done some pruning of the graph for some initial experiments using p
     - [9] [pandas-dev/pandas](https://github.com/pandas-dev/pandas)  | Python
     - [10] [prometheus/client_python](https://github.com/prometheus/client_python)  | Python
     - [11] [psf/black](https://github.com/psf/black)  | Python
-    - [12] [pypa/build](https://github.com/pypa/build)  | Python
-    - [13] [pypa/packaging](https://github.com/pypa/packaging)  | Python
-    - [14] [pypa/wheel](https://github.com/pypa/wheel)  | Python
-    - [15] [python/importlib_metadata](https://github.com/python/importlib_metadata)  | Python
-    - [16] [python/mypy_extensions](https://github.com/python/mypy_extensions)  | Python
-    - [17] [python/typing_extensions](https://github.com/python/typing_extensions)  | Python
-    - [18] [tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)  | Python
-  - **[chainsafe/lodestar](https://github.com/chainsafe/lodestar)** | TypeScript | 30/1516 dependencies | 435 pairwise combinations (vs 1148370 previously)
+    - [12] [psf/requests](https://github.com/psf/requests)  | Python
+    - [13] [pypa/build](https://github.com/pypa/build)  | Python
+    - [14] [pypa/packaging](https://github.com/pypa/packaging)  | Python
+    - [15] [pypa/pyproject-hooks](https://github.com/pypa/pyproject-hooks)  | Python
+    - [16] [pypa/wheel](https://github.com/pypa/wheel)  | Python
+    - [17] [python/mypy_extensions](https://github.com/python/mypy_extensions)  | Python
+    - [18] [python/typing_extensions](https://github.com/python/typing_extensions)  | Python
+    - [19] [tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)  | Python
+  - **[chainsafe/lodestar](https://github.com/chainsafe/lodestar)** | TypeScript | 30/1510 dependencies | 435 pairwise combinations (vs 1139295 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+3 other relevant repos in same namespace] | TypeScript
     - [3] [chainsafe/lodestar](https://github.com/chainsafe/lodestar)  [+17 other relevant repos in same namespace] | TypeScript
@@ -184,7 +185,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [21] [reactivex/rxjs](https://github.com/reactivex/rxjs)  | TypeScript
     - [22] [remix-run/react-router](https://github.com/remix-run/react-router)  [+1 other relevant repos in same namespace] | TypeScript
     - [23] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
-    - [24] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+156 other relevant repos in same namespace] | TypeScript
+    - [24] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+154 other relevant repos in same namespace] | TypeScript
     - [25] [swc-project/pkgs](https://github.com/swc-project/pkgs)  [+1 other relevant repos in same namespace] | TypeScript
     - [26] [vercel/ms](https://github.com/vercel/ms)  [+2 other relevant repos in same namespace] | TypeScript
     - [27] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
@@ -209,20 +210,20 @@ We have also done some pruning of the graph for some initial experiments using p
     - [15] [tapjs/foreground-child](https://github.com/tapjs/foreground-child)  | TypeScript
     - [16] [tapjs/signal-exit](https://github.com/tapjs/signal-exit)  | TypeScript
     - [17] [vercel/ms](https://github.com/vercel/ms)  | TypeScript
-  - **[ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)** | TypeScript | 30/809 dependencies | 435 pairwise combinations (vs 326836 previously)
+  - **[ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)** | TypeScript | 30/827 dependencies | 435 pairwise combinations (vs 341551 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
     - [4] [ethereum/solc-js](https://github.com/ethereum/solc-js)  [+1 other relevant repos in same namespace] | TypeScript
     - [5] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  [+2 other relevant repos in same namespace] | TypeScript
     - [6] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
-    - [7] [fb55/entities](https://github.com/fb55/entities)  | TypeScript
-    - [8] [isaacs/node-glob](https://github.com/isaacs/node-glob)  [+15 other relevant repos in same namespace] | TypeScript
-    - [9] [jquery/esprima](https://github.com/jquery/esprima)  | TypeScript
-    - [10] [lukeed/mrmime](https://github.com/lukeed/mrmime)  [+5 other relevant repos in same namespace] | TypeScript
-    - [11] [microsoft/typescript](https://github.com/microsoft/typescript)  [+3 other relevant repos in same namespace] | TypeScript
-    - [12] [mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)  [+4 other relevant repos in same namespace] | TypeScript
-    - [13] [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)  | TypeScript
+    - [7] [fb55/entities](https://github.com/fb55/entities)  [+9 other relevant repos in same namespace] | TypeScript
+    - [8] [inikulin/parse5](https://github.com/inikulin/parse5)  | TypeScript
+    - [9] [isaacs/node-glob](https://github.com/isaacs/node-glob)  [+15 other relevant repos in same namespace] | TypeScript
+    - [10] [jquery/esprima](https://github.com/jquery/esprima)  | TypeScript
+    - [11] [lukeed/mrmime](https://github.com/lukeed/mrmime)  [+5 other relevant repos in same namespace] | TypeScript
+    - [12] [microsoft/typescript](https://github.com/microsoft/typescript)  [+3 other relevant repos in same namespace] | TypeScript
+    - [13] [mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)  [+4 other relevant repos in same namespace] | TypeScript
     - [14] [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp)  [+3 other relevant repos in same namespace] | TypeScript
     - [15] [postcss/postcss](https://github.com/postcss/postcss)  | TypeScript
     - [16] [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)  | TypeScript
@@ -240,40 +241,40 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
     - [29] [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio)  [+1 other relevant repos in same namespace] | TypeScript
     - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  | TypeScript
-  - **[grandinetech/grandine](https://github.com/grandinetech/grandine)** | Rust | 30/435 dependencies | 435 pairwise combinations (vs 94395 previously)
-    - [1] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
-    - [2] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
-    - [3] [burntsushi/quickcheck](https://github.com/burntsushi/quickcheck)  [+8 other relevant repos in same namespace] | Rust
-    - [4] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
-    - [5] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
-    - [6] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+17 other relevant repos in same namespace] | Rust
-    - [7] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
-    - [8] [heim-rs/darwin-libproc](https://github.com/heim-rs/darwin-libproc)  | Rust
-    - [9] [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns)  | Rust
-    - [10] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
-    - [11] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
-    - [12] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
-    - [13] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
-    - [14] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
-    - [15] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
-    - [16] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
-    - [17] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
-    - [18] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
-    - [19] [rusqlite/rusqlite](https://github.com/rusqlite/rusqlite)  | Rust
-    - [20] [rust-lang/cargo](https://github.com/rust-lang/cargo)  [+15 other relevant repos in same namespace] | Rust
-    - [21] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
-    - [22] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
-    - [23] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+16 other relevant repos in same namespace] | Rust
-    - [24] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
-    - [25] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
-    - [26] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+5 other relevant repos in same namespace] | Rust
-    - [27] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+5 other relevant repos in same namespace] | Rust
-    - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+6 other relevant repos in same namespace] | Rust
-    - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
-    - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
+  - **[grandinetech/grandine](https://github.com/grandinetech/grandine)** | Rust | 30/438 dependencies | 435 pairwise combinations (vs 95703 previously)
+    - [1] [alloy-rs/rlp](https://github.com/alloy-rs/rlp)  | Rust
+    - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
+    - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
+    - [4] [burntsushi/quickcheck](https://github.com/burntsushi/quickcheck)  [+8 other relevant repos in same namespace] | Rust
+    - [5] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
+    - [6] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
+    - [7] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+17 other relevant repos in same namespace] | Rust
+    - [8] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
+    - [9] [heim-rs/darwin-libproc](https://github.com/heim-rs/darwin-libproc)  | Rust
+    - [10] [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns)  | Rust
+    - [11] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
+    - [12] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
+    - [13] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
+    - [14] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [15] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [16] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [17] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [18] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [19] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [20] [rusqlite/rusqlite](https://github.com/rusqlite/rusqlite)  | Rust
+    - [21] [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs)  [+14 other relevant repos in same namespace] | Rust
+    - [22] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
+    - [23] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
+    - [24] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+16 other relevant repos in same namespace] | Rust
+    - [25] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
+    - [26] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
+    - [27] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+4 other relevant repos in same namespace] | Rust
+    - [28] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+5 other relevant repos in same namespace] | Rust
+    - [29] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+6 other relevant repos in same namespace] | Rust
+    - [30] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
   - **[nethermindeth/nethermind](https://github.com/nethermindeth/nethermind)** | C# | 0/0 dependencies | 0 pairwise combinations (vs 0 previously)
   - **[hyperledger/besu](https://github.com/hyperledger/besu)** | Java | 0/0 dependencies | 0 pairwise combinations (vs 0 previously)
-  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 30/253 dependencies | 435 pairwise combinations (vs 31878 previously)
+  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 30/248 dependencies | 435 pairwise combinations (vs 30628 previously)
     - [1] [bradfitz/iter](https://github.com/bradfitz/iter)  | Go
     - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
@@ -304,7 +305,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [uber-go/zap](https://github.com/uber-go/zap)  [+4 other relevant repos in same namespace] | Go
     - [29] [urfave/cli](https://github.com/urfave/cli)  | Go
     - [30] [websockets/ws](https://github.com/websockets/ws)  | JavaScript
-  - **[paradigmxyz/reth](https://github.com/paradigmxyz/reth)** | Rust | 30/463 dependencies | 435 pairwise combinations (vs 106953 previously)
+  - **[paradigmxyz/reth](https://github.com/paradigmxyz/reth)** | Rust | 30/470 dependencies | 435 pairwise combinations (vs 110215 previously)
     - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+7 other relevant repos in same namespace] | Rust
     - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+2 other relevant repos in same namespace] | Rust
     - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
@@ -312,26 +313,26 @@ We have also done some pruning of the graph for some initial experiments using p
     - [5] [boa-dev/boa](https://github.com/boa-dev/boa)  [+1 other relevant repos in same namespace] | Rust
     - [6] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
     - [7] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
-    - [8] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+15 other relevant repos in same namespace] | Rust
+    - [8] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+16 other relevant repos in same namespace] | Rust
     - [9] [getsentry/symbolic](https://github.com/getsentry/symbolic)  [+1 other relevant repos in same namespace] | Rust
     - [10] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
-    - [11] [hyperium/hyper](https://github.com/hyperium/hyper)  [+6 other relevant repos in same namespace] | Rust
-    - [12] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
-    - [13] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
-    - [14] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
-    - [15] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
-    - [16] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
-    - [17] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
-    - [18] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
-    - [19] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
-    - [20] [rust-lang/cargo](https://github.com/rust-lang/cargo)  [+14 other relevant repos in same namespace] | Rust
-    - [21] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
-    - [22] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
-    - [23] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+14 other relevant repos in same namespace] | Rust
-    - [24] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
-    - [25] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
-    - [26] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+4 other relevant repos in same namespace] | Rust
-    - [27] [tikv/pprof-rs](https://github.com/tikv/pprof-rs)  [+1 other relevant repos in same namespace] | Rust
+    - [11] [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns)  | Rust
+    - [12] [hyperium/hyper](https://github.com/hyperium/hyper)  [+6 other relevant repos in same namespace] | Rust
+    - [13] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
+    - [14] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
+    - [15] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [16] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [17] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [18] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [19] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [20] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [21] [rust-lang/cargo](https://github.com/rust-lang/cargo)  [+15 other relevant repos in same namespace] | Rust
+    - [22] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
+    - [23] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
+    - [24] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+14 other relevant repos in same namespace] | Rust
+    - [25] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
+    - [26] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
+    - [27] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+3 other relevant repos in same namespace] | Rust
     - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+8 other relevant repos in same namespace] | Rust
     - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
     - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
@@ -378,7 +379,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [uuidjs/uuid](https://github.com/uuidjs/uuid)  | TypeScript
     - [29] [vercel/ms](https://github.com/vercel/ms)  [+1 other relevant repos in same namespace] | TypeScript
     - [30] [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy)  [+1 other relevant repos in same namespace] | TypeScript
-  - **[nomicfoundation/hardhat](https://github.com/nomicfoundation/hardhat)** | TypeScript | 30/1812 dependencies | 435 pairwise combinations (vs 1640766 previously)
+  - **[nomicfoundation/hardhat](https://github.com/nomicfoundation/hardhat)** | TypeScript | 30/1811 dependencies | 435 pairwise combinations (vs 1638955 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+4 other relevant repos in same namespace] | TypeScript
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
@@ -409,7 +410,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vercel/ms](https://github.com/vercel/ms)  [+3 other relevant repos in same namespace] | TypeScript
     - [29] [vuejs/vue](https://github.com/vuejs/vue)  [+10 other relevant repos in same namespace] | TypeScript
     - [30] [wevm/viem](https://github.com/wevm/viem)  [+3 other relevant repos in same namespace] | TypeScript
-  - **[safe-global/safe-smart-account](https://github.com/safe-global/safe-smart-account)** | TypeScript | 30/538 dependencies | 435 pairwise combinations (vs 144453 previously)
+  - **[safe-global/safe-smart-account](https://github.com/safe-global/safe-smart-account)** | TypeScript | 30/537 dependencies | 435 pairwise combinations (vs 143916 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)  | TypeScript
@@ -440,7 +441,37 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [uuidjs/uuid](https://github.com/uuidjs/uuid)  | TypeScript
     - [29] [vercel/ms](https://github.com/vercel/ms)  [+1 other relevant repos in same namespace] | TypeScript
     - [30] [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy)  | TypeScript
-  - **[a16z/helios](https://github.com/a16z/helios)** | Rust | 0/228 dependencies | 0 pairwise combinations (vs 25878 previously)
+  - **[a16z/helios](https://github.com/a16z/helios)** | Rust | 30/628 dependencies | 435 pairwise combinations (vs 196878 previously)
+    - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+7 other relevant repos in same namespace] | Rust
+    - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+3 other relevant repos in same namespace] | Rust
+    - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
+    - [4] [bluealloy/revm](https://github.com/bluealloy/revm)  | Rust
+    - [5] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
+    - [6] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
+    - [7] [dalek-cryptography/curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)  [+2 other relevant repos in same namespace] | Rust
+    - [8] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+17 other relevant repos in same namespace] | Rust
+    - [9] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
+    - [10] [hyperium/hyper](https://github.com/hyperium/hyper)  [+6 other relevant repos in same namespace] | Rust
+    - [11] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
+    - [12] [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p)  | Rust
+    - [13] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  [+1 other relevant repos in same namespace] | Rust
+    - [14] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [15] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [16] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [17] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [18] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  [+1 other relevant repos in same namespace] | Rust
+    - [19] [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs)  [+12 other relevant repos in same namespace] | Rust
+    - [20] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
+    - [21] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+14 other relevant repos in same namespace] | Rust
+    - [22] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+2 other relevant repos in same namespace] | Rust
+    - [23] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
+    - [24] [servo/pathfinder](https://github.com/servo/pathfinder)  [+7 other relevant repos in same namespace] | Rust
+    - [25] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+2 other relevant repos in same namespace] | Rust
+    - [26] [teddriggs/darling](https://github.com/teddriggs/darling)  [+1 other relevant repos in same namespace] | Rust
+    - [27] [time-rs/time](https://github.com/time-rs/time)  | Rust
+    - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+8 other relevant repos in same namespace] | Rust
+    - [29] [toml-rs/toml](https://github.com/toml-rs/toml)  | Rust
+    - [30] [tower-rs/tower](https://github.com/tower-rs/tower)  | Rust
   - **[ethereum/web3.py](https://github.com/ethereum/web3.py)** | Python | 13/13 dependencies | 78 pairwise combinations (vs 78 previously)
     - [1] [aaugustin/websockets](https://github.com/aaugustin/websockets)  | n/a (not indexed yet)
     - [2] [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp)  | Python
@@ -533,38 +564,38 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vercel/ms](https://github.com/vercel/ms)  [+3 other relevant repos in same namespace] | TypeScript
     - [29] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
     - [30] [wevm/viem](https://github.com/wevm/viem)  [+6 other relevant repos in same namespace] | TypeScript
-  - **[foundry-rs/foundry](https://github.com/foundry-rs/foundry)** | Rust | 30/469 dependencies | 435 pairwise combinations (vs 109746 previously)
+  - **[foundry-rs/foundry](https://github.com/foundry-rs/foundry)** | Rust | 30/481 dependencies | 435 pairwise combinations (vs 115440 previously)
     - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+8 other relevant repos in same namespace] | Rust
     - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+2 other relevant repos in same namespace] | Rust
     - [3] [bluealloy/revm](https://github.com/bluealloy/revm)  | Rust
     - [4] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
     - [5] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
-    - [6] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+16 other relevant repos in same namespace] | Rust
+    - [6] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+17 other relevant repos in same namespace] | Rust
     - [7] [foundry-rs/compilers](https://github.com/foundry-rs/compilers)  [+2 other relevant repos in same namespace] | Rust
-    - [8] [gakonst/ethers-rs](https://github.com/gakonst/ethers-rs)  [+1 other relevant repos in same namespace] | Rust
-    - [9] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
-    - [10] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
-    - [11] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
-    - [12] [mario-eth/soldeer](https://github.com/mario-eth/soldeer)  | Rust
-    - [13] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
-    - [14] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
-    - [15] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
-    - [16] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
-    - [17] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
-    - [18] [rust-cli/env_logger](https://github.com/rust-cli/env_logger)  [+2 other relevant repos in same namespace] | Rust
-    - [19] [rust-lang/mdbook](https://github.com/rust-lang/mdbook)  [+15 other relevant repos in same namespace] | Rust
-    - [20] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
-    - [21] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
-    - [22] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+12 other relevant repos in same namespace] | Rust
-    - [23] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
-    - [24] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
-    - [25] [servo/html5ever](https://github.com/servo/html5ever)  [+8 other relevant repos in same namespace] | Rust
-    - [26] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+2 other relevant repos in same namespace] | Rust
-    - [27] [teddriggs/darling](https://github.com/teddriggs/darling)  [+1 other relevant repos in same namespace] | Rust
-    - [28] [time-rs/time](https://github.com/time-rs/time)  | Rust
-    - [29] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+10 other relevant repos in same namespace] | Rust
-    - [30] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
-  - **[ethereum/remix-project](https://github.com/ethereum/remix-project)** | TypeScript | 30/2277 dependencies | 435 pairwise combinations (vs 2591226 previously)
+    - [8] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
+    - [9] [hyperium/hyper](https://github.com/hyperium/hyper)  [+7 other relevant repos in same namespace] | Rust
+    - [10] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
+    - [11] [mario-eth/soldeer](https://github.com/mario-eth/soldeer)  | Rust
+    - [12] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [13] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [14] [quinn-rs/quinn](https://github.com/quinn-rs/quinn)  | Rust
+    - [15] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [16] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [17] [rust-cli/env_logger](https://github.com/rust-cli/env_logger)  [+2 other relevant repos in same namespace] | Rust
+    - [18] [rust-lang/mdbook](https://github.com/rust-lang/mdbook)  [+16 other relevant repos in same namespace] | Rust
+    - [19] [rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)  | Rust
+    - [20] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
+    - [21] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+12 other relevant repos in same namespace] | Rust
+    - [22] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
+    - [23] [serde-rs/serde](https://github.com/serde-rs/serde)  [+1 other relevant repos in same namespace] | Rust
+    - [24] [servo/html5ever](https://github.com/servo/html5ever)  [+7 other relevant repos in same namespace] | Rust
+    - [25] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+2 other relevant repos in same namespace] | Rust
+    - [26] [teddriggs/darling](https://github.com/teddriggs/darling)  [+1 other relevant repos in same namespace] | Rust
+    - [27] [time-rs/time](https://github.com/time-rs/time)  | Rust
+    - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+10 other relevant repos in same namespace] | Rust
+    - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
+    - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
+  - **[ethereum/remix-project](https://github.com/ethereum/remix-project)** | TypeScript | 30/2276 dependencies | 435 pairwise combinations (vs 2588950 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+6 other relevant repos in same namespace] | TypeScript
     - [3] [coinbase/coinbase-wallet-sdk](https://github.com/coinbase/coinbase-wallet-sdk)  | TypeScript
@@ -595,31 +626,8 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [walletconnect/walletconnect-monorepo](https://github.com/walletconnect/walletconnect-monorepo)  [+2 other relevant repos in same namespace] | TypeScript
     - [29] [wevm/abitype](https://github.com/wevm/abitype)  | TypeScript
     - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
-  - **[apeworx/ape](https://github.com/apeworx/ape)** | Python | 23/36 dependencies | 253 pairwise combinations (vs 630 previously)
-    - [1] [apeworx/eip712](https://github.com/apeworx/eip712)  | Python
-    - [2] [apeworx/eth-pydantic-types](https://github.com/apeworx/eth-pydantic-types)  | Python
-    - [3] [apeworx/ethpm-types](https://github.com/apeworx/ethpm-types)  | Python
-    - [4] [apeworx/evm-trace](https://github.com/apeworx/evm-trace)  | Python
-    - [5] [apeworx/evmchains](https://github.com/apeworx/evmchains)  | Python
-    - [6] [ethereum/eth-abi](https://github.com/ethereum/eth-abi)  | Python
-    - [7] [ethereum/eth-account](https://github.com/ethereum/eth-account)  | Python
-    - [8] [ethereum/eth-typing](https://github.com/ethereum/eth-typing)  | Python
-    - [9] [ethereum/eth-utils](https://github.com/ethereum/eth-utils)  | Python
-    - [10] [ethereum/hexbytes](https://github.com/ethereum/hexbytes)  | Python
-    - [11] [ethereum/py-geth](https://github.com/ethereum/py-geth)  | Python
-    - [12] [ethereum/py-trie](https://github.com/ethereum/py-trie)  | Python
-    - [13] [ethereum/web3.py](https://github.com/ethereum/web3.py)  | Python
-    - [14] [ipython/ipython](https://github.com/ipython/ipython)  | Python
-    - [15] [ipython/traitlets](https://github.com/ipython/traitlets)  | Python
-    - [16] [numpy/numpy](https://github.com/numpy/numpy)  | Python
-    - [17] [pandas-dev/pandas](https://github.com/pandas-dev/pandas)  | Python
-    - [18] [psf/requests](https://github.com/psf/requests)  | Python
-    - [19] [pydantic/pydantic](https://github.com/pydantic/pydantic)  | Python
-    - [20] [pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)  | Python
-    - [21] [pypa/packaging](https://github.com/pypa/packaging)  | Python
-    - [22] [pytest-dev/pluggy](https://github.com/pytest-dev/pluggy)  | Python
-    - [23] [pytest-dev/pytest](https://github.com/pytest-dev/pytest)  | Python
-  - **[vyperlang/titanoboa](https://github.com/vyperlang/titanoboa)** | Python | 26/26 dependencies | 325 pairwise combinations (vs 325 previously)
+  - **[apeworx/ape](https://github.com/apeworx/ape)** | Python | 0/0 dependencies | 0 pairwise combinations (vs 0 previously)
+  - **[vyperlang/titanoboa](https://github.com/vyperlang/titanoboa)** | Python | 27/27 dependencies | 351 pairwise combinations (vs 351 previously)
     - [1] [erdewit/nest_asyncio](https://github.com/erdewit/nest_asyncio)  | n/a (not indexed yet)
     - [2] [ethereum/eth-abi](https://github.com/ethereum/eth-abi)  | Python
     - [3] [ethereum/eth-account](https://github.com/ethereum/eth-account)  | Python
@@ -643,19 +651,21 @@ We have also done some pruning of the graph for some initial experiments using p
     - [21] [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache)  | n/a (not indexed yet)
     - [22] [skellet0r/eth-stdlib](https://github.com/skellet0r/eth-stdlib)  | n/a (not indexed yet)
     - [23] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
-    - [24] [vyperlang/vvm](https://github.com/vyperlang/vvm)  | Python
-    - [25] [vyperlang/vyper](https://github.com/vyperlang/vyper)  | Python
-    - [26] [willmcgugan/rich](https://github.com/willmcgugan/rich)  | n/a (not indexed yet)
-  - **[vyperlang/vyper](https://github.com/vyperlang/vyper)** | Python | 9/9 dependencies | 36 pairwise combinations (vs 36 previously)
+    - [24] [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)  | n/a (not indexed yet)
+    - [25] [vyperlang/vvm](https://github.com/vyperlang/vvm)  | Python
+    - [26] [vyperlang/vyper](https://github.com/vyperlang/vyper)  | Python
+    - [27] [willmcgugan/rich](https://github.com/willmcgugan/rich)  | n/a (not indexed yet)
+  - **[vyperlang/vyper](https://github.com/vyperlang/vyper)** | Python | 10/10 dependencies | 45 pairwise combinations (vs 45 previously)
     - [1] [agronholm/cbor2](https://github.com/agronholm/cbor2)  | C
     - [2] [executablebooks/sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton)  | JavaScript
     - [3] [gristlabs/asttokens](https://github.com/gristlabs/asttokens)  | Python
-    - [4] [legrandin/pycryptodome](https://github.com/legrandin/pycryptodome)  | C
-    - [5] [lepture/shibuya](https://github.com/lepture/shibuya)  | CSS
-    - [6] [pypa/packaging](https://github.com/pypa/packaging)  | Python
-    - [7] [pypa/wheel](https://github.com/pypa/wheel)  | Python
-    - [8] [python/importlib_metadata](https://github.com/python/importlib_metadata)  | Python
-    - [9] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
+    - [4] [lark-parser/lark](https://github.com/lark-parser/lark)  | n/a (not indexed yet)
+    - [5] [legrandin/pycryptodome](https://github.com/legrandin/pycryptodome)  | C
+    - [6] [lepture/shibuya](https://github.com/lepture/shibuya)  | CSS
+    - [7] [pypa/packaging](https://github.com/pypa/packaging)  | Python
+    - [8] [pypa/wheel](https://github.com/pypa/wheel)  | Python
+    - [9] [python/importlib_metadata](https://github.com/python/importlib_metadata)  | Python
+    - [10] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
   - **[ethereum-lists/chains](https://github.com/ethereum-lists/chains)** | Kotlin | 6/6 dependencies | 15 pairwise combinations (vs 15 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [epoberezkin/fast-deep-equal](https://github.com/epoberezkin/fast-deep-equal)  | JavaScript
@@ -667,38 +677,38 @@ We have also done some pruning of the graph for some initial experiments using p
     - [1] [readthedocs/sphinx_rtd_theme](https://github.com/readthedocs/sphinx_rtd_theme)  | Sass
     - [2] [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx)  | Python
     - [3] [taminomara/sphinx-a4doc](https://github.com/taminomara/sphinx-a4doc)  | n/a (not indexed yet)
-  - **[ethereum/fe](https://github.com/ethereum/fe)** | Rust | 30/231 dependencies | 435 pairwise combinations (vs 26565 previously)
+  - **[ethereum/fe](https://github.com/ethereum/fe)** | Rust | 30/301 dependencies | 435 pairwise combinations (vs 45150 previously)
     - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+1 other relevant repos in same namespace] | Rust
-    - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  | Rust
+    - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+2 other relevant repos in same namespace] | Rust
     - [3] [aurora-is-near/aurora-engine](https://github.com/aurora-is-near/aurora-engine)  | Rust
     - [4] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
     - [5] [bluealloy/revm](https://github.com/bluealloy/revm)  | Rust
     - [6] [clap-rs/clap](https://github.com/clap-rs/clap)  | Rust
     - [7] [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)  | Rust
     - [8] [dalek-cryptography/subtle](https://github.com/dalek-cryptography/subtle)  | Rust
-    - [9] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+10 other relevant repos in same namespace] | Rust
-    - [10] [ferrilab/ferrilab](https://github.com/ferrilab/ferrilab)  | Rust
+    - [9] [dtolnay/thiserror](https://github.com/dtolnay/thiserror)  [+13 other relevant repos in same namespace] | Rust
+    - [10] [google/zerocopy](https://github.com/google/zerocopy)  | Rust
     - [11] [hyperium/hyper](https://github.com/hyperium/hyper)  [+5 other relevant repos in same namespace] | Rust
     - [12] [jeltef/derive_more](https://github.com/jeltef/derive_more)  | Rust
-    - [13] [kornelski/rust-security-framework](https://github.com/kornelski/rust-security-framework)  | Rust
-    - [14] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
-    - [15] [paritytech/parity-common](https://github.com/paritytech/parity-common)  [+4 other relevant repos in same namespace] | Rust
-    - [16] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
-    - [17] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
-    - [18] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
-    - [19] [recmo/uint](https://github.com/recmo/uint)  | Rust
-    - [20] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
-    - [21] [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs)  [+14 other relevant repos in same namespace] | Rust
-    - [22] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
-    - [23] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+8 other relevant repos in same namespace] | Rust
-    - [24] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+1 other relevant repos in same namespace] | Rust
-    - [25] [serde-rs/serde](https://github.com/serde-rs/serde)  [+2 other relevant repos in same namespace] | Rust
-    - [26] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+4 other relevant repos in same namespace] | Rust
-    - [27] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+2 other relevant repos in same namespace] | Rust
-    - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+6 other relevant repos in same namespace] | Rust
-    - [29] [toml-rs/toml](https://github.com/toml-rs/toml)  | Rust
-    - [30] [tower-rs/tower](https://github.com/tower-rs/tower)  | Rust
-  - **[ethereum/sourcify](https://github.com/ethereum/sourcify)** | TypeScript | 30/908 dependencies | 435 pairwise combinations (vs 411778 previously)
+    - [13] [microsoft/windows-rs](https://github.com/microsoft/windows-rs)  | Rust
+    - [14] [paritytech/parity-common](https://github.com/paritytech/parity-common)  [+4 other relevant repos in same namespace] | Rust
+    - [15] [peternator7/strum](https://github.com/peternator7/strum)  | Rust
+    - [16] [plotters-rs/plotters](https://github.com/plotters-rs/plotters)  | Rust
+    - [17] [rayon-rs/rayon](https://github.com/rayon-rs/rayon)  | Rust
+    - [18] [retep998/winapi-rs](https://github.com/retep998/winapi-rs)  | Rust
+    - [19] [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs)  [+15 other relevant repos in same namespace] | Rust
+    - [20] [rust-random/rand](https://github.com/rust-random/rand)  [+2 other relevant repos in same namespace] | Rust
+    - [21] [rustcrypto/hashes](https://github.com/rustcrypto/hashes)  [+8 other relevant repos in same namespace] | Rust
+    - [22] [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)  [+2 other relevant repos in same namespace] | Rust
+    - [23] [serde-rs/serde](https://github.com/serde-rs/serde)  [+2 other relevant repos in same namespace] | Rust
+    - [24] [servo/rust-smallvec](https://github.com/servo/rust-smallvec)  [+4 other relevant repos in same namespace] | Rust
+    - [25] [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)  [+2 other relevant repos in same namespace] | Rust
+    - [26] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+6 other relevant repos in same namespace] | Rust
+    - [27] [toml-rs/toml](https://github.com/toml-rs/toml)  | Rust
+    - [28] [tower-rs/tower](https://github.com/tower-rs/tower)  | Rust
+    - [29] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
+    - [30] [vorner/signal-hook](https://github.com/vorner/signal-hook)  [+1 other relevant repos in same namespace] | Rust
+  - **[ethereum/sourcify](https://github.com/ethereum/sourcify)** | TypeScript | 30/907 dependencies | 435 pairwise combinations (vs 410871 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+2 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint)  [+2 other relevant repos in same namespace] | TypeScript
