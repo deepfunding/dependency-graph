@@ -9,8 +9,8 @@ Data and docs for Deep Funding's dependency graph.
 The **Deep Funding** project involves analyzing a depth-2 directed graph of dependencies and using it to allocate funding. The graph consists of nodes representing repositories (on GitHub and various package managers) that are one or two hops away from Ethereum.
 
 - Total number of Level 1 (seed) nodes: 31
-- Total number of Level 2 (dependency) nodes: 4,900
-- Total number of edges: 14,782
+- Total number of Level 2 (dependency) nodes: 5,024
+- Total number of edges: 14,927
 
 Here is a [visualization of the V1 graph](https://cosmograph.app/run/?data=https://raw.githubusercontent.com/opensource-observer/insights/refs/heads/main/community/deep_funder/data/unweighted_graph.csv&source=seed_repo_name&target=package_repo_name&gravity=0.25&repulsion=1&repulsionTheta=1&linkSpring=1&linkDistance=10&friction=0.1&renderLabels=true&renderHoveredLabel=true&renderLinks=true&linkArrows=true&curvedLinks=true&nodeSizeScale=0.5&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-outgoing%20links&linkWidth=width-number%20of%20data%20records&linkColor=color-number%20of%20data%20records&) of the graph.
 
@@ -54,12 +54,12 @@ Next, we pull the Software Bill of Materials (SBOM) for each of the above reposi
 
 This gives us a list of approximately 7,000 packages:
 
-- JavaScript: 5551 (hosted on npm)
-- Rust/Cargo: 1362 (hosted on crates.io)
-- Go/Golang: 372 (hosted on GitHub)
-- Python: 146 (hosted on PyPi)
+- JavaScript: 5575 (hosted on npm)
+- Rust/Cargo: 1363 (hosted on crates.io)
+- Go/Golang: 387 (hosted on GitHub)
+- Python: 162 (hosted on PyPi)
 
-Finally, we try to map each package to an open source repository and build a dependency graph. In total, we are left with 1,996 unique package maintainers on GitHub. 
+Finally, we try to map each package to an open source repository and build a dependency graph. In total, we are left with 2,046 unique package maintainers on GitHub. 
 
 The notebook used to create the initial graph is [generate_unweighted_graph.ipynb](./notebooks/generate_unweighted_graph.ipynb). You can experiment with adding layers or changing the seed nodes, and getting fresh data from OSO's BigQuery.
 
