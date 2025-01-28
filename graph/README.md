@@ -17,7 +17,7 @@ We have also done some pruning of the graph for some initial experiments using p
 ## Quick Prune of Dependencies for Pairwise Testing
 
 - **ethereum/**
-  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 30/240 dependencies | 435 pairwise combinations (vs 28680 previously)
+  - **[prysmaticlabs/prysm](https://github.com/prysmaticlabs/prysm)** | Go | 30/245 dependencies | 435 pairwise combinations (vs 29890 previously)
     - [1] [chzyer/readline](https://github.com/chzyer/readline)  | Go
     - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
     - [3] [etcd-io/bbolt](https://github.com/etcd-io/bbolt)  | Go
@@ -48,7 +48,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [tklauser/go-sysconf](https://github.com/tklauser/go-sysconf)  [+1 other relevant repos in same namespace] | Go
     - [29] [uber-go/zap](https://github.com/uber-go/zap)  [+4 other relevant repos in same namespace] | Go
     - [30] [urfave/cli](https://github.com/urfave/cli)  | Go
-  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 30/111 dependencies | 435 pairwise combinations (vs 6105 previously)
+  - **[ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)** | Go | 30/116 dependencies | 435 pairwise combinations (vs 6670 previously)
     - [1] [cockroachdb/pebble](https://github.com/cockroachdb/pebble)  [+5 other relevant repos in same namespace] | Go
     - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
     - [3] [davecgh/go-spew](https://github.com/davecgh/go-spew)  | Go
@@ -79,7 +79,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [syndtr/goleveldb](https://github.com/syndtr/goleveldb)  | Go
     - [29] [tklauser/go-sysconf](https://github.com/tklauser/go-sysconf)  [+1 other relevant repos in same namespace] | Go
     - [30] [urfave/cli](https://github.com/urfave/cli)  | Go
-  - **[sigp/lighthouse](https://github.com/sigp/lighthouse)** | Rust | 30/463 dependencies | 435 pairwise combinations (vs 106953 previously)
+  - **[sigp/lighthouse](https://github.com/sigp/lighthouse)** | Rust | 30/464 dependencies | 435 pairwise combinations (vs 107416 previously)
     - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+3 other relevant repos in same namespace] | Rust
     - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+1 other relevant repos in same namespace] | Rust
     - [3] [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)  [+1 other relevant repos in same namespace] | Rust
@@ -161,7 +161,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [17] [python/mypy_extensions](https://github.com/python/mypy_extensions)  | Python
     - [18] [python/typing_extensions](https://github.com/python/typing_extensions)  | Python
     - [19] [tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)  | Python
-  - **[chainsafe/lodestar](https://github.com/chainsafe/lodestar)** | TypeScript | 30/1510 dependencies | 435 pairwise combinations (vs 1139295 previously)
+  - **[chainsafe/lodestar](https://github.com/chainsafe/lodestar)** | TypeScript | 30/1516 dependencies | 435 pairwise combinations (vs 1148370 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+3 other relevant repos in same namespace] | TypeScript
     - [3] [chainsafe/lodestar](https://github.com/chainsafe/lodestar)  [+17 other relevant repos in same namespace] | TypeScript
@@ -185,7 +185,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [21] [reactivex/rxjs](https://github.com/reactivex/rxjs)  | TypeScript
     - [22] [remix-run/react-router](https://github.com/remix-run/react-router)  [+1 other relevant repos in same namespace] | TypeScript
     - [23] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
-    - [24] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+154 other relevant repos in same namespace] | TypeScript
+    - [24] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+156 other relevant repos in same namespace] | TypeScript
     - [25] [swc-project/pkgs](https://github.com/swc-project/pkgs)  [+1 other relevant repos in same namespace] | TypeScript
     - [26] [vercel/ms](https://github.com/vercel/ms)  [+2 other relevant repos in same namespace] | TypeScript
     - [27] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
@@ -210,7 +210,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [15] [tapjs/foreground-child](https://github.com/tapjs/foreground-child)  | TypeScript
     - [16] [tapjs/signal-exit](https://github.com/tapjs/signal-exit)  | TypeScript
     - [17] [vercel/ms](https://github.com/vercel/ms)  | TypeScript
-  - **[ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)** | TypeScript | 30/827 dependencies | 435 pairwise combinations (vs 341551 previously)
+  - **[ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)** | TypeScript | 30/828 dependencies | 435 pairwise combinations (vs 342378 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
@@ -274,7 +274,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [30] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
   - **[nethermindeth/nethermind](https://github.com/nethermindeth/nethermind)** | C# | 0/0 dependencies | 0 pairwise combinations (vs 0 previously)
   - **[hyperledger/besu](https://github.com/hyperledger/besu)** | Java | 0/0 dependencies | 0 pairwise combinations (vs 0 previously)
-  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 30/248 dependencies | 435 pairwise combinations (vs 30628 previously)
+  - **[erigontech/erigon](https://github.com/erigontech/erigon)** | Go | 30/253 dependencies | 435 pairwise combinations (vs 31878 previously)
     - [1] [bradfitz/iter](https://github.com/bradfitz/iter)  | Go
     - [2] [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa)  [+1 other relevant repos in same namespace] | Go
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
@@ -379,7 +379,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [uuidjs/uuid](https://github.com/uuidjs/uuid)  | TypeScript
     - [29] [vercel/ms](https://github.com/vercel/ms)  [+1 other relevant repos in same namespace] | TypeScript
     - [30] [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy)  [+1 other relevant repos in same namespace] | TypeScript
-  - **[nomicfoundation/hardhat](https://github.com/nomicfoundation/hardhat)** | TypeScript | 30/1811 dependencies | 435 pairwise combinations (vs 1638955 previously)
+  - **[nomicfoundation/hardhat](https://github.com/nomicfoundation/hardhat)** | TypeScript | 30/1891 dependencies | 435 pairwise combinations (vs 1786995 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+4 other relevant repos in same namespace] | TypeScript
     - [3] [definitelytyped/definitelytyped](https://github.com/definitelytyped/definitelytyped)  | TypeScript
@@ -387,14 +387,14 @@ We have also done some pruning of the graph for some initial experiments using p
     - [5] [ethereumjs/ethereumjs-monorepo](https://github.com/ethereumjs/ethereumjs-monorepo)  [+5 other relevant repos in same namespace] | TypeScript
     - [6] [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js)  | TypeScript
     - [7] [fb55/entities](https://github.com/fb55/entities)  [+9 other relevant repos in same namespace] | TypeScript
-    - [8] [getsentry/sentry-javascript](https://github.com/getsentry/sentry-javascript)  | TypeScript
-    - [9] [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js)  | TypeScript
+    - [8] [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui)  | TypeScript
+    - [9] [getsentry/sentry-javascript](https://github.com/getsentry/sentry-javascript)  | TypeScript
     - [10] [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript)  [+1 other relevant repos in same namespace] | TypeScript
     - [11] [inikulin/parse5](https://github.com/inikulin/parse5)  | TypeScript
     - [12] [jestjs/jest](https://github.com/jestjs/jest)  | TypeScript
     - [13] [lerna/lerna](https://github.com/lerna/lerna)  | TypeScript
     - [14] [lukeed/mrmime](https://github.com/lukeed/mrmime)  [+11 other relevant repos in same namespace] | TypeScript
-    - [15] [microsoft/typescript](https://github.com/microsoft/typescript)  [+3 other relevant repos in same namespace] | TypeScript
+    - [15] [microsoft/typescript](https://github.com/microsoft/typescript)  [+4 other relevant repos in same namespace] | TypeScript
     - [16] [mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)  [+2 other relevant repos in same namespace] | TypeScript
     - [17] [nomicfoundation/hardhat](https://github.com/nomicfoundation/hardhat)  [+3 other relevant repos in same namespace] | TypeScript
     - [18] [open-rpc/typings](https://github.com/open-rpc/typings)  [+2 other relevant repos in same namespace] | TypeScript
@@ -403,14 +403,14 @@ We have also done some pruning of the graph for some initial experiments using p
     - [21] [prettier/tslint-plugin-prettier](https://github.com/prettier/tslint-plugin-prettier)  [+4 other relevant repos in same namespace] | TypeScript
     - [22] [reactivex/rxjs](https://github.com/reactivex/rxjs)  | TypeScript
     - [23] [remix-run/react-router](https://github.com/remix-run/react-router)  [+1 other relevant repos in same namespace] | TypeScript
-    - [24] [rollup/rollup-pluginutils](https://github.com/rollup/rollup-pluginutils)  | TypeScript
+    - [24] [rollup/rollup-pluginutils](https://github.com/rollup/rollup-pluginutils)  [+1 other relevant repos in same namespace] | TypeScript
     - [25] [salesforce/tough-cookie](https://github.com/salesforce/tough-cookie)  | TypeScript
     - [26] [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)  [+191 other relevant repos in same namespace] | TypeScript
     - [27] [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)  | TypeScript
     - [28] [vercel/ms](https://github.com/vercel/ms)  [+3 other relevant repos in same namespace] | TypeScript
     - [29] [vuejs/vue](https://github.com/vuejs/vue)  [+10 other relevant repos in same namespace] | TypeScript
     - [30] [wevm/viem](https://github.com/wevm/viem)  [+3 other relevant repos in same namespace] | TypeScript
-  - **[safe-global/safe-smart-account](https://github.com/safe-global/safe-smart-account)** | TypeScript | 30/537 dependencies | 435 pairwise combinations (vs 143916 previously)
+  - **[safe-global/safe-smart-account](https://github.com/safe-global/safe-smart-account)** | TypeScript | 30/538 dependencies | 435 pairwise combinations (vs 144453 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)  | TypeScript
@@ -564,7 +564,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [vercel/ms](https://github.com/vercel/ms)  [+3 other relevant repos in same namespace] | TypeScript
     - [29] [vitest-dev/vitest](https://github.com/vitest-dev/vitest)  | TypeScript
     - [30] [wevm/viem](https://github.com/wevm/viem)  [+6 other relevant repos in same namespace] | TypeScript
-  - **[foundry-rs/foundry](https://github.com/foundry-rs/foundry)** | Rust | 30/481 dependencies | 435 pairwise combinations (vs 115440 previously)
+  - **[foundry-rs/foundry](https://github.com/foundry-rs/foundry)** | Rust | 30/482 dependencies | 435 pairwise combinations (vs 115921 previously)
     - [1] [alloy-rs/core](https://github.com/alloy-rs/core)  [+8 other relevant repos in same namespace] | Rust
     - [2] [amanieu/parking_lot](https://github.com/amanieu/parking_lot)  [+2 other relevant repos in same namespace] | Rust
     - [3] [bluealloy/revm](https://github.com/bluealloy/revm)  | Rust
@@ -595,7 +595,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [tokio-rs/tokio](https://github.com/tokio-rs/tokio)  [+10 other relevant repos in same namespace] | Rust
     - [29] [tower-rs/tower](https://github.com/tower-rs/tower)  [+1 other relevant repos in same namespace] | Rust
     - [30] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
-  - **[ethereum/remix-project](https://github.com/ethereum/remix-project)** | TypeScript | 30/2276 dependencies | 435 pairwise combinations (vs 2588950 previously)
+  - **[ethereum/remix-project](https://github.com/ethereum/remix-project)** | TypeScript | 30/2277 dependencies | 435 pairwise combinations (vs 2591226 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+1 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  [+6 other relevant repos in same namespace] | TypeScript
     - [3] [coinbase/coinbase-wallet-sdk](https://github.com/coinbase/coinbase-wallet-sdk)  | TypeScript
@@ -626,7 +626,31 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [walletconnect/walletconnect-monorepo](https://github.com/walletconnect/walletconnect-monorepo)  [+2 other relevant repos in same namespace] | TypeScript
     - [29] [wevm/abitype](https://github.com/wevm/abitype)  | TypeScript
     - [30] [yarnpkg/berry](https://github.com/yarnpkg/berry)  [+1 other relevant repos in same namespace] | TypeScript
-  - **[apeworx/ape](https://github.com/apeworx/ape)** | Python | 0/0 dependencies | 0 pairwise combinations (vs 0 previously)
+  - **[apeworx/ape](https://github.com/apeworx/ape)** | Python | 24/38 dependencies | 276 pairwise combinations (vs 703 previously)
+    - [1] [apeworx/eip712](https://github.com/apeworx/eip712)  | Python
+    - [2] [apeworx/eth-pydantic-types](https://github.com/apeworx/eth-pydantic-types)  | Python
+    - [3] [apeworx/ethpm-types](https://github.com/apeworx/ethpm-types)  | Python
+    - [4] [apeworx/evm-trace](https://github.com/apeworx/evm-trace)  | Python
+    - [5] [apeworx/evmchains](https://github.com/apeworx/evmchains)  | Python
+    - [6] [ethereum/eth-abi](https://github.com/ethereum/eth-abi)  | Python
+    - [7] [ethereum/eth-account](https://github.com/ethereum/eth-account)  | Python
+    - [8] [ethereum/eth-typing](https://github.com/ethereum/eth-typing)  | Python
+    - [9] [ethereum/eth-utils](https://github.com/ethereum/eth-utils)  | Python
+    - [10] [ethereum/hexbytes](https://github.com/ethereum/hexbytes)  | Python
+    - [11] [ethereum/py-geth](https://github.com/ethereum/py-geth)  | Python
+    - [12] [ethereum/py-trie](https://github.com/ethereum/py-trie)  | Python
+    - [13] [ethereum/web3.py](https://github.com/ethereum/web3.py)  | Python
+    - [14] [gristlabs/asttokens](https://github.com/gristlabs/asttokens)  | Python
+    - [15] [ipython/ipython](https://github.com/ipython/ipython)  | Python
+    - [16] [ipython/traitlets](https://github.com/ipython/traitlets)  | Python
+    - [17] [numpy/numpy](https://github.com/numpy/numpy)  | Python
+    - [18] [pandas-dev/pandas](https://github.com/pandas-dev/pandas)  | Python
+    - [19] [psf/requests](https://github.com/psf/requests)  | Python
+    - [20] [pydantic/pydantic](https://github.com/pydantic/pydantic)  | Python
+    - [21] [pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)  | Python
+    - [22] [pypa/packaging](https://github.com/pypa/packaging)  | Python
+    - [23] [pytest-dev/pluggy](https://github.com/pytest-dev/pluggy)  | Python
+    - [24] [pytest-dev/pytest](https://github.com/pytest-dev/pytest)  | Python
   - **[vyperlang/titanoboa](https://github.com/vyperlang/titanoboa)** | Python | 27/27 dependencies | 351 pairwise combinations (vs 351 previously)
     - [1] [erdewit/nest_asyncio](https://github.com/erdewit/nest_asyncio)  | n/a (not indexed yet)
     - [2] [ethereum/eth-abi](https://github.com/ethereum/eth-abi)  | Python
@@ -708,7 +732,7 @@ We have also done some pruning of the graph for some initial experiments using p
     - [28] [tower-rs/tower](https://github.com/tower-rs/tower)  | Rust
     - [29] [unicode-org/icu4x](https://github.com/unicode-org/icu4x)  | Rust
     - [30] [vorner/signal-hook](https://github.com/vorner/signal-hook)  [+1 other relevant repos in same namespace] | Rust
-  - **[ethereum/sourcify](https://github.com/ethereum/sourcify)** | TypeScript | 30/907 dependencies | 435 pairwise combinations (vs 410871 previously)
+  - **[ethereum/sourcify](https://github.com/ethereum/sourcify)** | TypeScript | 30/908 dependencies | 435 pairwise combinations (vs 411778 previously)
     - [1] [ajv-validator/ajv](https://github.com/ajv-validator/ajv)  [+2 other relevant repos in same namespace] | TypeScript
     - [2] [babel/babel](https://github.com/babel/babel)  | TypeScript
     - [3] [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint)  [+2 other relevant repos in same namespace] | TypeScript
