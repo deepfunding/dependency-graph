@@ -74,10 +74,10 @@ def process_graph(input_path, output_path):
 def main():
     parser = argparse.ArgumentParser(description='Convert graph JSON to CSV')
     parser.add_argument('--input_path', 
-                       default='./graph/unweighted_graph_pruned_version.json',
+                       default='./graph/unweighted_graph.json',
                        help='Path to input JSON file')
     parser.add_argument('--output_path', 
-                       default='./graph/pruned_repo_parent_weight_graph.csv',
+                       default='./graph/repo_parent_weight_graph.csv',
                        help='Path to output CSV file')
     
     args = parser.parse_args()
