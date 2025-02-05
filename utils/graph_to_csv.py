@@ -5,57 +5,67 @@ This script converts a JSON graph file into a CSV file with the following column
 - parent: the parent repository url (or 'ethereum' if it's a level 1 node)
 - weight: the weight of the edge between the repository and its parent
 
-The weight is simply calculated based on the number of nodes and edges in the graph:
-- For every level 1 node, the weight is 0.5 / number of level 1 nodes 
-- For every level 2 node, the weight is 0.5 / number of edge links from level 1 nodes to level 2 nodes
+It dynamically calculates the weights for Level 1 and Level 2 nodes, ensuring that they are evenly distributed within their respective levels:
+
+1.	Each Level 1 repo’s weights sum to 1 with respect to Ethereum.
+2.	Each Level 2 repo’s weights sum to 1 with respect to its parent Level 1 repo.
 
 """
 
 import json
 import csv
 import argparse
+from collections import defaultdict
 
 def load_graph_data(input_path):
     with open(input_path, 'r') as f:
         return json.load(f)
 
-def get_level_1_nodes(graph_data):
-    return {
-        node['id'] for node in graph_data['nodes'] 
-        if node.get('level') == 1
-    }
+def get_level_nodes(graph_data):
+    level_1_nodes = set()
+    level_2_parents = defaultdict(set)
 
-def calculate_weights(graph_data, level_1_nodes):
-    level_1_count = len(level_1_nodes)
-    level_2_count = sum(1 for link in graph_data['links'] 
-                       if link['source'] in level_1_nodes)
-    
-    return {
-        'level_1': 0.5 / level_1_count if level_1_count > 0 else 0,
-        'level_2': 0.5 / level_2_count if level_2_count > 0 else 0
-    }
-
-def generate_csv_rows(graph_data, level_1_nodes, weights):
-    csv_rows = []
-    
-    # Add level 1 nodes with "ethereum" as parent
     for node in graph_data['nodes']:
         if node.get('level') == 1:
-            csv_rows.append({
-                'repo': node['id'],
-                'parent': 'ethereum',
-                'weight': weights['level_1']
-            })
+            level_1_nodes.add(node['id'])
 
-    # Process links to get level 2 nodes
     for link in graph_data['links']:
         if link['source'] in level_1_nodes:
+            level_2_parents[link['source']].add(link['target'])
+
+    return level_1_nodes, level_2_parents
+
+def calculate_weights(level_1_nodes, level_2_parents):
+    level_1_weights = {node: 1.0 / len(level_1_nodes) for node in level_1_nodes} if level_1_nodes else {}
+
+    level_2_weights = {}
+    for parent, children in level_2_parents.items():
+        num_children = len(children)
+        if num_children > 0:
+            level_2_weights[parent] = {child: 1.0 / num_children for child in children}
+
+    return level_1_weights, level_2_weights
+
+def generate_csv_rows(level_1_weights, level_2_weights):
+    csv_rows = []
+
+    # Level 1 weights (Seed nodes pointing to Ethereum)
+    for repo, weight in level_1_weights.items():
+        csv_rows.append({
+            'repo': repo,
+            'parent': 'ethereum',
+            'weight': weight
+        })
+
+    # Level 2 weights (Dependencies pointing to their parent Level 1 repo)
+    for parent, children_weights in level_2_weights.items():
+        for repo, weight in children_weights.items():
             csv_rows.append({
-                'repo': link['target'],
-                'parent': link['source'],
-                'weight': weights['level_2']
+                'repo': repo,
+                'parent': parent,
+                'weight': weight
             })
-    
+
     return csv_rows
 
 def write_csv(output_path, csv_rows):
@@ -66,19 +76,19 @@ def write_csv(output_path, csv_rows):
 
 def process_graph(input_path, output_path):
     graph_data = load_graph_data(input_path)
-    level_1_nodes = get_level_1_nodes(graph_data)
-    weights = calculate_weights(graph_data, level_1_nodes)
-    csv_rows = generate_csv_rows(graph_data, level_1_nodes, weights)
+    level_1_nodes, level_2_parents = get_level_nodes(graph_data)
+    level_1_weights, level_2_weights = calculate_weights(level_1_nodes, level_2_parents)
+    csv_rows = generate_csv_rows(level_1_weights, level_2_weights)
     write_csv(output_path, csv_rows)
 
 def main():
-    parser = argparse.ArgumentParser(description='Convert graph JSON to CSV')
+    parser = argparse.ArgumentParser(description='Convert graph JSON to CSV with hierarchical weighting')
     parser.add_argument('--input_path', 
-                       default='./graph/unweighted_graph.json',
-                       help='Path to input JSON file')
+                        default='./graph/unweighted_graph.json',
+                        help='Path to input JSON file')
     parser.add_argument('--output_path', 
-                       default='./graph/repo_parent_weight_graph.csv',
-                       help='Path to output CSV file')
+                        default='./graph/repo_parent_weight_graph.csv',
+                        help='Path to output CSV file')
     
     args = parser.parse_args()
     
