@@ -12,6 +12,7 @@ pandas = "^2.0.3"
 networkx = "^3.1"
 numpy = "^1.24.3"
 google-cloud-bigquery = "^3.18.0"
+pyoso = "0.2.0"
 
 [build-system]
 requires = ["poetry-core"]
