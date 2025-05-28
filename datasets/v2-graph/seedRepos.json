@@ -8,6 +8,8 @@
     "https://github.com/eth-infinitism/account-abstraction",
     "https://github.com/ethereum-lists/chains",
     "https://github.com/ethereum/consensus-specs",
+    "https://github.com/ethereum/eips",
+    "https://github.com/ethereum/evmone",
     "https://github.com/ethereum/execution-apis",
     "https://github.com/ethereum/fe",
     "https://github.com/ethereum/go-ethereum",

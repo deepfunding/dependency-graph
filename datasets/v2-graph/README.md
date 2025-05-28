@@ -8,7 +8,7 @@ This version of the dependency graph offers three improvements over the previous
 
 You can view the script used to generate this version of the graph [here](https://github.com/opensource-observer/insights/tree/main/experiments/dependency-graph-v2).
 
-This directory includes JSON files for both the top-level "seed" repos and the dependency set. It also includes a CSV file that contains the full dependency graph.
+This directory includes JSON files for both the top-level "seed" repos and the dependency set. It also includes a CSV file that contains the full dependency graph. GitHub Actions are not included in the dependency set.
 
 Here is a summary of the data:
 
@@ -27,9 +27,8 @@ Here is a summary of the data:
   },
   "by_package_manager": {
     "NPM": 11943,
-    "GITHUBACTIONS": 34,
     "GO": 661,
-    "ACTIONS": 322,
+    "ACTIONS": 356,
     "PIP": 241,
     "RUST": 1522,
     "GRADLE": 215,
@@ -102,7 +101,7 @@ Here is a summary of the data:
     },
     "https://github.com/ethereum/remix-project": {
       "NPM": 6564,
-      "GITHUBACTIONS": 7
+      "ACTIONS": 7
     },
     "https://github.com/ethereum/solidity": {
       "PIP": 4,
@@ -149,7 +148,7 @@ Here is a summary of the data:
     },
     "https://github.com/nomicfoundation/hardhat": {
       "NPM": 1328,
-      "GITHUBACTIONS": 16
+      "ACTIONS": 16
     },
     "https://github.com/openzeppelin/openzeppelin-contracts": {
       "PIP": 2,
@@ -191,7 +190,7 @@ Here is a summary of the data:
     },
     "https://github.com/wevm/viem": {
       "NPM": 1119,
-      "GITHUBACTIONS": 11
+      "ACTIONS": 11
     }
   }
 }
