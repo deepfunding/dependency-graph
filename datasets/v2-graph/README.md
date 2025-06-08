@@ -195,3 +195,22 @@ Here is a summary of the data:
   }
 }
 ```
+
+## Identifying Missing Dependencies
+
+When checking for missing dependencies in your repository's [JSON array](seedReposWithDependencies.json), follow these steps:
+
+1. First, check if the package is present in the [dependency-graph-v2.csv](dependency-graph-v2.csv) file. This file contains the complete list of all dependencies across all repositories.
+
+2. If the package is not found in the CSV file, it means it wasn't detected by our dependency scanning process. In this case, you should:
+   - Verify the package is correctly specified in your repository's dependency management files
+   - Check if the package is a transitive dependency (these are excluded in v2)
+   - Ensure the package manager is one we support (NPM, GO, PIP, RUST, GRADLE, RUBYGEMS, NUGET)
+
+3. If the package is in the CSV but not in your repository's JSON array, it may be because:
+   - The package is not indexed by [deps.dev](https://deps.dev) (an issue for some .NET and Java Gradle packages)
+   - The package's source repository couldn't be automatically identified via its metadata
+
+4. For packages not indexed by deps.dev, you may need to manually look up their source repositories and add them to your repository's JSON array.
+
+Example: To check if a package like RocksDB is included, search for it in the [dependency-graph-v2.csv](dependency-graph-v2.csv) file. If it's present but not in your JSON, you'll need to manually add it with its correct source repository information.
