@@ -1311,7 +1311,17 @@
   "https://github.com/ethereum/solidity": [
     "https://github.com/readthedocs/sphinx_rtd_theme",
     "https://github.com/sphinx-doc/sphinx",
-    "https://github.com/taminomara/sphinx-a4doc"
+    "https://github.com/taminomara/sphinx-a4doc",
+    "https://github.com/fmtlib/fmt",
+    "https://github.com/nlohmann/json",
+    "https://github.com/ericniebler/range-v3",
+    "https://github.com/boostorg/boost",
+    "https://github.com/z3prover/z3",
+    "https://github.com/ethereum/evmone",
+    "https://github.com/protocolbuffers/protobuf",
+    "https://github.com/ethereum/hevm",
+    "https://github.com/ethereum/evmc",
+    "https://github.com/ethdebug/format"
   ],
   "https://github.com/ethereum/sourcify": [
     "https://github.com/adamgruber/mochawesome",
