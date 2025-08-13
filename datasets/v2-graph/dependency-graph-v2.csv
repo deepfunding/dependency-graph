@@ -2020,6 +2020,16 @@ https://github.com/ethereum/remix-project,unknown,wrap-ansi-cjs,NPM,7.0.0,pkg:np
 https://github.com/ethereum/solidity,https://github.com/readthedocs/sphinx_rtd_theme,sphinx-rtd-theme,PIP,">= 0.5.2,< 3.0.0",pkg:pypi/sphinx-rtd-theme,github_api
 https://github.com/ethereum/solidity,https://github.com/sphinx-doc/sphinx,sphinx,PIP,">= 2.1.0,< 9.0",pkg:pypi/sphinx,github_api
 https://github.com/ethereum/solidity,https://github.com/taminomara/sphinx-a4doc,sphinx-a4doc,PIP,>= 1.6.0,pkg:pypi/sphinx-a4doc,github_api
+https://github.com/ethereum/solidity,https://github.com/fmtlib/fmt,fmt,OTHER,">= 0",pkg:github/fmtlib/fmt,manual
+https://github.com/ethereum/solidity,https://github.com/nlohmann/json,nlohmann-json,OTHER,">= 0",pkg:github/nlohmann/json,manual
+https://github.com/ethereum/solidity,https://github.com/ericniebler/range-v3,range-v3,OTHER,">= 0",pkg:github/ericniebler/range-v3,manual
+https://github.com/ethereum/solidity,https://github.com/boostorg/boost,boost,OTHER,">= 0",pkg:github/boostorg/boost,manual
+https://github.com/ethereum/solidity,https://github.com/z3prover/z3,z3,OTHER,">= 4.8.16",pkg:github/Z3Prover/z3,manual
+https://github.com/ethereum/solidity,https://github.com/ethereum/evmone,evmone,OTHER,">= 0",pkg:github/ethereum/evmone,manual
+https://github.com/ethereum/solidity,https://github.com/protocolbuffers/protobuf,protobuf,OTHER,">= 3.0.0",pkg:github/protocolbuffers/protobuf,manual
+https://github.com/ethereum/solidity,https://github.com/ethereum/hevm,hevm,OTHER,">= 0",pkg:github/ethereum/hevm,manual
+https://github.com/ethereum/solidity,https://github.com/ethereum/evmc,evmc,OTHER,">= 0",pkg:github/ethereum/evmc,manual
+https://github.com/ethereum/solidity,https://github.com/ethdebug/format,ethdebug,OTHER,">= 0",https://github.com/ethdebug/format.git,manual
 https://github.com/ethereum/solidity,unknown,pygments-lexer-solidity,PIP,>= 0.7.0,pkg:pypi/pygments-lexer-solidity,github_api
 https://github.com/ethereum/sourcify,https://github.com/adamgruber/mochawesome,mochawesome,NPM,= 7.1.3,pkg:npm/mochawesome@7.1.3,github_api
 https://github.com/ethereum/sourcify,https://github.com/aws/aws-sdk-js-v3,@aws-sdk/client-s3,NPM,= 3.808.0,pkg:npm/%40aws-sdk/client-s3@3.808.0,github_api
