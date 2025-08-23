@@ -18,7 +18,6 @@
     "https://github.com/ethereum/solidity",
     "https://github.com/ethereum/sourcify",
     "https://github.com/ethereum/web3.py",
-    "https://github.com/ethereumjs/ethereumjs-monorepo",
     "https://github.com/ethers-io/ethers.js",
     "https://github.com/foundry-rs/foundry",
     "https://github.com/grandinetech/grandine",
@@ -36,5 +35,11 @@
     "https://github.com/status-im/nimbus-eth2",
     "https://github.com/vyperlang/titanoboa",
     "https://github.com/vyperlang/vyper",
-    "https://github.com/wevm/viem"
+    "https://github.com/wevm/viem",
+    "https://github.com/ethereum/hevm",
+    "https://github.com/ethdebug",
+    "https://github.com/ethereum/act",
+    "https://github.com/ethpandaops",
+    "https://github.com/lambdaclass/lambda_ethereum_consensus",
+    "https://github.com/erigontech/silkworm"
 ]
