@@ -37,9 +37,11 @@
     "https://github.com/vyperlang/vyper",
     "https://github.com/wevm/viem",
     "https://github.com/ethereum/hevm",
-    "https://github.com/ethdebug",
+    "https://github.com/ethdebug/format",
     "https://github.com/ethereum/act",
-    "https://github.com/ethpandaops",
+    "https://github.com/ethpandaops/ethereum-package",
+    "https://github.com/ethpandaops/ethereum-helm-charts",
+    "https://github.com/ethpandaops/checkpointz",
     "https://github.com/lambdaclass/lambda_ethereum_consensus",
     "https://github.com/erigontech/silkworm"
 ]
