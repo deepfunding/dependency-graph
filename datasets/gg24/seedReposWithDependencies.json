@@ -883,7 +883,25 @@
     "https://github.com/xsleonard/go-merkle",
     "https://github.com/yusufpapurcu/wmi"
   ],
-  "https://github.com/erigontech/silkworm": [],
+  "https://github.com/erigontech/silkworm": [
+    "https://github.com/battlmonstr/stbrumme-crc32",
+    "https://github.com/battlmonstr/stun-msg",
+    "https://github.com/bitcoin-core/secp256k1",
+    "https://github.com/chfast/ethash",
+    "https://github.com/chfast/intx",
+    "https://github.com/erigontech/cbor-cpp",
+    "https://github.com/erigontech/eest-fixtures",
+    "https://github.com/erigontech/erigon-snapshot",
+    "https://github.com/erigontech/evmone",
+    "https://github.com/erigontech/interfaces",
+    "https://github.com/erigontech/libff",
+    "https://github.com/erigontech/mdbx-go",
+    "https://github.com/ethereum/execution-apis",
+    "https://github.com/ethereum/tests",
+    "https://github.com/renenyffenegger/cpp-base64",
+    "https://github.com/stephenberry/glaze",
+    "https://github.com/tradias/asio-grpc"
+  ],
   "https://github.com/eth-infinitism/account-abstraction": [
     "https://github.com/benmosher/eslint-plugin-import",
     "https://github.com/chaijs/chai",
