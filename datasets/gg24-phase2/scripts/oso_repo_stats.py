@@ -104,7 +104,7 @@ def prune_dependencies(seed_repos_data, ordered_deps):
         pruned_deps = valid_deps[:TOP_N]
         after_count = len(pruned_deps)
         
-        pruned_data[seed_repo] = pruned_deps
+        pruned_data[seed_repo] = sorted(pruned_deps)
         repo_stats[seed_repo] = {
             'before': before_count,
             'after': after_count
